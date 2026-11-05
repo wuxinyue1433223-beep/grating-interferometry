@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 页面职责：OptiTrack 页面布局，组织相机画面、参数区域和位移控制区。 -->
+
+
+<UserControl x:Class="VisionShell.Features.OptiTrack.Views.OptiTrackMainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:vm="clr-namespace:VisionShell.Features.OptiTrack.ViewModels" 
+             mc:Ignorable="d"
+             d:DesignHeight="800" d:DesignWidth="1200"
+             d:DataContext="{d:DesignInstance Type=vm:OptiTrackMainViewModel}">
+
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+        <!-- Colors -->
+        <SolidColorBrush x:Key="PrimaryBlue" Color="#3498DB"/>
+        <SolidColorBrush x:Key="DarkBlue" Color="#2980B9"/>
+        <SolidColorBrush x:Key="SuccessGreen" Color="#2ECC71"/>
+        <SolidColorBrush x:Key="WarningOrange" Color="#E67E22"/>
+        <SolidColorBrush x:Key="DangerRed" Color="#E74C3C"/>
+        <SolidColorBrush x:Key="PurpleInfo" Color="#9B59B6"/>
+
+        <Style x:Key="SectionHeaderStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="#333"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+        </Style>
+
+        <Style x:Key="BlockHeaderBorderStyle" TargetType="Border">
+            <Setter Property="Background" Value="#3498DB"/>
+            <Setter Property="Padding" Value="5,3"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+        </Style>
+
+        <Style x:Key="BlockHeaderTextStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+
+        <Style x:Key="FlatButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="2"/>
+            <Setter Property="Padding" Value="10,4"/>
+            <Setter Property="Background" Value="{StaticResource DarkBlue}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" CornerRadius="3">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Opacity" Value="0.9"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Opacity" Value="0.8"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="GreenBtn" TargetType="Button" BasedOn="{StaticResource FlatButtonStyle}">
+            <Setter Property="Background" Value="{StaticResource SuccessGreen}"/>
+        </Style>
+
+        <Style x:Key="RedBtn" TargetType="Button" BasedOn="{StaticResource FlatButtonStyle}">
+            <Setter Property="Background" Value="{StaticResource DangerRed}"/>
+        </Style>
+        
+        <Style x:Key="OrangeBtn" TargetType="Button" BasedOn="{StaticResource FlatButtonStyle}">
+            <Setter Property="Background" Value="{StaticResource WarningOrange}"/>
+        </Style>
+        
+        <Style x:Key="PurpleBtn" TargetType="Button" BasedOn="{StaticResource FlatButtonStyle}">
+            <Setter Property="Background" Value="{StaticResource PurpleInfo}"/>
+        </Style>
+
+        <!-- Input Box Style -->
+        <Style x:Key="InputBoxStyle" TargetType="TextBox">
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="3"/>
+            <Setter Property="Margin" Value="0,0,5,0"/>
+            <Setter Property="BorderBrush" Value="#CCC"/>
+        </Style>
+
+        <Style x:Key="DeviceStatusTextStyle" TargetType="TextBlock">
+            <Setter Property="Text" Value="未连接"/>
+            <Setter Property="Foreground" Value="{StaticResource DangerRed}"/>
+            <Setter Property="FontSize" Value="11"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Tag, RelativeSource={RelativeSource Self}}" Value="True">
+                    <Setter Property="Text" Value="已连接"/>
+                    <Setter Property="Foreground" Value="{StaticResource SuccessGreen}"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+    </UserControl.Resources>
+
+    <Grid Background="#F5F5F5" Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="320"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- LEFT COLUMN: Device Selection & Basic Control -->
+        <StackPanel Grid.Column="0" Margin="0,0,5,0">
+            <!-- 1. Device Connection -->
+            <Border Background="White" BorderBrush="#DDD" BorderThickness="1" Margin="0,0,0,10" Padding="1">
+                <StackPanel>
+                    <TextBlock Text="设备连接" FontWeight="Bold" Margin="5,5,0,5"/>
+
+                    <Border Background="#3498DB" Padding="5,2" Margin="5,0,5,5" CornerRadius="2">
+                       <TextBlock Text="设备选择" Foreground="White" HorizontalAlignment="Center"/>
+                    </Border>
+                    
+                    <StackPanel Margin="10,0">
+                        <Grid Margin="0,3">
+                            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                            <CheckBox Grid.Column="0" Content="促动器1" IsChecked="{Binding ShowActuator1, Mode=TwoWay}"/>
+                            <TextBlock Grid.Column="1" Margin="8,0,0,0" Style="{StaticResource DeviceStatusTextStyle}" Tag="{Binding IsActuator1Connected, Mode=OneWay}"/>
+                        </Grid>
+                        <Grid Margin="0,3">
+                            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                            <CheckBox Grid.Column="0" Content="促动器2" IsChecked="{Binding ShowActuator2, Mode=TwoWay}"/>
+                            <TextBlock Grid.Column="1" Margin="8,0,0,0" Style="{StaticResource DeviceStatusTextStyle}" Tag="{Binding IsActuator2Connected, Mode=OneWay}"/>
+                        </Grid>
+                        <Grid Margin="0,3">
+                            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                            <CheckBox Grid.Column="0" Content="垂直位移台" IsChecked="{Binding ShowVerticalStage, Mode=TwoWay}"/>
+                            <TextBlock Grid.Column="1" Margin="8,0,0,0" Style="{StaticResource DeviceStatusTextStyle}" Tag="{Binding IsVerticalStageConnected, Mode=OneWay}"/>
+                        </Grid>
+                        <Grid Margin="0,3">
+                            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                            <CheckBox Grid.Column="0" Content="水平位移台" IsChecked="{Binding ShowHorizontalStage, Mode=TwoWay}"/>
+                            <TextBlock Grid.Column="1" Margin="8,0,0,0" Style="{StaticResource DeviceStatusTextStyle}" Tag="{Binding IsHorizontalStageConnected, Mode=OneWay}"/>
+                        </Grid>
+                        <Grid Margin="0,3">
+                            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                            <CheckBox Grid.Column="0" Content="机械快门" IsChecked="{Binding ShowMechanicalShutter, Mode=TwoWay}"/>
+                            <TextBlock Grid.Column="1" Margin="8,0,0,0" Style="{StaticResource DeviceStatusTextStyle}" Tag="{Binding IsMechanicalShutterConnected, Mode=OneWay}"/>
+                        </Grid>
+
+                        <!-- Cameras: connect selection (can connect both) -->
+                        <Grid Margin="0,5">
+                            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                            <CheckBox Grid.Column="0" Content="周期相机" IsChecked="{Binding ShowAngleCamera, Mode=TwoWay}"/>
+                            <TextBlock Grid.Column="1" Margin="8,0,0,0" Style="{StaticResource DeviceStatusTextStyle}" Tag="{Binding IsAngleCameraConnected, Mode=OneWay}"/>
+                        </Grid>
+                        <Grid Margin="0,5">
+                            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                            <CheckBox Grid.Column="0" Content="光斑相机" IsChecked="{Binding ShowSpotCamera, Mode=TwoWay}"/>
+                            <TextBlock Grid.Column="1" Margin="8,0,0,0" Style="{StaticResource DeviceStatusTextStyle}" Tag="{Binding IsSpotCameraConnected, Mode=OneWay}"/>
+                        </Grid>
+                    </StackPanel>
+
+                            <Button Content="{Binding ConnectAllButtonText}" Style="{StaticResource GreenBtn}" Margin="10,10,10,10" Height="30"
+                                Command="{Binding ToggleConnectAllCommand}"/>
+                </StackPanel>
+            </Border>
+
+            <!-- 2. Shutter Control -->
+            <Border Background="White" BorderBrush="#DDD" BorderThickness="1" Margin="0,0,0,10" Padding="5">
+                <StackPanel>
+                    <TextBlock Text="快门" FontWeight="Bold" Margin="0,0,0,5"/>
+                    <Separator Margin="0,0,0,5"/>
+                    <StackPanel Orientation="Horizontal" Margin="5">
+                        <TextBlock Text="当前状态: "/>
+                        <TextBlock Text="{Binding IsMasterSwitchOn, StringFormat='{}{0} (Binding)'}" FontWeight="Bold"/> 
+                    </StackPanel>
+                    <Button Content="切换" 
+                            Command="{Binding ToggleMasterSwitchCommand}"
+                            Style="{StaticResource GreenBtn}"
+                            Height="30" Margin="5"/>
+                    <StackPanel Orientation="Horizontal" Margin="5" VerticalAlignment="Center">
+                        <TextBlock Text="打开" VerticalAlignment="Center"/>
+                        <TextBox Width="46"
+                                 Margin="5,0"
+                                 Text="{Binding TimedShutterOpenSecondsInput, UpdateSourceTrigger=PropertyChanged}"
+                                 Style="{StaticResource InputBoxStyle}"
+                                 HorizontalContentAlignment="Right"/>
+                        <TextBlock Text="秒" VerticalAlignment="Center"/>
+                        <TextBlock Text="，剩余" Margin="8,0,0,0" VerticalAlignment="Center"/>
+                        <TextBlock Width="36"
+                                   Text="{Binding TimedShutterRemainingSecondsText}"
+                                   FontFamily="Consolas"
+                                   TextAlignment="Right"
+                                   VerticalAlignment="Center"/>
+                        <TextBlock Text="s" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <Button Content="定时开启"
+                            Command="{Binding TimedOpenShutterCommand}"
+                            Style="{StaticResource GreenBtn}"
+                            Height="30" Margin="5"/>
+                </StackPanel>
+            </Border>
+
+            <!-- 3. Period Adjust -->
+            <Border Background="White" BorderBrush="#DDD" BorderThickness="1" Margin="0,0,0,10" Padding="5">
+                <StackPanel>
+                    <TextBlock Text="周期调整" FontWeight="Bold" Margin="0,0,0,5"/>
+                    <Separator Margin="0,0,0,5"/>
+                    <StackPanel Orientation="Horizontal" Margin="5" VerticalAlignment="Center">
+                        <TextBlock Text="周期: " VerticalAlignment="Center"/>
+                        <TextBox Width="60" Text="{Binding TargetPeriodInput, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource InputBoxStyle}"/>
+                        <TextBlock Text=" μm" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <Button Content="启动" Style="{StaticResource OrangeBtn}" Margin="5" Command="{Binding AutoStartAngleAdjustCommand}"/>
+                    <Button Content="保存参数" Style="{StaticResource GreenBtn}" Margin="5" Command="{Binding SaveParametersCommand}"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <!-- MIDDLE COLUMN: Stage Controls -->
+        <Border Grid.Column="1" Background="White" BorderBrush="#DDD" BorderThickness="1" Margin="0,0,5,0" Padding="5">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <TextBlock Text="位移器控制" FontWeight="Bold" Margin="5"/>
+                    <Separator Margin="0,0,0,10"/>
+
+                    <!-- Actuator 1 -->
+                    <Border BorderBrush="#DDD" BorderThickness="1" Margin="0,0,0,10" Visibility="{Binding ShowActuator1, Converter={StaticResource BoolToVis}}">
+                        <StackPanel>
+                            <Border Style="{StaticResource BlockHeaderBorderStyle}">
+                                <TextBlock Text="{Binding Actuator1HeaderText}" Style="{StaticResource BlockHeaderTextStyle}"/>
+                            </Border>
+                            <Grid Margin="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="相对位移：" VerticalAlignment="Center" Margin="0,0,5,5"/>
+                                <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Actuator1StepSize, StringFormat=F5}" Style="{StaticResource InputBoxStyle}" HorizontalContentAlignment="Right"/>
+                                <TextBlock Grid.Row="0" Grid.Column="2" Text="mm" VerticalAlignment="Center"/>
+
+                                <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
+                                    <Button Content="后退" Width="60" Style="{StaticResource FlatButtonStyle}" Command="{Binding MoveStageCommand}" CommandParameter="Actuator1_Left"/>
+                                    <Button Content="前进" Width="60" Style="{StaticResource FlatButtonStyle}" CommandParameter="Actuator1_Right" Command="{Binding MoveStageCommand}"/>
+                                </StackPanel>
+
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="绝对位移：" VerticalAlignment="Center" Margin="0,5,5,5"/>
+                                <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Actuator1TargetMm, StringFormat=F5}" Style="{StaticResource InputBoxStyle}" HorizontalContentAlignment="Right" Margin="0,5,5,5"/>
+                                <TextBlock Grid.Row="2" Grid.Column="2" Text="mm" VerticalAlignment="Center" Margin="0,5,0,5"/>
+                                <Button Grid.Row="3" Grid.ColumnSpan="3" Content="执行" Style="{StaticResource GreenBtn}" Margin="20,0,20,5" Command="{Binding MoveStageAbsoluteCommand}" CommandParameter="Actuator1"/>
+
+                                <!-- Actuator1 current position -->
+                                <StackPanel Grid.Row="4" Grid.ColumnSpan="3" Orientation="Horizontal" Margin="0,5">
+                                    <TextBlock Text="当前绝对位移: " VerticalAlignment="Center"/>
+                                    <TextBlock Text="{Binding Actuator1Position, StringFormat=F5}" FontWeight="Bold" VerticalAlignment="Center" Foreground="#333"/>
+                                    <TextBlock Text=" mm" VerticalAlignment="Center"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="5" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <Button Content="Home" Width="60" Style="{StaticResource RedBtn}" CommandParameter="Actuator1" Command="{Binding HomeStageCommand}" ToolTip="断电重启后先执行 Home 建立绝对位置参考"/>
+                                    <Button Content="停止" Width="60" Style="{StaticResource OrangeBtn}" Command="{Binding StopStageCommand}" CommandParameter="Actuator1"/>
+                                    <Button Content="回零" Width="60" Style="{StaticResource RedBtn}" Command="{Binding ZeroStageCommand}" CommandParameter="Actuator1" ToolTip="Move to absolute position 0"/>
+                                </StackPanel>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Actuator 2 -->
+                    <Border BorderBrush="#DDD" BorderThickness="1" Margin="0,0,0,10" Visibility="{Binding ShowActuator2, Converter={StaticResource BoolToVis}}">
+                        <StackPanel>
+                            <Border Style="{StaticResource BlockHeaderBorderStyle}">
+                                <TextBlock Text="{Binding Actuator2HeaderText}" Style="{StaticResource BlockHeaderTextStyle}"/>
+                            </Border>
+                            <Grid Margin="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/> 
+                                    <RowDefinition Height="Auto"/> 
+                                    <RowDefinition Height="Auto"/> 
+                                    <RowDefinition Height="Auto"/> 
+                                    <RowDefinition Height="Auto"/> 
+                                    <RowDefinition Height="Auto"/> 
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="相对位移：" VerticalAlignment="Center" Margin="0,0,5,5"/>
+                                <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Actuator2StepSize, StringFormat=F5}" Style="{StaticResource InputBoxStyle}" HorizontalContentAlignment="Right"/>
+                                <TextBlock Grid.Row="0" Grid.Column="2" Text="mm" VerticalAlignment="Center"/>
+
+                                <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
+                                    <Button Content="后退" Width="60" Style="{StaticResource FlatButtonStyle}" Command="{Binding MoveStageCommand}" CommandParameter="Actuator2_Left"/>
+                                    <Button Content="前进" Width="60" Style="{StaticResource FlatButtonStyle}" Command="{Binding MoveStageCommand}" CommandParameter="Actuator2_Right"/>
+                                </StackPanel>
+
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="绝对位移：" VerticalAlignment="Center" Margin="0,5,5,5"/>
+                                <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Actuator2TargetMm, StringFormat=F5}" Style="{StaticResource InputBoxStyle}" HorizontalContentAlignment="Right" Margin="0,5,5,5"/>
+                                <TextBlock Grid.Row="2" Grid.Column="2" Text="mm" VerticalAlignment="Center" Margin="0,5,0,5"/>
+                                <Button Grid.Row="3" Grid.ColumnSpan="3" Content="执行" Style="{StaticResource GreenBtn}" Margin="20,0,20,5" Command="{Binding MoveStageAbsoluteCommand}" CommandParameter="Actuator2"/>
+
+                                <!-- Actuator2 current position -->
+                                <StackPanel Grid.Row="4" Grid.ColumnSpan="3" Orientation="Horizontal" Margin="0,5">
+                                    <TextBlock Text="当前绝对位移: " VerticalAlignment="Center"/>
+                                    <TextBlock Text="{Binding Actuator2Position, StringFormat=F5}" FontWeight="Bold" VerticalAlignment="Center" Foreground="#333"/>
+                                    <TextBlock Text=" mm" VerticalAlignment="Center"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="5" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <Button Content="Home" Width="60" Style="{StaticResource RedBtn}" Command="{Binding HomeStageCommand}" CommandParameter="Actuator2" ToolTip="断电重启后先执行 Home 建立绝对位置参考"/>
+                                    <Button Content="停止" Width="60" Style="{StaticResource OrangeBtn}" Command="{Binding StopStageCommand}" CommandParameter="Actuator2"/>
+                                    <Button Content="回零" Width="60" Style="{StaticResource RedBtn}" Command="{Binding ZeroStageCommand}" CommandParameter="Actuator2" ToolTip="Move to absolute position 0"/>
+                                </StackPanel>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Vertical Stage -->
+                    <Border BorderBrush="#DDD" BorderThickness="1" Margin="0,0,0,10" Visibility="{Binding ShowVerticalStage, Converter={StaticResource BoolToVis}}">
+                        <StackPanel>
+                            <Border Style="{StaticResource BlockHeaderBorderStyle}">
+                                <TextBlock Text="{Binding VerticalHeaderText}" Style="{StaticResource BlockHeaderTextStyle}"/>
+                            </Border>
+                            <Grid Margin="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="相对位移：" VerticalAlignment="Center" Margin="0,0,5,5"/>
+                                <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding VerticalStageStepSize, StringFormat=F5}" Style="{StaticResource InputBoxStyle}" HorizontalContentAlignment="Right"/>
+                                <TextBlock Grid.Row="0" Grid.Column="2" Text="mm" VerticalAlignment="Center"/>
+
+                                <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
+                                    <Button Content="上移" Width="60" Style="{StaticResource FlatButtonStyle}" Command="{Binding MoveStageCommand}" CommandParameter="Vertical_Up"/>
+                                    <Button Content="下移" Width="60" Style="{StaticResource FlatButtonStyle}" Command="{Binding MoveStageCommand}" CommandParameter="Vertical_Down"/>
+                                </StackPanel>
+
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="绝对位移：" VerticalAlignment="Center" Margin="0,5,5,5"/>
+                                <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding VerticalTargetMm, StringFormat=F5}" Style="{StaticResource InputBoxStyle}" HorizontalContentAlignment="Right" Margin="0,5,5,5"/>
+                                <TextBlock Grid.Row="2" Grid.Column="2" Text="mm" VerticalAlignment="Center" Margin="0,5,0,5"/>
+                                <Button Grid.Row="3" Grid.ColumnSpan="3" Content="执行" Style="{StaticResource GreenBtn}" Margin="20,0,20,5" Command="{Binding MoveStageAbsoluteCommand}" CommandParameter="Vertical"/>
+
+                                <!-- Vertical stage current position -->
+                                <StackPanel Grid.Row="4" Grid.ColumnSpan="3" Orientation="Horizontal" Margin="0,5">
+                                    <TextBlock Text="当前绝对位移: " VerticalAlignment="Center"/>
+                                    <TextBlock Text="{Binding VerticalStagePosition, StringFormat=F5}" FontWeight="Bold" VerticalAlignment="Center" Foreground="#333"/>
+                                    <TextBlock Text=" mm" VerticalAlignment="Center"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="5" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <Button Content="Home" Width="60" Style="{StaticResource RedBtn}" Command="{Binding HomeStageCommand}" CommandParameter="Vertical"/>
+                                    <Button Content="停止" Width="60" Style="{StaticResource OrangeBtn}" Command="{Binding StopStageCommand}" CommandParameter="Vertical"/>
+                                    <Button Content="回零" Width="60" Style="{StaticResource RedBtn}" Command="{Binding ZeroStageCommand}" CommandParameter="Vertical"/>
+                                </StackPanel>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Horizontal Stage -->
+                    <Border BorderBrush="#DDD" BorderThickness="1" Margin="0,0,0,10" Visibility="{Binding ShowHorizontalStage, Converter={StaticResource BoolToVis}}">
+                        <StackPanel>
+                            <Border Style="{StaticResource BlockHeaderBorderStyle}">
+                                <TextBlock Text="{Binding HorizontalHeaderText}" Style="{StaticResource BlockHeaderTextStyle}"/>
+                            </Border>
+                            <Grid Margin="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="相对位移：" VerticalAlignment="Center" Margin="0,0,5,5"/>
+                                <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding HorizontalStageStepSize, StringFormat=F5}" Style="{StaticResource InputBoxStyle}" HorizontalContentAlignment="Right"/>
+                                <TextBlock Grid.Row="0" Grid.Column="2" Text="mm" VerticalAlignment="Center"/>
+
+                                <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
+                                    <Button Content="左移" Width="60" Style="{StaticResource FlatButtonStyle}" Command="{Binding MoveStageCommand}" CommandParameter="Horizontal_Left"/>
+                                    <Button Content="右移" Width="60" Style="{StaticResource FlatButtonStyle}" Command="{Binding MoveStageCommand}" CommandParameter="Horizontal_Right"/>
+                                </StackPanel>
+
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="绝对位移：" VerticalAlignment="Center" Margin="0,5,5,5"/>
+                                <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding HorizontalTargetMm, StringFormat=F5}" Style="{StaticResource InputBoxStyle}" HorizontalContentAlignment="Right" Margin="0,5,5,5"/>
+                                <TextBlock Grid.Row="2" Grid.Column="2" Text="mm" VerticalAlignment="Center" Margin="0,5,0,5"/>
+                                <Button Grid.Row="3" Grid.ColumnSpan="3" Content="执行" Style="{StaticResource GreenBtn}" Margin="20,0,20,5" Command="{Binding MoveStageAbsoluteCommand}" CommandParameter="Horizontal"/>
+
+                                <!-- Horizontal stage current position -->
+                                <StackPanel Grid.Row="4" Grid.ColumnSpan="3" Orientation="Horizontal" Margin="0,5">
+                                    <TextBlock Text="当前绝对位移: " VerticalAlignment="Center"/>
+                                    <TextBlock Text="{Binding HorizontalStagePosition, StringFormat=F5}" FontWeight="Bold" VerticalAlignment="Center" Foreground="#333"/>
+                                    <TextBlock Text=" mm" VerticalAlignment="Center"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="5" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <Button Content="Home" Width="60" Style="{StaticResource RedBtn}" Command="{Binding HomeStageCommand}" CommandParameter="Horizontal"/>
+                                    <Button Content="停止" Width="60" Style="{StaticResource OrangeBtn}" Command="{Binding StopStageCommand}" CommandParameter="Horizontal"/>
+                                    <Button Content="回零" Width="60" Style="{StaticResource RedBtn}" Command="{Binding ZeroStageCommand}" CommandParameter="Horizontal"/>
+                                </StackPanel>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+        <!-- RIGHT COLUMN: Camera and Parameters -->
+        <Border Grid.Column="2" Background="White" BorderBrush="#DDD" BorderThickness="1" Padding="5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- 1. Top Params -->
+                <Border Grid.Row="0" BorderBrush="#EEE" BorderThickness="0,0,0,1" Margin="0,0,0,5" Padding="0,0,0,5">
+                    <Grid VerticalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="95"/>
+                            <ColumnDefinition Width="38"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="95"/>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Column="0" Text="条纹周期:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                        <TextBlock Grid.Column="1"
+                                   Text="{Binding StripePeriodUmText}"
+                                   FontFamily="Consolas"
+                                   TextAlignment="Right"
+                                   VerticalAlignment="Center"/>
+                        <TextBlock Grid.Column="2" Text="μm" VerticalAlignment="Center"/>
+
+                        <TextBlock Grid.Column="4" Text="条纹偏角:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                        <TextBlock Grid.Column="5"
+                                   Text="{Binding StripeAngleDegSig2Text}"
+                                   FontFamily="Consolas"
+                                   TextAlignment="Right"
+                                   VerticalAlignment="Center"/>
+                        <TextBlock Grid.Column="6" Text="°" VerticalAlignment="Center"/>
+
+                        <CheckBox Grid.Column="7" Content="图像处理" VerticalAlignment="Center" IsChecked="{Binding IsImageProcessingEnabled}"/>
+                    </Grid>
+                </Border>
+
+                <!-- 2. Control Buttons Row -->
+                <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10">
+                    <TextBlock Text="曝光时间: " VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding ExposureTimeInput, UpdateSourceTrigger=PropertyChanged}" Width="50" Style="{StaticResource InputBoxStyle}" VerticalContentAlignment="Center"/>
+                    <TextBlock Text="ms" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <Button Content="设置曝光" Style="{StaticResource FlatButtonStyle}" Command="{Binding SetExposureCommand}" Margin="0,0,10,0"/>
+
+                    <Button Content="连续采集" Style="{StaticResource GreenBtn}" Command="{Binding StartCaptureCommand}"/>
+                    <Button Content="软触发" Style="{StaticResource PurpleBtn}" Command="{Binding SnapCommand}"/>
+                    <TextBlock Text=" 当前模式：" VerticalAlignment="Center" Margin="12,0,0,0"/>
+                    <TextBlock Text="{Binding CaptureModeText}" VerticalAlignment="Center" FontWeight="Bold"/>
+                </StackPanel>
+
+                <!-- 3. Camera Header -->
+                <StackPanel Grid.Row="2" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,0,5">
+                    <TextBlock Text="相机" FontWeight="Bold"/>
+                    <TextBlock Text=" 显示:" Margin="15,0,5,0" VerticalAlignment="Center"/>
+                    <RadioButton GroupName="ActiveCam" Content="周期相机" Margin="0,0,8,0"
+                     IsChecked="{Binding IsAngleCameraSelected}"
+                     IsEnabled="{Binding CanSwitchCamera}"
+                     Command="{Binding SelectCameraCommand}" CommandParameter="AngleCamera"/>
+                    <RadioButton GroupName="ActiveCam" Content="光斑相机"
+                     IsChecked="{Binding IsSpotCameraSelected}"
+                     IsEnabled="{Binding CanSwitchCamera}"
+                     Command="{Binding SelectCameraCommand}" CommandParameter="SpotCamera"/>
+                </StackPanel>
+
+                <!-- 4. Camera View -->
+                <Border Grid.Row="3" Background="#2C3E50" BorderBrush="Black" BorderThickness="1" ClipToBounds="True">
+                    <Grid Background="Transparent">
+                        <Image x:Name="CameraImage"
+                               Source="{Binding ActiveFrame}"
+                               Stretch="Uniform"
+                               RenderTransformOrigin="0.5,0.5"
+                               MouseWheel="CameraImage_OnMouseWheel"
+                               MouseLeftButtonDown="CameraImage_OnMouseLeftButtonDown"
+                               MouseLeftButtonUp="CameraImage_OnMouseLeftButtonUp"
+                               MouseMove="CameraImage_OnMouseMove">
+                            <Image.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform x:Name="CameraScaleTransform" ScaleX="1" ScaleY="1"/>
+                                    <TranslateTransform x:Name="CameraTranslateTransform"/>
+                                </TransformGroup>
+                            </Image.RenderTransform>
+                        </Image>
+                        
+                        <!-- Overlay Info -->
+                        <Border HorizontalAlignment="Left" VerticalAlignment="Top" Background="#AA000000" CornerRadius="4" Margin="5" Padding="5,2">
+                            <StackPanel Orientation="Horizontal">
+                                <Ellipse Width="8" Height="8" Fill="{StaticResource SuccessGreen}" Margin="0,0,5,0"/>
+                                <TextBlock Text="实时" Foreground="White" FontSize="10"/>
+                            </StackPanel>
+                        </Border>
+                        
+                    </Grid>
+                </Border>
+
+                <!-- 5. Bottom Info -->
+                <Grid Grid.Row="4" Margin="0,5,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <TextBlock Grid.Column="0" Text="检测最大值:  " VerticalAlignment="Center"/>
+                    <Border Grid.Column="1" BorderBrush="#CCC" BorderThickness="1" CornerRadius="2">
+                         <TextBlock Text="{Binding MaxValue95}" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StandardText Name="English (United States)" Default="true">
+  <Text key="Empty" value=""/>
+  <Text key="ConnectRibbonButton" value="Connect"/>
+  <Text key="DisconnectRibbonButton" value="Disconnect"/>
+  <Text key="HelpRibbonButton" value="Help"/>
+  <Text key="SettingRibbonButton" value="Options"/>
+  <Text key="SupportRibbonButton" value="Support"/>
+  <Text key="UpdateRibbonButton" value="Update"/>
+  <Text key="Settings" value="Settings"/>
+  <Text key="Miscellaneous" value="Miscellaneous"/>
+  <Text key="About" value="About"/>
+  <Text key="File" value="File"/>
+  <Text key="Options" value="Options"/>
+  <Text key="Language" value="Language"/>
+  <Text key="Theme" value="Theme"/>
+  <Text key="Dark" value="Dark"/>
+  <Text key="Light" value="Light"/>
+  <Text key="SelectDeviceWindowTitle" value="Select a device to connect"/>
+  <Text key="SN" value="SN"/>
+  <Text key="FriendlyName" value="FriendlyName"/>
+  <Text key="Description" value="Description"/>
+  <Text key="Connection" value="Connection"/>
+  <Text key="Refresh" value="Refresh"/>
+  <Text key="OK" value="OK"/>
+  <Text key="Cancel" value="Cancel"/>
+  <Text key="Port" value="Port"/>
+  <Text key="Support" value="Support"/>
+  <Text key="LogInfo" value="Log infos"/>
+  <Text key="CopyToClipboard" value="Copy to Clipboard"/>
+  <Text key="SaveToDisk" value="Save to Disk"/>
+  <Text key="SupportWindowDescription1" value="Please contact "/>
+  <Text key="SupportWindowDescription2" value=" and include a copy of the logfile below for support."/>
+  <Text key="Update" value="Update"/>
+  <Text key="Download" value="Download Update"/>
+  <Text key="DownloadError" value="Download failed."/>
+  <Text key="DownloadCompleted" value="Download completed."/>
+  <Text key="CheckForUpdate" value="Check for Update"/>
+  <Text key="CurrentVersion" value="Installed Version: "/>
+  <Text key="LastestVersion" value="Lastest Version: "/>
+  <Text key="ForMoreInfomation" value="For more information, please visit our "/>
+  <Text key="SoftwareWebpage" value="Software Webpage"/> 
+  <Text key="NoNeedToUpdate" value="Your software is up to date"/>
+  <Text key="ServerUnavailable" value="Can't connect to server"/>
+  <Text key="NoSoftwareAvailable" value="No software available"/>
+  <Text key="CanUpdate" value="New version is available"/> 
+  <Text key="ParsingError" value="Parsing error"/>
+  <Text key="Help" value="Help"/>
+  <Text key="Version" value="Version"/>
+  <Text key="Manual" value="Manual"/>
+  <Text key="SeeTheManual" value="Open the SDK Manual"/>
+  <Text key="ViewCPPSDK" value="View C++ SDK"/>
+  <Text key="ViewLabViewSDK" value="View LabVIEW SDK"/>
+  <Text key="ViewPythonSDK" value="View Python SDK"/>
+  <Text key="License" value="License"/>
+  <Text key="ViewLicense" value="View the license documentation"/>
+  <Text key="ViewDetailInfo" value="View more detailed information"/>
+  <Text key="Save" value="Save"/>
+  <Text key="Load" value="Load"/>  
+  <Text key="SaveProfileSucceeded" value="Save the profile successfully!"/>
+  <Text key="SaveProfileFailed" value="Failed to save the profile!"/>
+  <Text key="LoadProfileSucceeded" value="Load the profile successfully!"/>
+  <Text key="LoadProfileFailed" value="Failed to load the profile!"/>
+  <Text key="StatusText1" value="Status Bar"/>
+  <Text key="DeviceStatusStr" value="Normal"/>
+</StandardText>

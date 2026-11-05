@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RuntimeIdentifier>win-x86</RuntimeIdentifier>
+    <PlatformTarget>x86</PlatformTarget>
+    <SelfContained>true</SelfContained>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputPath>..\..\..\bin\$(Configuration)\app\bridges\thorlabs-sc30-x86\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <TLDeviceSdkBin Condition="Exists('..\..\..\TL_Devices\TL_Device_SDK\Bin\TL_DeviceSDK.dll')">..\..\..\TL_Devices\TL_Device_SDK\Bin</TLDeviceSdkBin>
+    <TLDeviceSdkBin Condition="'$(TLDeviceSdkBin)' == ''">C:\Program Files (x86)\Thorlabs\TL_Devices\TL_Device_SDK\Bin</TLDeviceSdkBin>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VisionShell.SC30Bridge.Protocol\VisionShell.SC30Bridge.Protocol.csproj" />
+    <ProjectReference Include="..\..\plugins\devices\VisionShell.Plugins.ThorlabsSC30Shutter\VisionShell.Plugins.ThorlabsSC30Shutter.csproj" />
+    <ProjectReference Include="..\..\VisionShell.Core\VisionShell.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="$(TLDeviceSdkBin)\TL_DeviceSDK.dll" Link="TL_DeviceSDK.dll" Condition="Exists('$(TLDeviceSdkBin)\TL_DeviceSDK.dll')"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></None>
+    <None Include="$(TLDeviceSdkBin)\TripleBufferLib_32.dll" Link="TripleBufferLib_32.dll" Condition="Exists('$(TLDeviceSdkBin)\TripleBufferLib_32.dll')"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></None>
+    <None Include="..\..\..\TL_Devices\TL_Device_Plugins\TL_SC30_Plugin.dll" Link="TL_SC30_Plugin.dll"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></None>
+    <None Include="..\..\..\TL_Devices\TL_Device_Plugins\TL_SC30_Plugin_Configuration.xml" Link="TL_SC30_Plugin_Configuration.xml"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></None>
+  </ItemGroup>
+</Project>

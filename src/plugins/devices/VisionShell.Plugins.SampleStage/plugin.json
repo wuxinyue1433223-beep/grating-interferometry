@@ -1,0 +1,8 @@
+{
+  "id": "sample-stage",
+  "name": "Simulated Motion Stage",
+  "version": "1.0.0",
+  "type": "stage",
+  "entryType": "VisionShell.Plugins.SampleStage.SampleStagePlugin",
+  "dependencies": []
+}

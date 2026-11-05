@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>VisionShell.Plugins.MVSDKCamera</RootNamespace>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <JCamSdkX64 Condition="'$(JCamSdkX64)' == '' and Exists('..\..\..\..\第三方SDK\JCam\SDK\X64\MVCAMSDK_X64.dll')">..\..\..\..\第三方SDK\JCam\SDK\X64</JCamSdkX64>
+    <JCamSdkX64 Condition="'$(JCamSdkX64)' == ''">C:\Program Files (x86)\JCOPTIX\JCam\SDK\X64</JCamSdkX64>
+    <OutputPath>..\..\..\..\bin\$(Configuration)\app\plugins\mvsdk-camera\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <NoWarn>$(NoWarn);CS8600;CS8603;CS8605;CS8625</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\VisionShell.Core\VisionShell.Core.csproj">
+      <Private>false</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </ProjectReference>
+    <None Include="$(JCamSdkX64)\**\*.*" Link="%(Filename)%(Extension)" Condition="Exists('$(JCamSdkX64)\MVCAMSDK_X64.dll')">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+    <None Update="plugin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+
+  <Target Name="CleanCameraPluginOutput" BeforeTargets="PrepareForBuild">
+    <RemoveDir Directories="$(MSBuildProjectDirectory)\..\..\..\..\bin\$(Configuration)\app\plugins\mvsdk-camera" />
+  </Target>
+
+  <Target Name="ValidateJCamX64Sdk" BeforeTargets="PrepareForBuild">
+    <Error Condition="!Exists('$(JCamSdkX64)\MVCAMSDK_X64.dll')" Text="JCam x64 SDK was not found at $(JCamSdkX64). Install the official JCam SDK with its X64 runtime." />
+  </Target>
+
+  <Target Name="RemoveFrameworkRefs" AfterTargets="Build">
+    <Delete Files="$(OutputPath)System.Drawing.Common.dll" ContinueOnError="true" />
+    <Delete Files="$(OutputPath)System.Drawing.Common.xml" ContinueOnError="true" />
+  </Target>
+</Project>
+
+
+
+

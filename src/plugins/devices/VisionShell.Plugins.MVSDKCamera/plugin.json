@@ -1,0 +1,8 @@
+{
+  "id": "mvsdk-camera",
+  "name": "MVSDK Camera Plugin",
+  "version": "1.0.0",
+  "type": "camera",
+  "entryType": "VisionShell.Plugins.MVSDKCamera.MVSDKCameraPlugin",
+  "dependencies": []
+}

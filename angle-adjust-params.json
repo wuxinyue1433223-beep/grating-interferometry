@@ -1,0 +1,122 @@
+{
+  "Version": 4,
+  "Entries": [
+    {
+      "StripePeriodUm": 350.6,
+      "StagePositionsMm": {
+        "Actuator1": 0,
+        "Actuator2": 0,
+        "Vertical": 0,
+        "Horizontal": 0
+      }
+    },
+    {
+      "StripePeriodUm": 358.8,
+      "StagePositionsMm": {
+        "Actuator1": -0.9813352410189449,
+        "Actuator2": 0,
+        "Vertical": 0,
+        "Horizontal": 0
+      }
+    },
+    {
+      "StripePeriodUm": 359.1,
+      "StagePositionsMm": {
+        "Actuator1": -0.986168121739976,
+        "Actuator2": 0,
+        "Vertical": 0,
+        "Horizontal": 0
+      }
+    },
+    {
+      "StripePeriodUm": 386.3,
+      "StagePositionsMm": {
+        "Actuator1": 0,
+        "Actuator2": 0,
+        "Vertical": 0,
+        "Horizontal": 0
+      }
+    },
+    {
+      "StripePeriodUm": 386.4,
+      "StagePositionsMm": {
+        "Actuator1": 0,
+        "Actuator2": 0,
+        "Vertical": 0,
+        "Horizontal": 0
+      }
+    },
+    {
+      "StripePeriodUm": 387.1,
+      "StagePositionsMm": {
+        "Actuator1": -0.9876729708267641,
+        "Actuator2": 0,
+        "Vertical": 0,
+        "Horizontal": 0
+      }
+    },
+    {
+      "StripePeriodUm": 417.5,
+      "StagePositionsMm": {
+        "Actuator1": 0,
+        "Actuator2": 0,
+        "Vertical": 0,
+        "Horizontal": 0
+      }
+    },
+    {
+      "StripePeriodUm": 418.6,
+      "StagePositionsMm": {
+        "Actuator1": -0.9694700847577309,
+        "Actuator2": 0,
+        "Vertical": 0,
+        "Horizontal": 0
+      }
+    },
+    {
+      "StripePeriodUm": 419.7,
+      "StagePositionsMm": {
+        "Actuator1": 0,
+        "Actuator2": 0,
+        "Vertical": 0,
+        "Horizontal": 0
+      }
+    },
+    {
+      "StripePeriodUm": 456.3,
+      "StagePositionsMm": {
+        "Actuator1": 0,
+        "Actuator2": 0,
+        "Vertical": 0,
+        "Horizontal": 0
+      }
+    },
+    {
+      "StripePeriodUm": 456.7,
+      "StagePositionsMm": {
+        "Actuator1": -0.98877266823634,
+        "Actuator2": 0,
+        "Vertical": 0,
+        "Horizontal": 0
+      }
+    },
+    {
+      "StripePeriodUm": 456.8,
+      "StagePositionsMm": {
+        "Actuator1": 0,
+        "Actuator2": 0,
+        "Vertical": 0,
+        "Horizontal": 0
+      }
+    },
+    {
+      "StripePeriodUm": 457.3,
+      "StagePositionsMm": {
+        "Actuator1": 0,
+        "Actuator2": 0,
+        "Vertical": 0,
+        "Horizontal": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Keep plugin artifacts flat under bin/<Config>/app/plugins/<plugin-id> -->
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+  </PropertyGroup>
+</Project>

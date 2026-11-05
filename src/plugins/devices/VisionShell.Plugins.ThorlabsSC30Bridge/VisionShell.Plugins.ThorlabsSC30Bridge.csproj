@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>VisionShell.Plugins.ThorlabsSC30Bridge</RootNamespace>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <OutputPath>..\..\..\..\bin\$(Configuration)\app\plugins\thorlabs-sc30-shutter\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\VisionShell.Core\VisionShell.Core.csproj"><Private>false</Private><ExcludeAssets>runtime</ExcludeAssets></ProjectReference>
+    <ProjectReference Include="..\..\..\bridges\VisionShell.SC30Bridge.Protocol\VisionShell.SC30Bridge.Protocol.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="plugin.json"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory><CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory></None>
+  </ItemGroup>
+  <Target Name="CleanLegacySc30PluginOutput" BeforeTargets="PrepareForBuild">
+    <RemoveDir Directories="$(MSBuildProjectDirectory)\..\..\..\..\bin\$(Configuration)\app\plugins\thorlabs-sc30-shutter" />
+  </Target>
+</Project>

@@ -1,0 +1,8 @@
+{
+ "id": "thorlabs-xa-stage",
+ "name": "Thorlabs XA Stage",
+ "version": "1.0.0",
+ "type": "stage",
+ "entryType": "VisionShell.Plugins.ThorlabsKinesisStage.ThorlabsKinesisStagePlugin",
+ "dependencies": []
+}

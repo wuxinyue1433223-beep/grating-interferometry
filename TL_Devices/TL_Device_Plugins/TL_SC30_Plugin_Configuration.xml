@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Device>
+    <Dev_Info CFG_Ver="1.0" PN="SC30" MN="Thorlabs, Inc." Cmpnt="0" CmpntType="Mainboard" PID="0x100c" VID="0x1313"/>
+    <Device_Parameters>
+        <param param_type="CONSTANT" name="serial_number" type="array" data_type="uchar" array_size="32" io="r" num_channels="0" internal="false">
+            <ComPort get_cmd="serial?"/>
+        </param>
+        <param param_type="CONSTANT" name="firmware_version" type="array" data_type="uchar" array_size="48" io="r" num_channels="0" internal="false">
+            <ComPort get_cmd="fwver?"/>
+        </param>
+        <param param_type="SETTING" name="friendly_name" type="array" data_type="uchar" array_size="36" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="friendly?" set_cmd="friendly="/>
+        </param>
+        <param param_type="SETTING" name="unlocked_state" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="unlocked?" set_cmd="unlocked="/>
+        </param>
+        <param param_type="SETTING" name="active_mode" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="mode?" set_cmd="mode="/>
+        </param>
+        <param param_type="SETTING" name="sync_enabled_state" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="syncenable?" set_cmd="syncenable="/>
+        </param>
+        <param param_type="SETTING" name="manual_sync_mode" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="mansyncmode?" set_cmd="mansyncmode="/>
+        </param>
+        <param param_type="SETTING" name="manual_sync_delay" type="numeric" data_type="float" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="mansyncdelay?" set_cmd="mansyncdelay="/>
+        </param>
+        <param param_type="SETTING" name="manual_sync_delay_max" type="numeric" data_type="float" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="mansyncdelaymax?"/>
+        </param>
+        <param param_type="SETTING" name="manual_sync_delay_unit" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="mansyncdelayuom?" set_cmd="mansyncdelayuom="/>
+        </param>
+        <param param_type="SETTING" name="external_sync_mode" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="extsyncmode?" set_cmd="extsyncmode="/>
+        </param>
+        <param param_type="SETTING" name="external_sync_delay" type="numeric" data_type="float" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="extsyncdelay?" set_cmd="extsyncdelay="/>
+        </param>
+        <param param_type="SETTING" name="external_sync_delay_max" type="numeric" data_type="float" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="extsyncdelaymax?"/>
+        </param>
+        <param param_type="SETTING" name="external_sync_delay_unit" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="extsyncdelayuom?" set_cmd="extsyncdelayuom="/>
+        </param>
+        <param param_type="SETTING" name="internal_sync_mode" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="intsyncmode?" set_cmd="intsyncmode="/>
+        </param>
+        <param param_type="SETTING" name="internal_sync_delay" type="numeric" data_type="float" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="intsyncdelay?" set_cmd="intsyncdelay="/>
+        </param>
+        <param param_type="SETTING" name="internal_sync_delay_max" type="numeric" data_type="float" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="intsyncdelaymax?"/>
+        </param>
+        <param param_type="SETTING" name="internal_sync_delay_unit" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="intsyncdelayuom?" set_cmd="intsyncdelayuom="/>
+        </param>
+        <param param_type="SETTING" name="triggered_sync_mode" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="trigsyncmode?" set_cmd="trigsyncmode="/>
+        </param>
+        <param param_type="SETTING" name="triggered_sync_delay" type="numeric" data_type="float" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="trigsyncdelay?" set_cmd="trigsyncdelay="/>
+        </param>
+        <param param_type="SETTING" name="triggered_sync_delay_max" type="numeric" data_type="float" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="trigsyncdelaymax?"/>
+        </param>
+        <param param_type="SETTING" name="triggered_sync_delay_unit" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="trigsyncdelayuom?" set_cmd="trigsyncdelayuom="/>
+        </param>
+        <param param_type="SETTING" name="enable_channel" type="numeric" data_type="uchar" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="enable1?" set_cmd="enable1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="enable2?" set_cmd="enable2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="channel_trigger_state" type="numeric" data_type="uchar" io="r" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="triggerstate1?"/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="triggerstate2?"/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="channel_software_trigger" type="numeric" data_type="uchar" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="swtrig1?" set_cmd="swtrig1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="swtrig2?" set_cmd="swtrig2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="channel_shutter_state" type="numeric" data_type="uchar" io="r" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="shutterstate1?"/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="shutterstate2?"/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="internal_mode_signal_type" type="numeric" data_type="uchar" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="intsignal1?" set_cmd="intsignal1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="intsignal2?" set_cmd="intsignal2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="internal_mode_frequency" type="numeric" data_type="float" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="intfreq1?" set_cmd="intfreq1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="intfreq2?" set_cmd="intfreq2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="internal_mode_dutycycle" type="numeric" data_type="float" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="intduty1?" set_cmd="intduty1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="intduty2?" set_cmd="intduty2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="internal_mode_open_time" type="numeric" data_type="float" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="intopen1?" set_cmd="intopen1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="intopen2?" set_cmd="intopen2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="internal_mode_open_time_unit" type="numeric" data_type="uchar" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="intopenuom1?" set_cmd="intopenuom1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="intopenuom2?" set_cmd="intopenuom2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="internal_mode_close_time" type="numeric" data_type="float" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="intclose1?" set_cmd="intclose1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="intclose2?" set_cmd="intclose2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="internal_mode_close_time_unit" type="numeric" data_type="uchar" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="intcloseuom1?" set_cmd="intcloseuom1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="intcloseuom2?" set_cmd="intcloseuom2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="internal_mode_cycle_count" type="numeric" data_type="uint" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="intcyclecnt1?" set_cmd="intcyclecnt1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="intcyclecnt2?" set_cmd="intcyclecnt2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="triggered_mode_signal_type" type="numeric" data_type="uchar" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="trigsignal1?" set_cmd="trigsignal1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="trigsignal2?" set_cmd="trigsignal2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="triggered_mode_frequency" type="numeric" data_type="float" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="trigfreq1?" set_cmd="trigfreq1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="trigfreq2?" set_cmd="trigfreq2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="triggered_mode_dutycycle" type="numeric" data_type="float" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="trigduty1?" set_cmd="trigduty1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="trigduty2?" set_cmd="trigduty2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="triggered_mode_open_time" type="numeric" data_type="float" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="trigopen1?" set_cmd="trigopen1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="trigopen2?" set_cmd="trigopen2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="triggered_mode_open_time_unit" type="numeric" data_type="uchar" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="trigopenuom1?" set_cmd="trigopenuom1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="trigopenuom2?" set_cmd="trigopenuom2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="triggered_mode_close_time" type="numeric" data_type="float" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="trigclose1?" set_cmd="trigclose1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="trigclose2?" set_cmd="trigclose2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="triggered_mode_close_time_unit" type="numeric" data_type="uchar" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="trigcloseuom1?" set_cmd="trigcloseuom1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="trigcloseuom2?" set_cmd="trigcloseuom2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="triggered_mode_cycle_count" type="numeric" data_type="uint" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="trigcyclecnt1?" set_cmd="trigcyclecnt1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="trigcyclecnt2?" set_cmd="trigcyclecnt2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="triggered_mode_trigger_source" type="numeric" data_type="uchar" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="trigtrigsrc1?" set_cmd="trigtrigsrc1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="trigtrigsrc2?" set_cmd="trigtrigsrc2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="triggered_mode_trigger_delay" type="numeric" data_type="float" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="trigtrigdly1?" set_cmd="trigtrigdly1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="trigtrigdly2?" set_cmd="trigtrigdly2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="triggered_mode_trigger_delay_unit" type="numeric" data_type="uchar" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="trigtrigdlyuom1?" set_cmd="trigtrigdlyuom1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="trigtrigdlyuom2?" set_cmd="trigtrigdlyuom2="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="number_completed_cycles" type="numeric" data_type="int" io="r" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="shuttercyccomp1?"/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="shuttercyccomp2?"/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="type_shutter_connected" type="array" data_type="uchar" array_size="16" io="r" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="connected1?"/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="connected2?"/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="selected_shutter" type="array" data_type="uchar" array_size="32" io="rw" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="shutter1?" set_cmd="shutter1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="shutter2?" set_cmd="shutter2="/>
+            </ch>
+        </param>
+        <param param_type="CONSTANT" name="active_shutter_type" type="numeric" data_type="uchar" io="r" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="shuttertype1?"/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="shuttertype2?"/>
+            </ch>
+        </param>
+        <param param_type="CONSTANT" name="active_shutter_info" type="array" data_type="uchar" array_size="1024" io="r" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="shutterinfo1?"/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="shutterinfo2?"/>
+            </ch>
+        </param>
+        <param param_type="CONSTANT" name="active_shutter_minmax" type="array" data_type="uchar" array_size="1024" io="r" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="shutterminmax1?"/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="shutterminmax2?"/>
+            </ch>
+        </param>
+        <param param_type="CONSTANT" name="shutter_error" type="numeric" data_type="ushort" io="r" num_channels="2" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="shuttererror1?"/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="shuttererror2?"/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="interlock_state" type="numeric" data_type="uchar" io="r" num_channels="0" internal="false">
+            <ComPort get_cmd="interlock?"/>
+        </param>
+        <param param_type="SETTING" name="enable_interlock_state" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="interlockenable?" set_cmd="interlockenable="/>
+        </param>
+        <param param_type="SETTING" name="io_manual_mode_trigger1" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="io_mantrig1?" set_cmd="io_mantrig1="/>
+        </param>
+        <param param_type="SETTING" name="io_manual_mode_trigger2" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="io_mantrig2?" set_cmd="io_mantrig2="/>
+        </param>
+        <param param_type="SETTING" name="io_external_mode_trigger1" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="io_exttrig1?" set_cmd="io_exttrig1="/>
+        </param>
+        <param param_type="SETTING" name="io_external_mode_trigger2" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="io_exttrig2?" set_cmd="io_exttrig2="/>
+        </param>
+        <param param_type="SETTING" name="io_internal_mode_trigger1" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="io_inttrig1?" set_cmd="io_inttrig1="/>
+        </param>
+        <param param_type="SETTING" name="io_internal_mode_trigger2" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="io_inttrig2?" set_cmd="io_inttrig2="/>
+        </param>
+        <param param_type="SETTING" name="io_triggered_mode_trigger1" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="io_trigtrig1?" set_cmd="io_trigtrig1="/>
+        </param>
+        <param param_type="SETTING" name="io_triggered_mode_trigger2" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="io_trigtrig2?" set_cmd="io_trigtrig2="/>
+        </param>
+        <param param_type="SETTING" name="enable_displaying_parameters" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="dispparamenable?" set_cmd="dispparamenable="/>
+        </param>
+        <param param_type="SETTING" name="knob_led_enable" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="knobledenable?" set_cmd="knobledenable="/>
+        </param>
+        <param param_type="SETTING" name="knob_dimming_enable" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="knobdimenable?" set_cmd="knobdimenable="/>
+        </param>
+        <param param_type="SETTING" name="knob_timeout" type="numeric" data_type="ushort" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="knobctrltimeout?" set_cmd="knobctrltimeout="/>
+        </param>
+        <param param_type="SETTING" name="knob_dimming_timeout" type="numeric" data_type="ushort" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="knobdimtimeout?" set_cmd="knobdimtimeout="/>
+        </param>
+        <param param_type="SETTING" name="knob_brightness_percent" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="knobbright?" set_cmd="knobbright="/>
+        </param>
+        <param param_type="SETTING" name="knob_dimming_brightness_percent" type="numeric" data_type="uchar" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="knobdimbright?" set_cmd="knobdimbright="/>
+        </param>
+        <param param_type="SETTING" name="double_tap_timeout" type="numeric" data_type="ushort" io="rw" num_channels="0" internal="false">
+            <ComPort get_cmd="dbltaptimeout?" set_cmd="dbltaptimeout="/>
+        </param>
+        <param param_type="SETTING" name="last_loaded_profile" type="array" data_type="uchar" array_size="64" io="r" num_channels="0" internal="false">
+            <ComPort get_cmd="activecfg?"/>
+        </param>
+        <param param_type="SETTING" name="restore_factory_profile" type="numeric" data_type="uchar" io="w" num_channels="0" internal="false">
+            <ComPort set_cmd="restoredefaults"/>
+        </param>
+        <param param_type="SETTING" name="startup_profile_op" type="numeric" data_type="uchar" io="w" num_channels="0" internal="false">
+            <ComPort get_cmd="load" set_cmd="save"/>
+        </param>
+        <param param_type="SETTING" name="profile_op" type="numeric" data_type="uchar" io="w" num_channels="5" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="load=1" set_cmd="save=1"/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="load=2" set_cmd="save=2"/>
+            </ch>
+            <ch ch_id="3">
+                <ComPort get_cmd="load=3" set_cmd="save=3"/>
+            </ch>
+            <ch ch_id="4">
+                <ComPort get_cmd="load=4" set_cmd="save=4"/>
+            </ch>
+            <ch ch_id="5">
+                <ComPort get_cmd="load=5" set_cmd="save=5"/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="profile_name_for_save_op" type="array" data_type="uchar" array_size="64" io="rw" num_channels="0" internal="false"/>
+        <param param_type="SETTING" name="clear_profile" type="numeric" data_type="uchar" io="w" num_channels="0" internal="false">
+            <ComPort set_cmd="clear="/>
+        </param>
+        <param param_type="SETTING" name="profile_name" type="array" data_type="uchar" array_size="64" io="rw" num_channels="5" internal="false">
+            <ch ch_id="1">
+                <ComPort get_cmd="profname1?" set_cmd="profname1="/>
+            </ch>
+            <ch ch_id="2">
+                <ComPort get_cmd="profname2?" set_cmd="profname2="/>
+            </ch>
+            <ch ch_id="3">
+                <ComPort get_cmd="profname3?" set_cmd="profname3="/>
+            </ch>
+            <ch ch_id="4">
+                <ComPort get_cmd="profname4?" set_cmd="profname4="/>
+            </ch>
+            <ch ch_id="5">
+                <ComPort get_cmd="profname5?" set_cmd="profname5="/>
+            </ch>
+        </param>
+        <param param_type="SETTING" name="polling_interval" type="numeric" data_type="ushort" default="50" min="20" max="2000" unit="ms" io="rw" num_channels="0" internal="false"/>
+        <param param_type="SETTING" name="start_polling" type="numeric" data_type="uchar" default="false" io="rw" num_channels="0" internal="false"/>
+        <param param_type="SETTING" name="num_commands" type="numeric" data_type="uchar" default="135" io="rw" num_channels="0" internal="false"/>
+    </Device_Parameters>
+</Device>

@@ -1,0 +1,4107 @@
+[
+  {
+    "path": ".github/agents/UI.agent.md",
+    "bytes": 441,
+    "sha256": "73821485187fd4b9282c3d15a247c55fe57db1355747155aaae8aefeebb4f9f8"
+  },
+  {
+    "path": ".github/construction.md",
+    "bytes": 1028,
+    "sha256": "692b7b87423e011e26519a5a228a27d956ab9e164da8b08f6b37f9b60e07b3ab"
+  },
+  {
+    "path": ".github/copilot-prompts.md",
+    "bytes": 799,
+    "sha256": "79d6606aad948165e680310a44f87254b723ed2e58e0cdc6e6a8eced01ce04d8"
+  },
+  {
+    "path": ".github/skills/plugin-system.md",
+    "bytes": 496,
+    "sha256": "bb3e73299f6b3d2478804dc4f2627d57910c8573c2b3cd86931771006e10f1fb"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 954,
+    "sha256": "19b46280e89697cb63a891c736e8b4fef277884073b4f4796c5fb875ee08d71d"
+  },
+  {
+    "path": "Directory.Build.props",
+    "bytes": 136,
+    "sha256": "6d41a0c069db8fc34e43d8d6a6a0a78bc8463bd0f3402aa780cc7bcb869b06b6"
+  },
+  {
+    "path": "Kinesis/BBD_Stages.xml",
+    "bytes": 141297,
+    "sha256": "6ee53f5369a689420bb989f97c8b307fae626aafc2efc693fe66e548272564f9"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/APT USB Driver.cat",
+    "bytes": 11733,
+    "sha256": "0bc085e664c759502bed1063e249a3d89344b8163d513fa10962b0589007809e"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/APT USB Driver.inf",
+    "bytes": 2852,
+    "sha256": "5e2ce9dce08f2f252c10e42713cae9953fb24cd46c078ff50989cf13303b88f5"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/Static/amd64/ftd2xx.lib",
+    "bytes": 1129626,
+    "sha256": "37e63f78d2fb5aad09c28cf75295eec3976331ffae91c2d86813985e35575977"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/Static/i386/ftd2xx.lib",
+    "bytes": 1027798,
+    "sha256": "e02f8dc96eeaa891848693a90630c0a0a9c9922c3b4b6564fada4dadff926f31"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/amd64/ftbusui.dll",
+    "bytes": 176688,
+    "sha256": "b6dc9e5a8b1766f9b309cc2405954a41f9cd85b8c880fcf04475e8326bc1bc24"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/amd64/ftcserco.dll",
+    "bytes": 83544,
+    "sha256": "d132f3b901b18d9c75dedce45c088401ab537ab0206ed9f06868676cf72c56d6"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/amd64/ftd2xx.lib",
+    "bytes": 20260,
+    "sha256": "260a37aa3966aeee901dc8819c98e47bf47e61d5f724472559d33b55f4f9c271"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/amd64/ftd2xx64.dll",
+    "bytes": 323136,
+    "sha256": "3f3d9e4beff6b7a57f4116fb49c81afa55aeca978faf48576355d78bb2a3a87d"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/amd64/ftdibus.sys",
+    "bytes": 138032,
+    "sha256": "21a1006775d40764dfc75307df00ccbba0c18fd389af558364a6584696c5e47c"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/amd64/ftlang.dll",
+    "bytes": 283192,
+    "sha256": "0bb94e0f7bfb3b4d3ced531354201cd41e3b5368e77bae78b1ecace09ca5722a"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/amd64/ftser2k.sys",
+    "bytes": 98368,
+    "sha256": "9802c67f4c4526d15135a1c6c79ddd9975509cc09506fb04df23c3db47451aff"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/amd64/ftserui2.dll",
+    "bytes": 73816,
+    "sha256": "637b99191c868c8b43ddccd26b3e8acd7bd749079b3cd6c783be708136be5e57"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/ftd2xx.h",
+    "bytes": 40993,
+    "sha256": "cf2ad290c68137373b26629bf9feed6f4847f4e9e5cde4b980a212cebeb4ff6a"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/i386/ftbusui.dll",
+    "bytes": 164408,
+    "sha256": "a2bbb78df3423a1aac257d320fd5a44e0f9d7d6f9590a6fc7ce1cf97f7cc264e"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/i386/ftcserco.dll",
+    "bytes": 87128,
+    "sha256": "d61f6abea7ffd257137d3a239ac8600cc6189091f9f76e54d6f887aa55e14bd1"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/i386/ftd2xx.dll",
+    "bytes": 280256,
+    "sha256": "16ccd07c0105dba1eabbb59ebcf67878a0cfcddb5d208128378ebdde5555e07d"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/i386/ftd2xx.lib",
+    "bytes": 22190,
+    "sha256": "ad67a6a729759875a657f8c44e63224b16c183262d821bc5b9289ed68f9589db"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/i386/ftdibus.sys",
+    "bytes": 113776,
+    "sha256": "4c29a2c8a7c3ff9de71c7b0b3ac07391e1e51a441188639c12cc4e2a343dc250"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/i386/ftlang.dll",
+    "bytes": 262848,
+    "sha256": "ef4270615286caa6a71a325c63c4e8ac98abbb2637f11c340f02ace1090beb64"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/i386/ftser2k.sys",
+    "bytes": 84472,
+    "sha256": "a195b93cffb20126b50a3530f6359eac2dba922efe02155588d6bd3e67c789da"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/USB Driver/i386/ftserui2.dll",
+    "bytes": 71768,
+    "sha256": "96327e5da2e13c423fecac26333310c69583f5a4c38bda4c5ecac4456f864fef"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/APT USB Serial Port.cat",
+    "bytes": 10917,
+    "sha256": "b48ab2634e959d0f98ed408635b35bf6ff21d801682f4f113122ae1ee3b89c1e"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/APT USB Serial Port.inf",
+    "bytes": 3456,
+    "sha256": "81e77e57da0b61d6c9a7d3ce5090f0ef9edb810c312f072b16c81b527478b1bc"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/Static/amd64/ftd2xx.lib",
+    "bytes": 1129626,
+    "sha256": "37e63f78d2fb5aad09c28cf75295eec3976331ffae91c2d86813985e35575977"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/Static/i386/ftd2xx.lib",
+    "bytes": 1027798,
+    "sha256": "e02f8dc96eeaa891848693a90630c0a0a9c9922c3b4b6564fada4dadff926f31"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/amd64/ftbusui.dll",
+    "bytes": 176688,
+    "sha256": "b6dc9e5a8b1766f9b309cc2405954a41f9cd85b8c880fcf04475e8326bc1bc24"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/amd64/ftcserco.dll",
+    "bytes": 83544,
+    "sha256": "d132f3b901b18d9c75dedce45c088401ab537ab0206ed9f06868676cf72c56d6"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/amd64/ftd2xx.lib",
+    "bytes": 20260,
+    "sha256": "260a37aa3966aeee901dc8819c98e47bf47e61d5f724472559d33b55f4f9c271"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/amd64/ftd2xx64.dll",
+    "bytes": 323136,
+    "sha256": "3f3d9e4beff6b7a57f4116fb49c81afa55aeca978faf48576355d78bb2a3a87d"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/amd64/ftdibus.sys",
+    "bytes": 138032,
+    "sha256": "21a1006775d40764dfc75307df00ccbba0c18fd389af558364a6584696c5e47c"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/amd64/ftlang.dll",
+    "bytes": 283192,
+    "sha256": "0bb94e0f7bfb3b4d3ced531354201cd41e3b5368e77bae78b1ecace09ca5722a"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/amd64/ftser2k.sys",
+    "bytes": 98368,
+    "sha256": "9802c67f4c4526d15135a1c6c79ddd9975509cc09506fb04df23c3db47451aff"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/amd64/ftserui2.dll",
+    "bytes": 73816,
+    "sha256": "637b99191c868c8b43ddccd26b3e8acd7bd749079b3cd6c783be708136be5e57"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/ftd2xx.h",
+    "bytes": 40993,
+    "sha256": "cf2ad290c68137373b26629bf9feed6f4847f4e9e5cde4b980a212cebeb4ff6a"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/i386/ftbusui.dll",
+    "bytes": 164408,
+    "sha256": "a2bbb78df3423a1aac257d320fd5a44e0f9d7d6f9590a6fc7ce1cf97f7cc264e"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/i386/ftcserco.dll",
+    "bytes": 87128,
+    "sha256": "d61f6abea7ffd257137d3a239ac8600cc6189091f9f76e54d6f887aa55e14bd1"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/i386/ftd2xx.dll",
+    "bytes": 280256,
+    "sha256": "16ccd07c0105dba1eabbb59ebcf67878a0cfcddb5d208128378ebdde5555e07d"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/i386/ftd2xx.lib",
+    "bytes": 22190,
+    "sha256": "ad67a6a729759875a657f8c44e63224b16c183262d821bc5b9289ed68f9589db"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/i386/ftdibus.sys",
+    "bytes": 113776,
+    "sha256": "4c29a2c8a7c3ff9de71c7b0b3ac07391e1e51a441188639c12cc4e2a343dc250"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/i386/ftlang.dll",
+    "bytes": 262848,
+    "sha256": "ef4270615286caa6a71a325c63c4e8ac98abbb2637f11c340f02ace1090beb64"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/i386/ftser2k.sys",
+    "bytes": 84472,
+    "sha256": "a195b93cffb20126b50a3530f6359eac2dba922efe02155588d6bd3e67c789da"
+  },
+  {
+    "path": "Kinesis/Drivers/APT/VCP Driver/i386/ftserui2.dll",
+    "bytes": 71768,
+    "sha256": "96327e5da2e13c423fecac26333310c69583f5a4c38bda4c5ecac4456f864fef"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/Kinesis USB Driver.cat",
+    "bytes": 42332,
+    "sha256": "0d3c0aa6e77474d98e79f5606a267f8dea0bc034bef7d975d2bef92f2994ea4c"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/Kinesis USB Driver.inf",
+    "bytes": 34988,
+    "sha256": "1569c9bfc796b0f5f4d66f4fd58d10459b9417e122c5d3ebebc85637cc65248c"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/Static/amd64/ftd2xx.lib",
+    "bytes": 1129626,
+    "sha256": "37e63f78d2fb5aad09c28cf75295eec3976331ffae91c2d86813985e35575977"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/Static/i386/ftd2xx.lib",
+    "bytes": 1027798,
+    "sha256": "e02f8dc96eeaa891848693a90630c0a0a9c9922c3b4b6564fada4dadff926f31"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/amd64/ftbusui.dll",
+    "bytes": 176904,
+    "sha256": "eff5fe728df037258dc7a4db614fe6d091bb313396e987608bc603711b39478d"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/amd64/ftcserco.dll",
+    "bytes": 83752,
+    "sha256": "0ee2e1e6f7c0c71bff486178a249434437a23f75b396eb503f4cd48e1cfd0d25"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/amd64/ftd2xx.lib",
+    "bytes": 20260,
+    "sha256": "260a37aa3966aeee901dc8819c98e47bf47e61d5f724472559d33b55f4f9c271"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/amd64/ftd2xx64.dll",
+    "bytes": 323344,
+    "sha256": "209987479e602481f06f54e33105a4d8bf41de49d22b86da0e218657e5ac5c25"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/amd64/ftdibus.sys",
+    "bytes": 138240,
+    "sha256": "32d9786f91f7af2846cf179c77ae85fa868c8621b7b12cf4a5ed7eaaaf38f645"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/amd64/ftlang.dll",
+    "bytes": 283400,
+    "sha256": "aa60d075605ff6df0d334180ee3e2e316466b689b0aa94ba46ad17ab3b91536c"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/amd64/ftser2k.sys",
+    "bytes": 98576,
+    "sha256": "b9ce052ca1cfaf693733e725d01a58f89359aa291d49fe21d7279f392e397aa3"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/amd64/ftserui2.dll",
+    "bytes": 74024,
+    "sha256": "f0c6bdb151000f9d2ef0869a3bada00f40814a5e3e0418c8d0c9370326a0a047"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/ftd2xx.h",
+    "bytes": 40993,
+    "sha256": "cf2ad290c68137373b26629bf9feed6f4847f4e9e5cde4b980a212cebeb4ff6a"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/i386/ftbusui.dll",
+    "bytes": 164648,
+    "sha256": "c3bc73a0514745a823e2eef4afd116b5d8cb18e2e5498408e8ed24cb0095cd53"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/i386/ftcserco.dll",
+    "bytes": 87336,
+    "sha256": "a0614945789b77c3976e312a01a023fbbc9a5b17306487965d3fdd874dc54900"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/i386/ftd2xx.dll",
+    "bytes": 280464,
+    "sha256": "f075cfb72155347a1eebc7b347013c66127bad4ffb01d9b83f7949bf939f10b7"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/i386/ftd2xx.lib",
+    "bytes": 22190,
+    "sha256": "ad67a6a729759875a657f8c44e63224b16c183262d821bc5b9289ed68f9589db"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/i386/ftdibus.sys",
+    "bytes": 113984,
+    "sha256": "76f8249317db7e3879bcf768ccc01394a8839d2e08b8b347c7c269c1a77f4265"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/i386/ftlang.dll",
+    "bytes": 263056,
+    "sha256": "70797a3dcf616ffabd1e550de4834d2483f9237cba10c2660cb3363b6423b61d"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/i386/ftser2k.sys",
+    "bytes": 84680,
+    "sha256": "14161bb2249280ed86f238985e4c83bd6cd16291fa2cebb1af36a11df2169b34"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/USB Driver/i386/ftserui2.dll",
+    "bytes": 71976,
+    "sha256": "54ea779727214f5de0343b4eb11e301f0e015fed7315f937fbc547f932cd7c4a"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/Kinesis USB Serial Port.cat",
+    "bytes": 41097,
+    "sha256": "b000af9aa0144ea21434a6ce67da7dbc6931fe785e194525246cc455a1485f13"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/Kinesis USB Serial Port.inf",
+    "bytes": 37705,
+    "sha256": "0d468f3c821bb4a8dcc67e1655df05bf3db1917cc4232644cc289604cc0e2aad"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/Static/amd64/ftd2xx.lib",
+    "bytes": 1129626,
+    "sha256": "37e63f78d2fb5aad09c28cf75295eec3976331ffae91c2d86813985e35575977"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/Static/i386/ftd2xx.lib",
+    "bytes": 1027798,
+    "sha256": "e02f8dc96eeaa891848693a90630c0a0a9c9922c3b4b6564fada4dadff926f31"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/amd64/ftbusui.dll",
+    "bytes": 176904,
+    "sha256": "eff5fe728df037258dc7a4db614fe6d091bb313396e987608bc603711b39478d"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/amd64/ftcserco.dll",
+    "bytes": 83752,
+    "sha256": "0ee2e1e6f7c0c71bff486178a249434437a23f75b396eb503f4cd48e1cfd0d25"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/amd64/ftd2xx.lib",
+    "bytes": 20260,
+    "sha256": "260a37aa3966aeee901dc8819c98e47bf47e61d5f724472559d33b55f4f9c271"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/amd64/ftd2xx64.dll",
+    "bytes": 323344,
+    "sha256": "209987479e602481f06f54e33105a4d8bf41de49d22b86da0e218657e5ac5c25"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/amd64/ftdibus.sys",
+    "bytes": 138240,
+    "sha256": "32d9786f91f7af2846cf179c77ae85fa868c8621b7b12cf4a5ed7eaaaf38f645"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/amd64/ftlang.dll",
+    "bytes": 283400,
+    "sha256": "aa60d075605ff6df0d334180ee3e2e316466b689b0aa94ba46ad17ab3b91536c"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/amd64/ftser2k.sys",
+    "bytes": 98576,
+    "sha256": "b9ce052ca1cfaf693733e725d01a58f89359aa291d49fe21d7279f392e397aa3"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/amd64/ftserui2.dll",
+    "bytes": 74024,
+    "sha256": "f0c6bdb151000f9d2ef0869a3bada00f40814a5e3e0418c8d0c9370326a0a047"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/ftd2xx.h",
+    "bytes": 40993,
+    "sha256": "cf2ad290c68137373b26629bf9feed6f4847f4e9e5cde4b980a212cebeb4ff6a"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/i386/ftbusui.dll",
+    "bytes": 164648,
+    "sha256": "c3bc73a0514745a823e2eef4afd116b5d8cb18e2e5498408e8ed24cb0095cd53"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/i386/ftcserco.dll",
+    "bytes": 87336,
+    "sha256": "a0614945789b77c3976e312a01a023fbbc9a5b17306487965d3fdd874dc54900"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/i386/ftd2xx.dll",
+    "bytes": 280464,
+    "sha256": "f075cfb72155347a1eebc7b347013c66127bad4ffb01d9b83f7949bf939f10b7"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/i386/ftd2xx.lib",
+    "bytes": 22190,
+    "sha256": "ad67a6a729759875a657f8c44e63224b16c183262d821bc5b9289ed68f9589db"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/i386/ftdibus.sys",
+    "bytes": 113984,
+    "sha256": "76f8249317db7e3879bcf768ccc01394a8839d2e08b8b347c7c269c1a77f4265"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/i386/ftlang.dll",
+    "bytes": 263056,
+    "sha256": "70797a3dcf616ffabd1e550de4834d2483f9237cba10c2660cb3363b6423b61d"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/i386/ftser2k.sys",
+    "bytes": 84680,
+    "sha256": "14161bb2249280ed86f238985e4c83bd6cd16291fa2cebb1af36a11df2169b34"
+  },
+  {
+    "path": "Kinesis/Drivers/Kinesis/VCP Driver/i386/ftserui2.dll",
+    "bytes": 71976,
+    "sha256": "54ea779727214f5de0343b4eb11e301f0e015fed7315f937fbc547f932cd7c4a"
+  },
+  {
+    "path": "Kinesis/ThorLabs.MotionControl.Benchtop.DCServoCLI.dll",
+    "bytes": 224152,
+    "sha256": "bd6ec66920471256312f0fc270585f63de3dc389bc50632e3e27a8be68a92f75"
+  },
+  {
+    "path": "Kinesis/ThorLabs.MotionControl.Benchtop.PrecisionPiezoCLI.dll",
+    "bytes": 161688,
+    "sha256": "baf4c9cd8eacb4b962599d965fb3559f7e00123b3c6e6624dd7424a3ea1abe66"
+  },
+  {
+    "path": "Kinesis/ThorLabs.MotionControl.FilterFlipper.h",
+    "bytes": 45554,
+    "sha256": "a3bc97cfb1e52b74b94cecfd73c43757f8d5729ea01ca798a77636ce6aa45490"
+  },
+  {
+    "path": "Kinesis/ThorLabs.MotionControl.KCube.DCServoCLI.dll",
+    "bytes": 131480,
+    "sha256": "4691a3329f19f930044d4e238bc785cebd6b10c7092a4aef72c29c17ab5c8b61"
+  },
+  {
+    "path": "Kinesis/ThorLabs.MotionControl.KCube.LaserDiodeCLI.dll",
+    "bytes": 275352,
+    "sha256": "c42b0669744c576043ef36dbb48395479f6df13a1758d72ba289664596a8374c"
+  },
+  {
+    "path": "Kinesis/ThorLabs.MotionControl.KCube.LaserSourceCLI.dll",
+    "bytes": 235928,
+    "sha256": "e3c5a4a5a3701c680d323730322b2e50f19865406cb0656406b6426a62ad6334"
+  },
+  {
+    "path": "Kinesis/ThorLabs.MotionControl.KCube.PositionAlignerCLI.dll",
+    "bytes": 203160,
+    "sha256": "68f1dd6632ca64b1623a8e6f9d863c5b5226894d847bdc67ad6834c6fdc3cd08"
+  },
+  {
+    "path": "Kinesis/ThorLabs.MotionControl.KCube.StrainGaugeCLI.dll",
+    "bytes": 106904,
+    "sha256": "d659c5d4cdb8d0f007715cd44a80f463407e36cacc61f554a0698dff0f3830ad"
+  },
+  {
+    "path": "Kinesis/ThorLabs.MotionControl.ModularRack.h",
+    "bytes": 27713,
+    "sha256": "ec0840455daa8f93bc41621651f8d3c0a5b528e4e23cf9d111d72f7e17c03ce8"
+  },
+  {
+    "path": "Kinesis/ThorLabs.MotionControl.PolarizerCLI.dll",
+    "bytes": 363416,
+    "sha256": "f8ee8870eb8c35f3ba0d5f9edd79ead944cb66baa31ba32c8a43c7675c227b51"
+  },
+  {
+    "path": "Kinesis/ThorLabs.MotionControl.TCube.InertialMotorCLI.dll",
+    "bytes": 256408,
+    "sha256": "e6e1fa61b93e061a525f7fe5e32730dc69f67ac804555b161c2f5df36320c58c"
+  },
+  {
+    "path": "Kinesis/ThorLabs.MotionControl.TDIEngineCLI.dll",
+    "bytes": 169880,
+    "sha256": "f2859e78e5940a0ee1e4f71487c1809adf309e7f4308cc8ebbdd5876765e5fd0"
+  },
+  {
+    "path": "Kinesis/ThorLabs.MotionControl.VerticalStageCLI.dll",
+    "bytes": 142232,
+    "sha256": "921e586f6307f3f2b56aa91b4f2346a8a6d3d0e3d13563657068a368a4738701"
+  },
+  {
+    "path": "Kinesis/Thorlabs.APT.dll",
+    "bytes": 121240,
+    "sha256": "1e525fc67fcb2a14a57c51c8b895b18e5b97aba509cf176c1ffaa6ad64564169"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.BrushlessMotor.dll",
+    "bytes": 473496,
+    "sha256": "4d61166ed5d17f2a4d1ccfc61342f788d4efe876b560a180b00fd52b6d8af47e"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.BrushlessMotor.h",
+    "bytes": 225684,
+    "sha256": "65832a889d8dee98c60884377a569d3467081553c3e747c4c73648e6880c79cf"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.BrushlessMotor.lib",
+    "bytes": 443462,
+    "sha256": "121fdb2d1e621a1119beeac368e1d71c7e95401616566af3245b5888ad8a7c27"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.BrushlessMotorCLI.dll",
+    "bytes": 250776,
+    "sha256": "07fadac36e0e5286aa7d7ab0b1a51e5aff38f3d5726cf41d739e3504f966f4fb"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.BrushlessMotorUI.dll",
+    "bytes": 928152,
+    "sha256": "782ea10abf5e8667f0754fa928cb8dbe3c088f5fcdd0f76e78e71b52c7104d45"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.DCServo.dll",
+    "bytes": 499096,
+    "sha256": "d580369f786642f6a312d0a1a678a26dd43513b7e57ed4bd063999fdaeb72133"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.DCServo.h",
+    "bytes": 173821,
+    "sha256": "b0052b29b8e6532dd3ae542fc68b8276e4577f71f7dc72a4eaedd85d9a1554f4"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.DCServo.lib",
+    "bytes": 695294,
+    "sha256": "e0f40908d5a1dceaba8bb058a15d559bbac91882c7e20b30311e516bd60977e0"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.DCServoUI.dll",
+    "bytes": 2362776,
+    "sha256": "5c4f7b1034ba01ea5992917a2ad5c2849c597e055aca473a4d12e16b14c9ddb4"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.NanoTrak.dll",
+    "bytes": 307096,
+    "sha256": "a24abffaa9adfe832eee53e7368fe6c3bc6d82bb129505d19a24ae01cf6b1db4"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.NanoTrak.h",
+    "bytes": 94289,
+    "sha256": "1a253c25776f2fdf15b2578847ee31b30cf4f5fb86794ef5e1c11ebff2c84cec"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.NanoTrak.lib",
+    "bytes": 432460,
+    "sha256": "e5c06eec77e49135f2bb72674c2dd41ebcdf04267cee74c311eb183c6ca9c74d"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.NanoTrakCLI.dll",
+    "bytes": 111512,
+    "sha256": "280adcbf2734b85921ddd08015555765ba492aae2f9a2ceca615fef2c66c9b59"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.NanoTrakUI.dll",
+    "bytes": 370072,
+    "sha256": "713daa4f02f38a87723c27fb3e3f489fd1e09d2a59f3b5443f2b6ddea0307a0f"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.Piezo.PDXC2.h",
+    "bytes": 56578,
+    "sha256": "841e502bb670cb73f4fc8c5da8a4cdd3ac2b0fc01cebeac30096f0c5bddb575d"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.Piezo.UDXC.h",
+    "bytes": 51458,
+    "sha256": "1622fa00c1cabfb635fc756dd7f78bcee773984083a6ef3477f1fed070dcef47"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.Piezo.dll",
+    "bytes": 589208,
+    "sha256": "6c14b2faca6abce79de0764843c35e91ff48fc76723808c59ecb7c1d7db1768c"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.Piezo.h",
+    "bytes": 68400,
+    "sha256": "7d81eb27ef0f13811a19755253f9de584067b3d5b3e36f8400c65d15daadb8d0"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.Piezo.lib",
+    "bytes": 971136,
+    "sha256": "d3ce58923d49cb66ba2991e51e7c1cd3a311cf5eb788a1f966955bd4d0e06020"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.PiezoCLI.dll",
+    "bytes": 412568,
+    "sha256": "8f0983602d2faa9dc06e7ce11b881863dbf40c5e28d858d7bd44c8909edf02a0"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.PiezoUI.dll",
+    "bytes": 1723800,
+    "sha256": "49564fdd80e1408248e6203b66420bb4bc1e142315613ce42b72cf23c19f1a37"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.PrecisionPiezo.dll",
+    "bytes": 392600,
+    "sha256": "7633508862fb5fae8e877b5598f41507a1ae4e8ba821d20652842e8e5ca33cca"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.PrecisionPiezo.h",
+    "bytes": 113899,
+    "sha256": "bafc4ba3b5849d92f38b0f939205ad38194721db13d73b7894b2426ae08f9bfd"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.PrecisionPiezo.lib",
+    "bytes": 640508,
+    "sha256": "e43e360fd5c6ca471fd892c4c0c3192d94806c6c9e86c841bed6b2f59db5d1a6"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.PrecisionPiezoUI.dll",
+    "bytes": 1560984,
+    "sha256": "6f60412eaa475ee4957c4bb94484388425dbb8ab15dc7dcd532daf6575f80556"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.StepperMotor.dll",
+    "bytes": 436120,
+    "sha256": "3a2166ee4ecbd782d040be0de3a788e50cc5732383cd2fb8c24f7f078d10ced4"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.StepperMotor.h",
+    "bytes": 158064,
+    "sha256": "4ce4ecc728fa0f25290331a2a477955e70510014590252b73427638bfc200cc1"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.StepperMotor.lib",
+    "bytes": 621252,
+    "sha256": "c16991149315c04f339e13d960ae5afdd8b61725e04ba378c1bbf7b2c29bf80b"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.StepperMotorCLI.dll",
+    "bytes": 181656,
+    "sha256": "4d96c7f3d0d4503de156d2a9887108a9f3d97f985d9d58459dd7fbd17d1b850e"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Benchtop.StepperMotorUI.dll",
+    "bytes": 1120664,
+    "sha256": "e586e1950a0b334c8d4e363670442ce536ca23e1f9689ec7cbd9645e80f479ca"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.C_API.chm",
+    "bytes": 20186302,
+    "sha256": "396cce519fa085c6bbc52b40bbc8266bab768730c2a9779a8f2ae098d93ea589"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Controls.dll",
+    "bytes": 142744,
+    "sha256": "74dac10ff30c45a9d216a1ddce0dfc880e4b8afbcf794c1b75123b6163b3b086"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.DataLogger.dll",
+    "bytes": 103320,
+    "sha256": "13dc5617cefc9c4b011a491f057f243267a40d46d98508cd95c7aaa4da90c488"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.DeviceManager.dll",
+    "bytes": 2771864,
+    "sha256": "3442643b8a6f69b65115ec73f6b6d7e9f2c5410fbac150d0987bea9dfc9d71ac"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.DeviceManagerCLI.dll",
+    "bytes": 595352,
+    "sha256": "c6632072a8935350bdd4c49927424dc72d6cf092344258c4e33aa98a8d75ccb9"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.DeviceManagerUI.dll",
+    "bytes": 1734552,
+    "sha256": "ebdd81401a9a321a7a06f9b281dae2fd321e67ba0b0ebd385a8e8ff977cbfe25"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.DotNet_API.chm",
+    "bytes": 20412238,
+    "sha256": "f5f9df65468a07e346330cc7aeb55aa7556f553e563ad1bad6e5aa9cf3c12473"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.FTD2xx_Net.dll",
+    "bytes": 30104,
+    "sha256": "743a54e77375f25de2268d09f8b168bbfd29e8ca498a3fbbe26bd3961c17577d"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.FilterFlipper.dll",
+    "bytes": 147864,
+    "sha256": "5f650227af14ffba8414f2a8a692e04ab6d1806fc246a03f22a1643fbbbb29d0"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.FilterFlipper.lib",
+    "bytes": 77562,
+    "sha256": "0ba7c348bbf557279c9beeaad1633b9f3da41f8487d98a3af42854ce03a5efd7"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.FilterFlipperCLI.dll",
+    "bytes": 134552,
+    "sha256": "140b570983e3ff6bfab2c265bac012c30b50b99dd9254a93e596da739760cd70"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.FilterFlipperUI.dll",
+    "bytes": 265112,
+    "sha256": "4639d4727952dd47d9db6449251456c3df32b9ca24fa171fb9217bb272e25921"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.GenericMotorCLI.dll",
+    "bytes": 525720,
+    "sha256": "0667f13be4363adbba156232ddeff30999c59d8383e7479e6b12f4b057683906"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.GenericMotorUI.dll",
+    "bytes": 2000280,
+    "sha256": "a5864ed188777b56c910f9bf601a56537b7bec146990b4210c6f2f796c16fd7d"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.GenericNanoTrakCLI.dll",
+    "bytes": 234904,
+    "sha256": "16d6858fae4384c3546aa88d705710baf279006c0fbe8531b7c4645a11ad1084"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.GenericNanoTrakUI.dll",
+    "bytes": 122776,
+    "sha256": "0fcf9a0c042307ac1b550d01fe26a6c3943e82a9eed7f90df3483895a815c4bc"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.GenericPiezoCLI.dll",
+    "bytes": 304536,
+    "sha256": "20a9ecdde172d8dc991ef04391d3100e9fdd2d3403661df26bd3db819d3ddbd1"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.GenericPiezoUI.dll",
+    "bytes": 231320,
+    "sha256": "e486ca4e4f83ddcea4d3cf86021fb4c4344d6956ca0dd58de5b5a795f74ebddc"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.IntegratedPrecisionPiezo.dll",
+    "bytes": 341912,
+    "sha256": "922116137e7e5ae3ebb51ca5e73f51557646ae90e895b9c035739ff0ac0ae3f2"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.IntegratedPrecisionPiezo.h",
+    "bytes": 82646,
+    "sha256": "54ce743fc6f82727369dd80267ab921a4ae6e297a20e01cb95bc265302f8d76f"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.IntegratedPrecisionPiezo.lib",
+    "bytes": 545326,
+    "sha256": "7c76da75b1d8f69627e3aec43b72a84c59317849218d970557f6d018deb36d06"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.IntegratedPrecisionPiezoCLI.dll",
+    "bytes": 254360,
+    "sha256": "88793195a95e8b6b7c2ed8dc556d9934c1d2dffd3c3007dccc7701c7c6201dd2"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.IntegratedPrecisionPiezoUI.dll",
+    "bytes": 668568,
+    "sha256": "95f084433383a6eba09c31ecd8a583fba6ba44905fd3d9303f04e462d8053709"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.IntegratedStepperMotors.dll",
+    "bytes": 456088,
+    "sha256": "05f8e831b7cf0c44183c8a607c99aefe6c2ecf4ca9755411bb6c13c7f495d1f7"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.IntegratedStepperMotors.h",
+    "bytes": 134629,
+    "sha256": "12850b643bc2bc5a58a38ac48a2494dc81e3433e92de9318aea7837028bd97ca"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.IntegratedStepperMotors.lib",
+    "bytes": 649530,
+    "sha256": "53bc6fcb53cd6ec60b249367a713ccb4b67d99c5cdf09699f1ac106f193a8c60"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.IntegratedStepperMotorsCLI.dll",
+    "bytes": 473496,
+    "sha256": "e4cfd47e60360cc4de60ab0d316b60568b98995b00965a19b51c09094a86b298"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.IntegratedStepperMotorsUI.dll",
+    "bytes": 1493400,
+    "sha256": "982f51f308c26312a6cb5429b976d715779418441a7255d7ac780a213f789dff"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Joystick.dll",
+    "bytes": 156056,
+    "sha256": "50e886b0fcd2e22d1f79f04b1c1201ce705f514891d707aeb31c0114d4c29c41"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.BrushlessMotor.dll",
+    "bytes": 297880,
+    "sha256": "aec19d31756666a052d6385952a090f82246fa31a52c606ccc6fd827aba88e9e"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.BrushlessMotor.h",
+    "bytes": 185952,
+    "sha256": "254a3bd9f98f52360650bfe14bae5032613ebdd058752c0e66dd7c743a464e17"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.BrushlessMotor.lib",
+    "bytes": 191466,
+    "sha256": "a70894b4dc78d34130ef0a4c419a3aab3a551d1191cce1979d61e2a5bac406d1"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.BrushlessMotorCLI.dll",
+    "bytes": 201624,
+    "sha256": "eccf8a6014d9cac93185250c44cb155a9433b1f127ab19bbc763cc1c9c161e48"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.BrushlessMotorUI.dll",
+    "bytes": 1008536,
+    "sha256": "a1de04978896cf198d7eebc535b886ab9c09e4dc2290a46c10e50dad4b69353b"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.DCServo.dll",
+    "bytes": 378776,
+    "sha256": "1f2b6d78c8d8981c7245648a224842a4fb77edb7e580c8548b5d33ef0711890d"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.DCServo.h",
+    "bytes": 166825,
+    "sha256": "dbdd04f706771a0ab551e23709a79a527612170b6f5dfb40c6cd81b088c1b15d"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.DCServo.lib",
+    "bytes": 553636,
+    "sha256": "b70acd44c2ce176b5e369e2e891a39a6a2ebe331e263037a20be9d4d0afa2f07"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.DCServoUI.dll",
+    "bytes": 521624,
+    "sha256": "fcf61c8d7356325949a5fd6545a29ebc933e1d536b7c3144d7fab2ead95bf235"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.InertialMotor.dll",
+    "bytes": 481688,
+    "sha256": "23430e73e5443ed36fc6606488114c582ce22853a09660ae16577d28c1d10ddd"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.InertialMotor.h",
+    "bytes": 117893,
+    "sha256": "5628c30be52180fdb57c215c2c8eea5865caf86181ec4f532d007122ebb51361"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.InertialMotor.lib",
+    "bytes": 634138,
+    "sha256": "b8b3a7c2507fd36b8aa5845c390aabba423fa5287d330375bdec87c3e49b9805"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.InertialMotorCLI.dll",
+    "bytes": 343960,
+    "sha256": "22c8f53543b3f04b952e60cf9dc50eabc42a7808f0cb6312f0fac53cde2ba9de"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.InertialMotorUI.dll",
+    "bytes": 3134360,
+    "sha256": "83957dbfef47e6689c6f5bc5d257e18ac02b7cf1a4c426932f5b89c5e70184e6"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.LaserDiode.dll",
+    "bytes": 367512,
+    "sha256": "2eabb82e7eb96ad92ea47a8e6b17e9169e67d07dfac5f79c7ab19d591ded021f"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.LaserDiode.h",
+    "bytes": 75019,
+    "sha256": "9443d3935feb81273052c2a73d0be3c9efd3ea60c99a5d6719cea96f2989cdc4"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.LaserDiode.lib",
+    "bytes": 569418,
+    "sha256": "7ffb7514a8f81e33b9a948c3c7a0a2e938e379469732935454a75cf3fa0a6140"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.LaserDiodeUI.dll",
+    "bytes": 1107864,
+    "sha256": "1935f63fff2617ed153c63a593f5adc9b043579ac9a741ed9d488e2bebc6fd4e"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.LaserSource.dll",
+    "bytes": 310680,
+    "sha256": "110eeac556c6af14a2697fdc5a2bba13e0d202f180290c02fb8eb7be08e9ccad"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.LaserSource.h",
+    "bytes": 63648,
+    "sha256": "5cca316a2ce4d6a1cb7a1fdc39d74dbfbdc219655fd06cec59d8794672afb688"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.LaserSource.lib",
+    "bytes": 456216,
+    "sha256": "9bfc36c3ad7b535aa5cb8e06a187273b2429366f4fcb1bdef5c88ebbc9dfdb05"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.LaserSourceUI.dll",
+    "bytes": 961944,
+    "sha256": "d03965646879e99df975b2c05c663f96c3a1aa33bae8e78d8ea685068e3b1c06"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.LiquidCrystal.dll",
+    "bytes": 299416,
+    "sha256": "ce95999be9902a6ef48355f4a724b0d0fca4c57ea9a05b6d92b1a697de21fffa"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.LiquidCrystal.h",
+    "bytes": 37506,
+    "sha256": "bb395ddf25dc1a057e1540cd2a91154b90f1fae371c4796265a506b753c1d712"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.LiquidCrystal.lib",
+    "bytes": 429088,
+    "sha256": "eaddec637f9e4508c6ca9e2e691f04193bc5deb6608a7433245a8bbd82107ca2"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.LiquidCrystalCLI.dll",
+    "bytes": 211864,
+    "sha256": "46f5bd4d244cffa03d769ec9f255682c587ba857e0d38c1aca0dcde1d238644e"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.LiquidCrystalUI.dll",
+    "bytes": 4568472,
+    "sha256": "d6dec15744ea56ece29c55647f9d919c50191dd596309d2385e8d80b148ed775"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.NanoTrak.dll",
+    "bytes": 271768,
+    "sha256": "7bb3e06e945280ea0040ffd0fb850763797a047b65b4ea7bc5a2e3548703ea11"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.NanoTrak.h",
+    "bytes": 121271,
+    "sha256": "ea4a057e67b42be5e263c73941db8cc14cbabb9a464e3f9ffeeb97aad2f48240"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.NanoTrak.lib",
+    "bytes": 331878,
+    "sha256": "39e3cb688f0206d45d3b6b423065dbaacd568f95b1f5b15cd9dbb1b0aea669b4"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.NanoTrakCLI.dll",
+    "bytes": 130456,
+    "sha256": "c9fbdc15bd618cfd71a7b67d5973973f9941918aa0732f4cb333dc8a811c4c2b"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.NanoTrakUI.dll",
+    "bytes": 805784,
+    "sha256": "5ab67a6cf76da03df70b9b25790d89bbca671192e1ecbbf39c6525d98bfc5894"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.Piezo.dll",
+    "bytes": 298392,
+    "sha256": "bcd988b4bab04c3bd1d2127776f368feb36a2551f0af4ca3302a16199d176b6b"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.Piezo.h",
+    "bytes": 97117,
+    "sha256": "59aca76769f7d2508d38c4801b62c720caa65e1bdce63333450c6ea2378020b1"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.Piezo.lib",
+    "bytes": 406452,
+    "sha256": "f4b5f81cab0783812578c473b570b1ab8cf9c99e5b46cd095e6925e6634d5755"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.PiezoCLI.dll",
+    "bytes": 121240,
+    "sha256": "67f24d37bd1580fb1efedea523fae28cea9ebd6715058ad67dea75ad6bd746f9"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.PiezoStrainGauge.dll",
+    "bytes": 334744,
+    "sha256": "20e00b8deeab3a5e82b3fed14ae4361b3573497847cac238657a42a04f7a605f"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.PiezoStrainGauge.h",
+    "bytes": 120032,
+    "sha256": "749bff076156a67030fbcdc9782c7eafc649f79d20a466ea667ebfb99263021e"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.PiezoStrainGauge.lib",
+    "bytes": 476944,
+    "sha256": "fc3af0cb7eb58a7cc49bc6cbf8af14eb38f314d7d21ce543894068951ff758f1"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.PiezoStrainGaugeCLI.dll",
+    "bytes": 135576,
+    "sha256": "5365955500ef14278fc8c45435166da77f76e79ec4715c3d111959461ef0d11c"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.PiezoStrainGaugeUI.dll",
+    "bytes": 571800,
+    "sha256": "bcf9120a14cc3357c13fc051810e1e0cdb4255a77bf0400c0484692ab38b930d"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.PiezoUI.dll",
+    "bytes": 523672,
+    "sha256": "655c491c2f2c899d18fdf237b9c811c88b605ce61ea8822bf8ac310aeb4acab3"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.PositionAligner.dll",
+    "bytes": 348568,
+    "sha256": "239d1aa3168515ba00136b566b43c10133ad8f75c4c8b7a1e3b0cd75d7351d15"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.PositionAligner.h",
+    "bytes": 73852,
+    "sha256": "1591450bb18b34a27cb9df0907c5443512803ffcb34a08e9f299606052120f2d"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.PositionAligner.lib",
+    "bytes": 528346,
+    "sha256": "bcedea067dd6170167454cdc8a47a5f4bd50688f093a2ce1ab39db8cdbce6c24"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.PositionAlignerUI.dll",
+    "bytes": 1101208,
+    "sha256": "54dcdb0ac880391336e8462844eeba59d325966eaa99cd477238ba3ef61526f3"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.Solenoid.dll",
+    "bytes": 315800,
+    "sha256": "30b42e61cbded1b64105e8bfcbc1e6352de52f3d01175389e89cab4dfa6eaa77"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.Solenoid.h",
+    "bytes": 68400,
+    "sha256": "528c5e92604710c258e5e67326ddeb7a8c9add2b297bd1d903e60ff02ef60445"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.Solenoid.lib",
+    "bytes": 447786,
+    "sha256": "952d94f9512d5bae3c39d72e988ac809e8774829b4aed9c8ae6e4541a5a6a1a7"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.SolenoidCLI.dll",
+    "bytes": 231832,
+    "sha256": "0adef825007d0afd5826b24659fa7d6d07fc93e7a3fd53de29e106fb95989379"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.SolenoidUI.dll",
+    "bytes": 1077144,
+    "sha256": "5420fa0319bf3c06f648560cc69bf3e3404c9009997f1bcb148dd089fff350e4"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.StepperMotor.dll",
+    "bytes": 406936,
+    "sha256": "8e68451b330f20ff487376e145aefaebf24797dd80e1966ef8d7ce1d4c7dfd91"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.StepperMotor.h",
+    "bytes": 176909,
+    "sha256": "bd89cbacb51415570dd93f0787f624be15f2efe004d545ae41632f1b4fcc393e"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.StepperMotor.lib",
+    "bytes": 602244,
+    "sha256": "7b679eadbb428966568390b810bf759279a0068d5ae976134843038d26bfc7f9"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.StepperMotorCLI.dll",
+    "bytes": 142232,
+    "sha256": "fd72b049434123d65949a350a7081d1f2f411a9e0cd7bad6f8a2ff42157a5473"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.StepperMotorUI.dll",
+    "bytes": 1077144,
+    "sha256": "60d9369c4a841d2e514d9133660facdda08abc6fffd4f0f3ed5f65fa1bb0782f"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.StrainGauge.dll",
+    "bytes": 273304,
+    "sha256": "65df56abdd5ff469e611fc072ca9cfe887aad0dc96e78f3d88f37212e8866b3b"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.StrainGauge.h",
+    "bytes": 84884,
+    "sha256": "ea6de2b458e6bc5cf6a1c77ba1d79fc57b283a6fdff3a105641873454a1cf509"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.StrainGauge.lib",
+    "bytes": 346646,
+    "sha256": "1e1c9adc20a1bb99dca4e6b3cf8b8507fced2d0b47c2bea5e896884777b0bddd"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCube.StrainGaugeUI.dll",
+    "bytes": 945560,
+    "sha256": "02680f87981080ff9176232a371223a62b07e0c7b9d91157e37f735e08d5e43b"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCubeEthernetHub.dll",
+    "bytes": 260504,
+    "sha256": "c8d8e584c40a123f8fc393054899b05df30b471c381bc9b56396f054a309abce"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCubeEthernetHub.h",
+    "bytes": 35658,
+    "sha256": "83fcb3e9420e8bf2a06413c642e4601b7074371289e6d9dc7ea785f77d88aa6a"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCubeEthernetHub.lib",
+    "bytes": 341196,
+    "sha256": "cf7b1ee4c2db37ca9ac7330dc0e7718f68c178d8b86bffc47fecd40afc4eb8b1"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCubeEthernetHubCLI.dll",
+    "bytes": 282520,
+    "sha256": "7fb4d237bc5410e2c17b9c4e81bb11506843ef1910f17ad496fc974b4f736074"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KCubeEthernetHubUI.dll",
+    "bytes": 411544,
+    "sha256": "97542f2029a8d4213a67929be47c2a13a58a01e3831a96d7aee85a5ee3adcec2"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Kinesis.exe.config",
+    "bytes": 1765,
+    "sha256": "570f15cf3824e6b5a99ed53d7f5771d73ea922990553d2d25b39b158887a3daa"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KinesisHelp.chm",
+    "bytes": 3825307,
+    "sha256": "7c2cb280ad7713ed766ed2f78d8557ed1e76dcba1ca5734aa4ac691241565141"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.KinesisSimulator.chm",
+    "bytes": 107583,
+    "sha256": "5ac5a98d82f1e7343905bd298463dd0a261ea35c44fc8fe729ffd948f2c04875"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.ModularRack.BrushlessMotor.h",
+    "bytes": 159435,
+    "sha256": "4c9cb99a4ff48bf32b81450664ff9dda33b37b888bcf39ecb4cd86b47aa4b113"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.ModularRack.NanoTrak.h",
+    "bytes": 76486,
+    "sha256": "29d501f7b8f5eff3dc3563784b843d54ccdc868d4ca78ecf35d502933dbfc6cb"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.ModularRack.Piezo.h",
+    "bytes": 34954,
+    "sha256": "cc307cdfbb8c6592e032e53a1a5b34f111427d53631443409e7d6d7053a99fc4"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.ModularRack.StepperMotor.h",
+    "bytes": 107932,
+    "sha256": "3e41633330d39b709180328a1d28e24741f1e269c9bef25628cff009cb8bff71"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.ModularRack.dll",
+    "bytes": 456088,
+    "sha256": "7d8d8350ba365fdfa9e235e718acd8116095f45bec2d630059dbdc23a0ba371a"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.ModularRack.lib",
+    "bytes": 500464,
+    "sha256": "f26e9792328a8ac90cfc695072012b1765024aef9bbac5b55aa4c208510c12e8"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.ModularRackCLI.dll",
+    "bytes": 254872,
+    "sha256": "99c63e953dc307881f8930e72a4388f803d8e7780ae8eea7ff2d16c2127fdd98"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.ModularRackUI.dll",
+    "bytes": 298904,
+    "sha256": "9814ef9319d51a90c140b79f8907523a4b049732eb8f47427270b9c88633ac24"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Polarizer.dll",
+    "bytes": 162712,
+    "sha256": "4fd20f97f46d0e19439182d5324e23b60985d371f5a9375f3a994a110cde413b"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Polarizer.h",
+    "bytes": 56515,
+    "sha256": "ab47a98856d21eae28068924637a05cea63d6a56cb01df801c280f1d584034cd"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Polarizer.lib",
+    "bytes": 100446,
+    "sha256": "acabab49d1f83d600efb73d8d981b87d884d6dcac30212639114096d03e18cc5"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.PolarizerUI.dll",
+    "bytes": 919960,
+    "sha256": "e1179f0b310789a1033d1592ad65ecd7cdaee09b85ff9b109dd0e3f2976dd1de"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.PositionReadoutEncoder.dll",
+    "bytes": 266136,
+    "sha256": "569a6ad5f8ff5aeab898b3326d20aad46699c61ca3c681ebeaf7ddbec703872e"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.PositionReadoutEncoder.h",
+    "bytes": 39163,
+    "sha256": "6c523622f7716b1d2b970b1591beace740c3ba3768a17d3e35a73f328763e7cc"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.PositionReadoutEncoder.lib",
+    "bytes": 381672,
+    "sha256": "773d07ddd5ac347574a2d1bbefeca2831421604f4b1de628dc1c2c72fc2ac6f5"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.PositionReadoutEncoderCLI.dll",
+    "bytes": 381848,
+    "sha256": "330eeb670c406e92d676e42d88ab7da885bb45d029dbb85780178c70b8b0238d"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.PositionReadoutEncoderUI.dll",
+    "bytes": 2079640,
+    "sha256": "0cf8fa640a5cea968b06e2f2e1886619185dc77a1d3a142053385cc2c647a8c2"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.PrivateInternal.dll",
+    "bytes": 432536,
+    "sha256": "a709d1dd20b1c6bd8e7f28b2c4c0d6c0d8de72e20d85e178b2aec1db876fdb97"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.BrushlessMotor.dll",
+    "bytes": 229784,
+    "sha256": "606c9ae5f0fb496b1e3ef53c61bec9cd97eceda264319e6cd6080c0205ac1756"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.BrushlessMotor.h",
+    "bytes": 136578,
+    "sha256": "4d359624c7ff7abeb33ea122c24a81318c6e623829c8ecc9910b79558feacaff"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.BrushlessMotor.lib",
+    "bytes": 152268,
+    "sha256": "bf33334485b1a743296f215f74f9c1e24d74e5f4cb1304902983932dbcf3c960"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.BrushlessMotorCLI.dll",
+    "bytes": 158104,
+    "sha256": "31f21c2ec85d3fbb9d22f464ecc1baacc1a97aca7fd891f37f980b08812d3fe7"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.BrushlessMotorUI.dll",
+    "bytes": 456088,
+    "sha256": "3c5f00b25ee954f53c0b9bc4ca2529924764136cd6c2aa5553b9773025820d80"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.DCServo.dll",
+    "bytes": 380312,
+    "sha256": "84939927b8969a9e6798cce1f79cea0c84c716ac0f368547e54325b87aed7b59"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.DCServo.h",
+    "bytes": 132784,
+    "sha256": "1b44b703d3f4e1fdd76300f4ce4062a0de4007b3aba57e3ba513193a430dd609"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.DCServo.lib",
+    "bytes": 554470,
+    "sha256": "b150d4d8792a705b5efaaa3f580a8c5f511ae416daa76c17300577fc55d6e873"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.DCServoCLI.dll",
+    "bytes": 136600,
+    "sha256": "908209ef90adc3d887bd4a7f349e13b1ed7699a5c98570f9c55baedf64d9133a"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.DCServoUI.dll",
+    "bytes": 358296,
+    "sha256": "4b994b8ac4cbd0c05a5dc70fdede0be704ea35e7a272e1899847667b6b725ef2"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.InertialMotor.dll",
+    "bytes": 339352,
+    "sha256": "7c3280225fff9003021782dae78a262d13eb3825cf4f512342ad51cd4b14668a"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.InertialMotor.h",
+    "bytes": 51444,
+    "sha256": "c0fe62d6db68fca0e7a43a539bea08a55e0efe3e48bbe870097005905fa4ba91"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.InertialMotor.lib",
+    "bytes": 455368,
+    "sha256": "204f5a9d96ed86747b53cb517838994a7ee969dbd8718236c6073f6550d5d50d"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.InertialMotorUI.dll",
+    "bytes": 840600,
+    "sha256": "3c7463919c4b0174e32989058a691d476ff99920d1602f6e3e7a6bec524b512c"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.LaserDiode.dll",
+    "bytes": 333720,
+    "sha256": "8076de78cf558211762d717213c5aeb942e7ec415c47ba4d0ac2122f9bc79158"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.LaserDiode.h",
+    "bytes": 57721,
+    "sha256": "8949c9d67d1732f90b4d9f85cd714bb15f1a844216ead64f6639ec7163581167"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.LaserDiode.lib",
+    "bytes": 498436,
+    "sha256": "562326eb0598210c1fe7d134ddb241541f000a3fd344096b85f9aca509e93ce2"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.LaserDiodeCLI.dll",
+    "bytes": 255384,
+    "sha256": "cb7af600c601e762af00a05a3bc7c63105c33de79107ebe4fbced036238dc7af"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.LaserDiodeUI.dll",
+    "bytes": 705432,
+    "sha256": "606f01bacf773d7b01474d647203c0ae7f5f21e00a4b4a66c052cfc86919ba28"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.LaserSource.dll",
+    "bytes": 295832,
+    "sha256": "5c526d2f3d3a8529360d7c9061d1573026d381ecfed8cf4f8ad4eea329cedbaa"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.LaserSource.h",
+    "bytes": 48841,
+    "sha256": "5fcec2429b6d82c7d78bb601c79ea74e9769f2df88315bc4bb9b845910c3e247"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.LaserSource.lib",
+    "bytes": 425358,
+    "sha256": "c027a78a552fd9d993b4ff155cc4b697cb2176a018d0cf15df99ebf2fab6df6b"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.LaserSourceCLI.dll",
+    "bytes": 228248,
+    "sha256": "f097471794aa67ebb57c2e87d5c477b0fd1363345d0de69706ee02497a41317a"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.LaserSourceUI.dll",
+    "bytes": 676248,
+    "sha256": "626edbda992009ed1193cddfd1e1a2427b5dc6aba6ef19c4afaece042ce6f7bb"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.NanoTrak.dll",
+    "bytes": 263064,
+    "sha256": "30368e9f81f985a2d27bedfe86397c5da5b9fb59530fada89d19e490690386d0"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.NanoTrak.h",
+    "bytes": 90338,
+    "sha256": "f358516a89aab416f1f86c3c88b75d63cd75686dba159ef5c5a7cde37d9c1778"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.NanoTrak.lib",
+    "bytes": 334132,
+    "sha256": "1982c52644d2b627314b3b696eebe08e288bd90596b1cf11f882ecbfb4ef93c2"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.NanoTrakCLI.dll",
+    "bytes": 111000,
+    "sha256": "e12ed970c7234580824ba5736e6759503ef2ba85523aedc5700433526152bfb3"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.NanoTrakUI.dll",
+    "bytes": 581528,
+    "sha256": "a487aa3bbf76c50cf452094d775c0e59e99c572a0d4e9eeb7e0db702392ca486"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.Piezo.dll",
+    "bytes": 298392,
+    "sha256": "038d24086516c5cf42df209778ad442449c70474d2cc1606af0aafb3250112cf"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.Piezo.h",
+    "bytes": 60401,
+    "sha256": "c959ee135651e2a489c65c06f2d64c89466b813e92920cf62197d9bc59ad51f3"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.Piezo.lib",
+    "bytes": 408602,
+    "sha256": "c372522ad14c238c9b40c492a0db54a5b046652c88bc6c063314dce891ceb6e0"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.PiezoCLI.dll",
+    "bytes": 113560,
+    "sha256": "ac4a111c505e6844358117629aa6a18d8d53dd5b27ea1416398b2bbcd9cf9f68"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.PiezoUI.dll",
+    "bytes": 475544,
+    "sha256": "6d86f93dcedc08dbb99b7d333f4c12f20f985ccb24eba28d0718eed45eb254c7"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.Quad.dll",
+    "bytes": 307096,
+    "sha256": "ee90a2bea9fb9525071daed358f9f2de6a5b6d22c24cfb6e21683cf0ca6dd971"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.Quad.h",
+    "bytes": 61372,
+    "sha256": "b07cc2f6ed68948071f42732c80ce828012e24e4f9fcc4b9f69338a51409c847"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.Quad.lib",
+    "bytes": 428562,
+    "sha256": "d8dc84d5ea066d311b46cdd6c919a09136e8566743f0d1bb9e36a06776f6e7cd"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.QuadCLI.dll",
+    "bytes": 176024,
+    "sha256": "56ff3e39e2ac374fe48feb34a7ede48338efb2fa7f49047ea706dbc0f1383626"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.QuadUI.dll",
+    "bytes": 749464,
+    "sha256": "ad62a5c280f7c11c2cf9ca056d0a35dadee3ec1fd77263e7aae5f46941b4ca67"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.Solenoid.dll",
+    "bytes": 289688,
+    "sha256": "c4f43c554da9373c1c382f2ab5ccac1dc069b129a9e1f5a733961a9cda48d1cf"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.Solenoid.h",
+    "bytes": 48161,
+    "sha256": "1299dbb8f7dcd804cd1843988d11da6baf9c8e62aa3ccee08dc9559b4cb1bb8e"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.Solenoid.lib",
+    "bytes": 405954,
+    "sha256": "206e1e3e2944f8ca62ea2c7c08600fe620d3c89c5e4cfd6476c4f53d1e525f38"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.SolenoidCLI.dll",
+    "bytes": 195480,
+    "sha256": "dfc3651fffeafba33a793b0482fb0345f32f1a342e5857092303a291200c83a1"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.SolenoidUI.dll",
+    "bytes": 357784,
+    "sha256": "73182741bfb60617029b7e3cd90b2740763cd0ea7f858728c8f3b5fc659db00c"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.StepperMotor.dll",
+    "bytes": 400280,
+    "sha256": "cedfeef47b5034641c15d5da40993c38ae8f9366a9189a43056440dcf09d15cd"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.StepperMotor.h",
+    "bytes": 138334,
+    "sha256": "c6e63c483c09c8770a3d3c8439c665db69953d34f61cd852312085366f745ad1"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.StepperMotor.lib",
+    "bytes": 585898,
+    "sha256": "117999a9554869b711236e7d6ba6896e006eab08127fc4cd16cc35dd72963d8f"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.StepperMotorCLI.dll",
+    "bytes": 141720,
+    "sha256": "52d3227ff356dc22db62ab8bce1f1818ca8a0123c44e5fa99319f8953dea0f76"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.StepperMotorUI.dll",
+    "bytes": 476568,
+    "sha256": "62581a3cbce488f0a04403d3d2b9670ce50b6ac0c1e8951448f505bbc2c591a1"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.StrainGauge.dll",
+    "bytes": 262040,
+    "sha256": "9b4719380c3b0849bc61f6fc64fca8a22e862ad9106e0b75595a7a7e62076355"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.StrainGauge.h",
+    "bytes": 59080,
+    "sha256": "c58a5709495fceac07f2788fc296b3cbce2226f3bce1773105815a7cf66f8f43"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.StrainGauge.lib",
+    "bytes": 331910,
+    "sha256": "6d20fc0ffde9f8165b2f8acecda90657aecaf77b9cbaccf0df86042f252b045a"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.StrainGaugeCLI.dll",
+    "bytes": 99736,
+    "sha256": "ba4705c77f190bd1858c6545634d61a55ac25c5b6f46194f94663140c60d7524"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.StrainGaugeUI.dll",
+    "bytes": 688024,
+    "sha256": "a0a8b196a21e9d4b9a5e5230697e52ff26211b183dd311f352401e6d4343f38a"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.TEC.dll",
+    "bytes": 303512,
+    "sha256": "6f565a0ff453577e27d116a1385215c976f88e5743a74ea4e92ff211db33577a"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.TEC.h",
+    "bytes": 50672,
+    "sha256": "0f3f780c5d58d5f59b161de37a764409b804b26589db11ce6f6ed4a8b2abc004"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.TEC.lib",
+    "bytes": 417912,
+    "sha256": "9e82ea4dccedd08c700a0baf4c41fb4d80138492ba6da293444db0f68920dc7a"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.TECCLI.dll",
+    "bytes": 229272,
+    "sha256": "187411662ad7fba9fc39939173c104c55178df7e8c97cc3baa424a7ec095ff17"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TCube.TECUI.dll",
+    "bytes": 659352,
+    "sha256": "c62e2665bd06591cefb2dc1bd99ed0c6cd4f5937e44659a0bf1392ab519bafc7"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TDIEngine.dll",
+    "bytes": 252824,
+    "sha256": "01db8d11d56868fbd80f4d9345af98989f95d22d39fb8629116b2dc3f40cd85f"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TDIEngine.h",
+    "bytes": 155532,
+    "sha256": "eec3b2ac2420f2ff3014737deaf21ad1b0e8bd1fd24e322227a92f13a92968ed"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TDIEngine.lib",
+    "bytes": 174178,
+    "sha256": "745295c027b633d5ea595e45023fdffe7d0c1fd75b83ac070999f6226c31ddef"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.TDIEngineUI.dll",
+    "bytes": 247192,
+    "sha256": "bdc5c678a69f34eabbdd134ec1c7623f60fd485b634f572b4afdd828e9d56f99"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Tools.Common.dll",
+    "bytes": 79768,
+    "sha256": "a34e2d105a21e94036bc500aa461bebce74e171c18a6a7a3041b8cf6631fb045"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Tools.Logging.dll",
+    "bytes": 44952,
+    "sha256": "308e7c6342d2b16433252d351450feac7cd6e6c82dffcf7abdf40477793b6486"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Tools.WPF.UI.dll",
+    "bytes": 456088,
+    "sha256": "a78f401318b1c5be6a50f385af1e09c4447c297204ec7579a063201dbde08d59"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.Tools.WPF.dll",
+    "bytes": 47000,
+    "sha256": "f81915244be5a685cd0e3df4d17fbaa429600d639e2e6bbe6e27b877f34439bd"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.VerticalStage.dll",
+    "bytes": 386456,
+    "sha256": "8844cb204f0ffa3274a894fd3003a181396066d8bfa2aaded5d2185f407783cc"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.VerticalStage.h",
+    "bytes": 147005,
+    "sha256": "75a40186e76dbcc364f24004c64a7f79e2389e758fc9f77a6dcebb70b27b93f5"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.VerticalStage.lib",
+    "bytes": 567592,
+    "sha256": "bc071b2e2fa682b0c90630bb89ef0c99985c97ad90981975982200745504a749"
+  },
+  {
+    "path": "Kinesis/Thorlabs.MotionControl.VerticalStageUI.dll",
+    "bytes": 354200,
+    "sha256": "276300a28b83a6260cebc8529783a5fdd63ab0c4598550f1dc8442af4ab751d3"
+  },
+  {
+    "path": "Kinesis/ThorlabsDefaultSettings.xml",
+    "bytes": 443491,
+    "sha256": "f6463a28337dc3ed58c367770f2a4fc8def661cd3c466a152ac520269583bfd7"
+  },
+  {
+    "path": "Kinesis/Xceed.Wpf.Toolkit.dll",
+    "bytes": 1115544,
+    "sha256": "b556016e4594535609326ecfb9f183bc6d331236bc16e4816c8a7df9ead47689"
+  },
+  {
+    "path": "Kinesis/ftd2xx.dll",
+    "bytes": 280464,
+    "sha256": "f075cfb72155347a1eebc7b347013c66127bad4ffb01d9b83f7949bf939f10b7"
+  },
+  {
+    "path": "Kinesis/x64/BBD_Stages.xml",
+    "bytes": 141297,
+    "sha256": "6ee53f5369a689420bb989f97c8b307fae626aafc2efc693fe66e548272564f9"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/APT USB Driver.cat",
+    "bytes": 11733,
+    "sha256": "0bc085e664c759502bed1063e249a3d89344b8163d513fa10962b0589007809e"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/APT USB Driver.inf",
+    "bytes": 2852,
+    "sha256": "5e2ce9dce08f2f252c10e42713cae9953fb24cd46c078ff50989cf13303b88f5"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/Static/amd64/ftd2xx.lib",
+    "bytes": 1129626,
+    "sha256": "37e63f78d2fb5aad09c28cf75295eec3976331ffae91c2d86813985e35575977"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/Static/i386/ftd2xx.lib",
+    "bytes": 1027798,
+    "sha256": "e02f8dc96eeaa891848693a90630c0a0a9c9922c3b4b6564fada4dadff926f31"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/amd64/ftbusui.dll",
+    "bytes": 176688,
+    "sha256": "b6dc9e5a8b1766f9b309cc2405954a41f9cd85b8c880fcf04475e8326bc1bc24"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/amd64/ftcserco.dll",
+    "bytes": 83544,
+    "sha256": "d132f3b901b18d9c75dedce45c088401ab537ab0206ed9f06868676cf72c56d6"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/amd64/ftd2xx.lib",
+    "bytes": 20260,
+    "sha256": "260a37aa3966aeee901dc8819c98e47bf47e61d5f724472559d33b55f4f9c271"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/amd64/ftd2xx64.dll",
+    "bytes": 323136,
+    "sha256": "3f3d9e4beff6b7a57f4116fb49c81afa55aeca978faf48576355d78bb2a3a87d"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/amd64/ftdibus.sys",
+    "bytes": 138032,
+    "sha256": "21a1006775d40764dfc75307df00ccbba0c18fd389af558364a6584696c5e47c"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/amd64/ftlang.dll",
+    "bytes": 283192,
+    "sha256": "0bb94e0f7bfb3b4d3ced531354201cd41e3b5368e77bae78b1ecace09ca5722a"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/amd64/ftser2k.sys",
+    "bytes": 98368,
+    "sha256": "9802c67f4c4526d15135a1c6c79ddd9975509cc09506fb04df23c3db47451aff"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/amd64/ftserui2.dll",
+    "bytes": 73816,
+    "sha256": "637b99191c868c8b43ddccd26b3e8acd7bd749079b3cd6c783be708136be5e57"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/ftd2xx.h",
+    "bytes": 40993,
+    "sha256": "cf2ad290c68137373b26629bf9feed6f4847f4e9e5cde4b980a212cebeb4ff6a"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/i386/ftbusui.dll",
+    "bytes": 164408,
+    "sha256": "a2bbb78df3423a1aac257d320fd5a44e0f9d7d6f9590a6fc7ce1cf97f7cc264e"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/i386/ftcserco.dll",
+    "bytes": 87128,
+    "sha256": "d61f6abea7ffd257137d3a239ac8600cc6189091f9f76e54d6f887aa55e14bd1"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/i386/ftd2xx.dll",
+    "bytes": 280256,
+    "sha256": "16ccd07c0105dba1eabbb59ebcf67878a0cfcddb5d208128378ebdde5555e07d"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/i386/ftd2xx.lib",
+    "bytes": 22190,
+    "sha256": "ad67a6a729759875a657f8c44e63224b16c183262d821bc5b9289ed68f9589db"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/i386/ftdibus.sys",
+    "bytes": 113776,
+    "sha256": "4c29a2c8a7c3ff9de71c7b0b3ac07391e1e51a441188639c12cc4e2a343dc250"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/i386/ftlang.dll",
+    "bytes": 262848,
+    "sha256": "ef4270615286caa6a71a325c63c4e8ac98abbb2637f11c340f02ace1090beb64"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/i386/ftser2k.sys",
+    "bytes": 84472,
+    "sha256": "a195b93cffb20126b50a3530f6359eac2dba922efe02155588d6bd3e67c789da"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/USB Driver/i386/ftserui2.dll",
+    "bytes": 71768,
+    "sha256": "96327e5da2e13c423fecac26333310c69583f5a4c38bda4c5ecac4456f864fef"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/APT USB Serial Port.cat",
+    "bytes": 10917,
+    "sha256": "b48ab2634e959d0f98ed408635b35bf6ff21d801682f4f113122ae1ee3b89c1e"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/APT USB Serial Port.inf",
+    "bytes": 3456,
+    "sha256": "81e77e57da0b61d6c9a7d3ce5090f0ef9edb810c312f072b16c81b527478b1bc"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/Static/amd64/ftd2xx.lib",
+    "bytes": 1129626,
+    "sha256": "37e63f78d2fb5aad09c28cf75295eec3976331ffae91c2d86813985e35575977"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/Static/i386/ftd2xx.lib",
+    "bytes": 1027798,
+    "sha256": "e02f8dc96eeaa891848693a90630c0a0a9c9922c3b4b6564fada4dadff926f31"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/amd64/ftbusui.dll",
+    "bytes": 176688,
+    "sha256": "b6dc9e5a8b1766f9b309cc2405954a41f9cd85b8c880fcf04475e8326bc1bc24"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/amd64/ftcserco.dll",
+    "bytes": 83544,
+    "sha256": "d132f3b901b18d9c75dedce45c088401ab537ab0206ed9f06868676cf72c56d6"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/amd64/ftd2xx.lib",
+    "bytes": 20260,
+    "sha256": "260a37aa3966aeee901dc8819c98e47bf47e61d5f724472559d33b55f4f9c271"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/amd64/ftd2xx64.dll",
+    "bytes": 323136,
+    "sha256": "3f3d9e4beff6b7a57f4116fb49c81afa55aeca978faf48576355d78bb2a3a87d"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/amd64/ftdibus.sys",
+    "bytes": 138032,
+    "sha256": "21a1006775d40764dfc75307df00ccbba0c18fd389af558364a6584696c5e47c"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/amd64/ftlang.dll",
+    "bytes": 283192,
+    "sha256": "0bb94e0f7bfb3b4d3ced531354201cd41e3b5368e77bae78b1ecace09ca5722a"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/amd64/ftser2k.sys",
+    "bytes": 98368,
+    "sha256": "9802c67f4c4526d15135a1c6c79ddd9975509cc09506fb04df23c3db47451aff"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/amd64/ftserui2.dll",
+    "bytes": 73816,
+    "sha256": "637b99191c868c8b43ddccd26b3e8acd7bd749079b3cd6c783be708136be5e57"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/ftd2xx.h",
+    "bytes": 40993,
+    "sha256": "cf2ad290c68137373b26629bf9feed6f4847f4e9e5cde4b980a212cebeb4ff6a"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/i386/ftbusui.dll",
+    "bytes": 164408,
+    "sha256": "a2bbb78df3423a1aac257d320fd5a44e0f9d7d6f9590a6fc7ce1cf97f7cc264e"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/i386/ftcserco.dll",
+    "bytes": 87128,
+    "sha256": "d61f6abea7ffd257137d3a239ac8600cc6189091f9f76e54d6f887aa55e14bd1"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/i386/ftd2xx.dll",
+    "bytes": 280256,
+    "sha256": "16ccd07c0105dba1eabbb59ebcf67878a0cfcddb5d208128378ebdde5555e07d"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/i386/ftd2xx.lib",
+    "bytes": 22190,
+    "sha256": "ad67a6a729759875a657f8c44e63224b16c183262d821bc5b9289ed68f9589db"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/i386/ftdibus.sys",
+    "bytes": 113776,
+    "sha256": "4c29a2c8a7c3ff9de71c7b0b3ac07391e1e51a441188639c12cc4e2a343dc250"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/i386/ftlang.dll",
+    "bytes": 262848,
+    "sha256": "ef4270615286caa6a71a325c63c4e8ac98abbb2637f11c340f02ace1090beb64"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/i386/ftser2k.sys",
+    "bytes": 84472,
+    "sha256": "a195b93cffb20126b50a3530f6359eac2dba922efe02155588d6bd3e67c789da"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/APT/VCP Driver/i386/ftserui2.dll",
+    "bytes": 71768,
+    "sha256": "96327e5da2e13c423fecac26333310c69583f5a4c38bda4c5ecac4456f864fef"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/Kinesis USB Driver.cat",
+    "bytes": 42332,
+    "sha256": "0d3c0aa6e77474d98e79f5606a267f8dea0bc034bef7d975d2bef92f2994ea4c"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/Kinesis USB Driver.inf",
+    "bytes": 34988,
+    "sha256": "1569c9bfc796b0f5f4d66f4fd58d10459b9417e122c5d3ebebc85637cc65248c"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/Static/amd64/ftd2xx.lib",
+    "bytes": 1129626,
+    "sha256": "37e63f78d2fb5aad09c28cf75295eec3976331ffae91c2d86813985e35575977"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/Static/i386/ftd2xx.lib",
+    "bytes": 1027798,
+    "sha256": "e02f8dc96eeaa891848693a90630c0a0a9c9922c3b4b6564fada4dadff926f31"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/amd64/ftbusui.dll",
+    "bytes": 176904,
+    "sha256": "eff5fe728df037258dc7a4db614fe6d091bb313396e987608bc603711b39478d"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/amd64/ftcserco.dll",
+    "bytes": 83752,
+    "sha256": "0ee2e1e6f7c0c71bff486178a249434437a23f75b396eb503f4cd48e1cfd0d25"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/amd64/ftd2xx.lib",
+    "bytes": 20260,
+    "sha256": "260a37aa3966aeee901dc8819c98e47bf47e61d5f724472559d33b55f4f9c271"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/amd64/ftd2xx64.dll",
+    "bytes": 323344,
+    "sha256": "209987479e602481f06f54e33105a4d8bf41de49d22b86da0e218657e5ac5c25"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/amd64/ftdibus.sys",
+    "bytes": 138240,
+    "sha256": "32d9786f91f7af2846cf179c77ae85fa868c8621b7b12cf4a5ed7eaaaf38f645"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/amd64/ftlang.dll",
+    "bytes": 283400,
+    "sha256": "aa60d075605ff6df0d334180ee3e2e316466b689b0aa94ba46ad17ab3b91536c"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/amd64/ftser2k.sys",
+    "bytes": 98576,
+    "sha256": "b9ce052ca1cfaf693733e725d01a58f89359aa291d49fe21d7279f392e397aa3"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/amd64/ftserui2.dll",
+    "bytes": 74024,
+    "sha256": "f0c6bdb151000f9d2ef0869a3bada00f40814a5e3e0418c8d0c9370326a0a047"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/ftd2xx.h",
+    "bytes": 40993,
+    "sha256": "cf2ad290c68137373b26629bf9feed6f4847f4e9e5cde4b980a212cebeb4ff6a"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/i386/ftbusui.dll",
+    "bytes": 164648,
+    "sha256": "c3bc73a0514745a823e2eef4afd116b5d8cb18e2e5498408e8ed24cb0095cd53"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/i386/ftcserco.dll",
+    "bytes": 87336,
+    "sha256": "a0614945789b77c3976e312a01a023fbbc9a5b17306487965d3fdd874dc54900"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/i386/ftd2xx.dll",
+    "bytes": 280464,
+    "sha256": "f075cfb72155347a1eebc7b347013c66127bad4ffb01d9b83f7949bf939f10b7"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/i386/ftd2xx.lib",
+    "bytes": 22190,
+    "sha256": "ad67a6a729759875a657f8c44e63224b16c183262d821bc5b9289ed68f9589db"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/i386/ftdibus.sys",
+    "bytes": 113984,
+    "sha256": "76f8249317db7e3879bcf768ccc01394a8839d2e08b8b347c7c269c1a77f4265"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/i386/ftlang.dll",
+    "bytes": 263056,
+    "sha256": "70797a3dcf616ffabd1e550de4834d2483f9237cba10c2660cb3363b6423b61d"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/i386/ftser2k.sys",
+    "bytes": 84680,
+    "sha256": "14161bb2249280ed86f238985e4c83bd6cd16291fa2cebb1af36a11df2169b34"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/USB Driver/i386/ftserui2.dll",
+    "bytes": 71976,
+    "sha256": "54ea779727214f5de0343b4eb11e301f0e015fed7315f937fbc547f932cd7c4a"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/Kinesis USB Serial Port.cat",
+    "bytes": 41097,
+    "sha256": "b000af9aa0144ea21434a6ce67da7dbc6931fe785e194525246cc455a1485f13"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/Kinesis USB Serial Port.inf",
+    "bytes": 37705,
+    "sha256": "0d468f3c821bb4a8dcc67e1655df05bf3db1917cc4232644cc289604cc0e2aad"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/Static/amd64/ftd2xx.lib",
+    "bytes": 1129626,
+    "sha256": "37e63f78d2fb5aad09c28cf75295eec3976331ffae91c2d86813985e35575977"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/Static/i386/ftd2xx.lib",
+    "bytes": 1027798,
+    "sha256": "e02f8dc96eeaa891848693a90630c0a0a9c9922c3b4b6564fada4dadff926f31"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/amd64/ftbusui.dll",
+    "bytes": 176904,
+    "sha256": "eff5fe728df037258dc7a4db614fe6d091bb313396e987608bc603711b39478d"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/amd64/ftcserco.dll",
+    "bytes": 83752,
+    "sha256": "0ee2e1e6f7c0c71bff486178a249434437a23f75b396eb503f4cd48e1cfd0d25"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/amd64/ftd2xx.lib",
+    "bytes": 20260,
+    "sha256": "260a37aa3966aeee901dc8819c98e47bf47e61d5f724472559d33b55f4f9c271"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/amd64/ftd2xx64.dll",
+    "bytes": 323344,
+    "sha256": "209987479e602481f06f54e33105a4d8bf41de49d22b86da0e218657e5ac5c25"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/amd64/ftdibus.sys",
+    "bytes": 138240,
+    "sha256": "32d9786f91f7af2846cf179c77ae85fa868c8621b7b12cf4a5ed7eaaaf38f645"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/amd64/ftlang.dll",
+    "bytes": 283400,
+    "sha256": "aa60d075605ff6df0d334180ee3e2e316466b689b0aa94ba46ad17ab3b91536c"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/amd64/ftser2k.sys",
+    "bytes": 98576,
+    "sha256": "b9ce052ca1cfaf693733e725d01a58f89359aa291d49fe21d7279f392e397aa3"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/amd64/ftserui2.dll",
+    "bytes": 74024,
+    "sha256": "f0c6bdb151000f9d2ef0869a3bada00f40814a5e3e0418c8d0c9370326a0a047"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/ftd2xx.h",
+    "bytes": 40993,
+    "sha256": "cf2ad290c68137373b26629bf9feed6f4847f4e9e5cde4b980a212cebeb4ff6a"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/i386/ftbusui.dll",
+    "bytes": 164648,
+    "sha256": "c3bc73a0514745a823e2eef4afd116b5d8cb18e2e5498408e8ed24cb0095cd53"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/i386/ftcserco.dll",
+    "bytes": 87336,
+    "sha256": "a0614945789b77c3976e312a01a023fbbc9a5b17306487965d3fdd874dc54900"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/i386/ftd2xx.dll",
+    "bytes": 280464,
+    "sha256": "f075cfb72155347a1eebc7b347013c66127bad4ffb01d9b83f7949bf939f10b7"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/i386/ftd2xx.lib",
+    "bytes": 22190,
+    "sha256": "ad67a6a729759875a657f8c44e63224b16c183262d821bc5b9289ed68f9589db"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/i386/ftdibus.sys",
+    "bytes": 113984,
+    "sha256": "76f8249317db7e3879bcf768ccc01394a8839d2e08b8b347c7c269c1a77f4265"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/i386/ftlang.dll",
+    "bytes": 263056,
+    "sha256": "70797a3dcf616ffabd1e550de4834d2483f9237cba10c2660cb3363b6423b61d"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/i386/ftser2k.sys",
+    "bytes": 84680,
+    "sha256": "14161bb2249280ed86f238985e4c83bd6cd16291fa2cebb1af36a11df2169b34"
+  },
+  {
+    "path": "Kinesis/x64/Drivers/Kinesis/VCP Driver/i386/ftserui2.dll",
+    "bytes": 71976,
+    "sha256": "54ea779727214f5de0343b4eb11e301f0e015fed7315f937fbc547f932cd7c4a"
+  },
+  {
+    "path": "Kinesis/x64/ThorLabs.MotionControl.Benchtop.DCServoCLI.dll",
+    "bytes": 237976,
+    "sha256": "48e5fdc04cc1dc52b2580fc16a984887aceec94c791ce6b1f9f185e3ac3d4798"
+  },
+  {
+    "path": "Kinesis/x64/ThorLabs.MotionControl.Benchtop.PrecisionPiezoCLI.dll",
+    "bytes": 171416,
+    "sha256": "d93ff90d29fef73514c5616c4e7af3245ae549af4a8eacea1d9cf439862f92bc"
+  },
+  {
+    "path": "Kinesis/x64/ThorLabs.MotionControl.FilterFlipper.h",
+    "bytes": 45554,
+    "sha256": "a3bc97cfb1e52b74b94cecfd73c43757f8d5729ea01ca798a77636ce6aa45490"
+  },
+  {
+    "path": "Kinesis/x64/ThorLabs.MotionControl.KCube.DCServoCLI.dll",
+    "bytes": 139672,
+    "sha256": "33267f66a91e390e7fc4c125abb5aab744d6797ae216bb73cfa4de7059ed844d"
+  },
+  {
+    "path": "Kinesis/x64/ThorLabs.MotionControl.KCube.LaserDiodeCLI.dll",
+    "bytes": 296344,
+    "sha256": "f18814c73cb83b7e50c97dced99bfe9b0cb8dec898b96dd07634c7352082d1d1"
+  },
+  {
+    "path": "Kinesis/x64/ThorLabs.MotionControl.KCube.LaserSourceCLI.dll",
+    "bytes": 254872,
+    "sha256": "dae14a4c875c4465795bfb0f4a6661e85bca67d1d27370111fb1cf2a73c3bff3"
+  },
+  {
+    "path": "Kinesis/x64/ThorLabs.MotionControl.KCube.PositionAlignerCLI.dll",
+    "bytes": 213400,
+    "sha256": "fc51f57b831965f74d138e2e234af9f58bd77b17cdf1a0d35af2940f8a2b1e0b"
+  },
+  {
+    "path": "Kinesis/x64/ThorLabs.MotionControl.KCube.StrainGaugeCLI.dll",
+    "bytes": 113560,
+    "sha256": "f60ec9f44578feb7b051fbdefbc5f452d1aed42bf7eda31570339b852586f596"
+  },
+  {
+    "path": "Kinesis/x64/ThorLabs.MotionControl.ModularRack.h",
+    "bytes": 27713,
+    "sha256": "ec0840455daa8f93bc41621651f8d3c0a5b528e4e23cf9d111d72f7e17c03ce8"
+  },
+  {
+    "path": "Kinesis/x64/ThorLabs.MotionControl.PolarizerCLI.dll",
+    "bytes": 393624,
+    "sha256": "f03c46448096800bf5b9a18c894f8720c43645776bd7b02d4f3e85240304c4b9"
+  },
+  {
+    "path": "Kinesis/x64/ThorLabs.MotionControl.TCube.InertialMotorCLI.dll",
+    "bytes": 270744,
+    "sha256": "6c4974ff40d4a3fe0f8f20d0d7a70f1bfad90d8a3dae6b3464381682ec980c7f"
+  },
+  {
+    "path": "Kinesis/x64/ThorLabs.MotionControl.TDIEngineCLI.dll",
+    "bytes": 178584,
+    "sha256": "ed5039a61a50484dfafaddb5ce6fb22432a63ade7e3300aca68f8aa680133d0c"
+  },
+  {
+    "path": "Kinesis/x64/ThorLabs.MotionControl.VerticalStageCLI.dll",
+    "bytes": 150936,
+    "sha256": "21d811e94d83331e085df809b151993e4765dcbb32645ff4cb4b42d24e453f14"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.APT.dll",
+    "bytes": 143768,
+    "sha256": "71c001943e6f5759100c018a7389f051096817b316b1aae74e08abc2b0a13a70"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.BrushlessMotor.dll",
+    "bytes": 565144,
+    "sha256": "0afee6ee25836aac710ea7cdad31b0780434696f87fdc74e952e29eed3cfd3f6"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.BrushlessMotor.h",
+    "bytes": 225684,
+    "sha256": "65832a889d8dee98c60884377a569d3467081553c3e747c4c73648e6880c79cf"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.BrushlessMotor.lib",
+    "bytes": 445548,
+    "sha256": "dda53e34e696f02b9e4630aa4fba12497ec4fa11333462321a659040542e5cbb"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.BrushlessMotorCLI.dll",
+    "bytes": 261528,
+    "sha256": "1e6a1297f62492e63b61166e3687f96e9a6bbfaea5fdc3eff3d1f5497238e3ee"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.BrushlessMotorUI.dll",
+    "bytes": 927640,
+    "sha256": "265b2d6a755fab2548aa02040f0cde6d00f86bd855e20224ac88a202dbf1287c"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.DCServo.dll",
+    "bytes": 605592,
+    "sha256": "a7e8d8f2509bb727ad7c29fb60248e385003054350bb3d2d69c961213a6fd4df"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.DCServo.h",
+    "bytes": 173821,
+    "sha256": "b0052b29b8e6532dd3ae542fc68b8276e4577f71f7dc72a4eaedd85d9a1554f4"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.DCServo.lib",
+    "bytes": 701132,
+    "sha256": "afca8457a3c949ebf37996ca4212535e9f1fed4e3e95de5e9280edd293c997f6"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.DCServoUI.dll",
+    "bytes": 2361752,
+    "sha256": "5e8a9d32b7d58f2f997aa9687affabe2a1a8397491d91b49c076ae10ebd8375c"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.NanoTrak.dll",
+    "bytes": 353176,
+    "sha256": "3849e7d2c708b54cf602c0110d6c957d8df8648723fc0266894db59986a237c9"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.NanoTrak.h",
+    "bytes": 94289,
+    "sha256": "1a253c25776f2fdf15b2578847ee31b30cf4f5fb86794ef5e1c11ebff2c84cec"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.NanoTrak.lib",
+    "bytes": 436442,
+    "sha256": "9a71c5ee106eb23e275a8b4ced77afa9c457fa6f43ae838abfce2cfdd17cc533"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.NanoTrakCLI.dll",
+    "bytes": 118168,
+    "sha256": "0b98254a7096a5349f486a702fb9b2172356d12162ea8072fcf12e09d167cf2b"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.NanoTrakUI.dll",
+    "bytes": 369560,
+    "sha256": "cd31ddaf96234dba441fb2ac1af058584a52f6d944183949e051fd11394f88f6"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.Piezo.PDXC2.h",
+    "bytes": 56578,
+    "sha256": "841e502bb670cb73f4fc8c5da8a4cdd3ac2b0fc01cebeac30096f0c5bddb575d"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.Piezo.UDXC.h",
+    "bytes": 51458,
+    "sha256": "1622fa00c1cabfb635fc756dd7f78bcee773984083a6ef3477f1fed070dcef47"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.Piezo.dll",
+    "bytes": 699288,
+    "sha256": "d4a3b6cc8fe4145bb3b35dae800bff34c9f8af8496f51140cf0a50c5d07e7dd5"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.Piezo.h",
+    "bytes": 68400,
+    "sha256": "7d81eb27ef0f13811a19755253f9de584067b3d5b3e36f8400c65d15daadb8d0"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.Piezo.lib",
+    "bytes": 979690,
+    "sha256": "2853fb25c754dc1cc982387480734b9dc4649beb5af760c0c27dba7585d466e7"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.PiezoCLI.dll",
+    "bytes": 442264,
+    "sha256": "14dda47ead196e6cf4dc35d6e03878620fccce3cad2fe57bfab2aa490e136958"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.PiezoUI.dll",
+    "bytes": 1723288,
+    "sha256": "4abd10ea8ac77249035bc4b5b2c3dca3d36a991bdf2e36f365faf04dd2db7703"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.PrecisionPiezo.dll",
+    "bytes": 469912,
+    "sha256": "a49623e8e5aed1ca25d22ed41e01369ed0325101a428d6bea2bdffca3afacdb3"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.PrecisionPiezo.h",
+    "bytes": 113899,
+    "sha256": "bafc4ba3b5849d92f38b0f939205ad38194721db13d73b7894b2426ae08f9bfd"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.PrecisionPiezo.lib",
+    "bytes": 646198,
+    "sha256": "4dae43444cf9dc4927785fe0720431ccd4dca3130fb6c5067fa05efaaa8fe701"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.PrecisionPiezoUI.dll",
+    "bytes": 1560472,
+    "sha256": "54e0d20d88d69845765961de280793180167546941374c30487c76f434793c8d"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.StepperMotor.dll",
+    "bytes": 523672,
+    "sha256": "7ead79b65a0d5cd80551960ff0b0d95cc0137147a8c20a88cfa617e8d0a2e2fb"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.StepperMotor.h",
+    "bytes": 158064,
+    "sha256": "4ce4ecc728fa0f25290331a2a477955e70510014590252b73427638bfc200cc1"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.StepperMotor.lib",
+    "bytes": 626328,
+    "sha256": "c85c0b3802ec180b9dbf5627e3628912697fef5d1a4a911bca90a2f211cf5eb1"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.StepperMotorCLI.dll",
+    "bytes": 190872,
+    "sha256": "4db17f578d1552608a04f93c22950c9cdea5167a0de5a86c06af35d405f05d7f"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Benchtop.StepperMotorUI.dll",
+    "bytes": 1120152,
+    "sha256": "4a3cdb145a7ea6aa43abf16a08fd12f718c6d88ea29608cc4ab508e8b1319a4d"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.C_API.chm",
+    "bytes": 20186112,
+    "sha256": "332786bcd2fc8cf850bc09c9a610ba4f2e94a08a8c19b5dc10c40ee54e556520"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Controls.dll",
+    "bytes": 141720,
+    "sha256": "d434fcddb57340774248345eb9d1054bc6b797345d5c9da688e8693f8bb9ce88"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.DataLogger.dll",
+    "bytes": 102808,
+    "sha256": "5acefabf16132486565e29509777350cb476dd45be5c01ed8c8ac9449358ca96"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.DeviceManager.dll",
+    "bytes": 3247000,
+    "sha256": "6a554f0eb124c6ae0993a38ed94a522764f390c60b59beed011b9213fb2807ee"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.DeviceManagerCLI.dll",
+    "bytes": 800152,
+    "sha256": "9d85efffc391ce3ff4a026c9ffeb9736a7c7f56b1a38ca85802d231cd9e8ef09"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.DeviceManagerUI.dll",
+    "bytes": 1734040,
+    "sha256": "3a748256fd6f5a87b9e3f2f1dc9e83b1fe3b662879299df8096bcd4bbc1a14b5"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.DotNet_API.chm",
+    "bytes": 20411242,
+    "sha256": "2f7a2298f4523c354358914c231e43f4de65782667d8b05cc2cb1387441378c7"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.FTD2xx_Net.dll",
+    "bytes": 30104,
+    "sha256": "c9300bdf3246c271d94cfd5183759796ad3785c72699ee49a91d8cefc46d81e3"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.FilterFlipper.dll",
+    "bytes": 168856,
+    "sha256": "4579ef0ffb933bef0b6abab85a9fc012b77e87998a8dead73b466f4772eaf2ea"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.FilterFlipper.lib",
+    "bytes": 77976,
+    "sha256": "dd36b210661d1e8cbdd6da6e7aa55e813e642d7abfa5a77861417262a13c2e29"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.FilterFlipperCLI.dll",
+    "bytes": 142744,
+    "sha256": "6bf47279d8c272d81268dee415a80651bed302cd5ded4259aadee7f90b21e743"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.FilterFlipperUI.dll",
+    "bytes": 264600,
+    "sha256": "ebcaf65b42adbe4d95086a2400cdece51462ae2ba6acbce947af1d5daee2b73b"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.GenericMotorCLI.dll",
+    "bytes": 535448,
+    "sha256": "1f0ad1806054650f75900e38ece969786629575672761296ff5c7039eaeb8530"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.GenericMotorUI.dll",
+    "bytes": 1992088,
+    "sha256": "5be0eec4790ca9b16ade1528ef524443f8737f9e3a9cb3957fd3b182914ed20a"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.GenericNanoTrakCLI.dll",
+    "bytes": 240536,
+    "sha256": "dcc588fc3f954bedcd6045604deda6b1c6923aad165eedffa6e7149cf77fdeeb"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.GenericNanoTrakUI.dll",
+    "bytes": 122264,
+    "sha256": "da643ead94736bda7a0e53a35558a53c7aa84910685828da75858539d2d5d36f"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.GenericPiezoCLI.dll",
+    "bytes": 311704,
+    "sha256": "9de27fa73b73900586512b07568a42b354b9119164fd0f1442e393b13ca4c388"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.GenericPiezoUI.dll",
+    "bytes": 230808,
+    "sha256": "319a2959658c1ad41927837d0b4f5c1acfe7508093adb46a385b2249728ae9e8"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.IntegratedPrecisionPiezo.dll",
+    "bytes": 399256,
+    "sha256": "a0efefcfcc4836cb2516c6d2e5bfa444385711e2078439d39b8ec777439845ae"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.IntegratedPrecisionPiezo.h",
+    "bytes": 82646,
+    "sha256": "54ce743fc6f82727369dd80267ab921a4ae6e297a20e01cb95bc265302f8d76f"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.IntegratedPrecisionPiezo.lib",
+    "bytes": 550360,
+    "sha256": "9dcf5a1b5b49683231e8d1397839e55996981adfc0a44cffdd352340933a2058"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.IntegratedPrecisionPiezoCLI.dll",
+    "bytes": 275352,
+    "sha256": "67952f533275a253e2980753f53f92ff36702328edf0a37838ed26f7b0e9ef6e"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.IntegratedPrecisionPiezoUI.dll",
+    "bytes": 668056,
+    "sha256": "466b3a946c77bb90182402e03a140ebb992444633bce120d28f4aa4747011c05"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.IntegratedStepperMotors.dll",
+    "bytes": 539032,
+    "sha256": "31a6bcade506819a9af06d06f15fe1213208ce56c41b6a9882e2e17711a10d93"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.IntegratedStepperMotors.h",
+    "bytes": 134629,
+    "sha256": "12850b643bc2bc5a58a38ac48a2494dc81e3433e92de9318aea7837028bd97ca"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.IntegratedStepperMotors.lib",
+    "bytes": 655324,
+    "sha256": "5c870055633d776dfd08d7db83d059637f208af104d39d21a6d67109a309b90f"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.IntegratedStepperMotorsCLI.dll",
+    "bytes": 639896,
+    "sha256": "099823ea2c0e8ac2908e2c91edff43a9217a1a2192f999a94557ed09887141c0"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.IntegratedStepperMotorsUI.dll",
+    "bytes": 1492888,
+    "sha256": "b0bc866ecf94af90b137161a9cc692683aa76a7cf3577077969a9adb2c0a245b"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Joystick.dll",
+    "bytes": 155544,
+    "sha256": "93bb541c2b87179cac6bc9843279167f374e0f3b6b47ec7bcd9514791459612f"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.BrushlessMotor.dll",
+    "bytes": 345496,
+    "sha256": "79e93495759a7a34f6a48c01a93bdfababb1c9fbd279fbca0b0fbf483984653f"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.BrushlessMotor.h",
+    "bytes": 185952,
+    "sha256": "254a3bd9f98f52360650bfe14bae5032613ebdd058752c0e66dd7c743a464e17"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.BrushlessMotor.lib",
+    "bytes": 191858,
+    "sha256": "fd5a993c2c5d1e5659b2617075864715ab5b164d9506f4cb3b49d72a75a206c7"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.BrushlessMotorCLI.dll",
+    "bytes": 211352,
+    "sha256": "92a975e02c4fb3b8b78afa7b44ca8e27edaee0ba19ae9b11e361ba33fcd2d5be"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.BrushlessMotorUI.dll",
+    "bytes": 1008024,
+    "sha256": "36c56eb89662ff31ad15932eb62f86d212588fc908a52563863ceaaae2d238eb"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.DCServo.dll",
+    "bytes": 439704,
+    "sha256": "5b69c23a05b1535255fba4cbfa11f10e68aebf8132c9b7e8ad23ff7caa178d6e"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.DCServo.h",
+    "bytes": 166825,
+    "sha256": "dbdd04f706771a0ab551e23709a79a527612170b6f5dfb40c6cd81b088c1b15d"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.DCServo.lib",
+    "bytes": 558730,
+    "sha256": "e664ef8dd27221637e41ec8cefd03e5110a93c3285432c6ad19b9ce12a2be17d"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.DCServoUI.dll",
+    "bytes": 521112,
+    "sha256": "b7f6f2158100a3e09ae087e00932127a8815394ced90e1b15a80a4af58fca6c9"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.InertialMotor.dll",
+    "bytes": 568216,
+    "sha256": "6b79a2c3c16b228d778d73ecf8807d13caecca545f5aeb45029f26f10a6de36e"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.InertialMotor.h",
+    "bytes": 117893,
+    "sha256": "5628c30be52180fdb57c215c2c8eea5865caf86181ec4f532d007122ebb51361"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.InertialMotor.lib",
+    "bytes": 639754,
+    "sha256": "6132ad3b9a538fda70b32b804e20fbbd2a0af2a6ab2eafc9e77006cc501270e5"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.InertialMotorCLI.dll",
+    "bytes": 360344,
+    "sha256": "c8cc43678d3832bb31800c72edf120c01c3d1bbc91649b41f176b4bf5e62b3ae"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.InertialMotorUI.dll",
+    "bytes": 3133848,
+    "sha256": "a6d7f69767141d7fa9e27c361c800bae92f2adce9daa6402d5273d49d11715aa"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.LaserDiode.dll",
+    "bytes": 437144,
+    "sha256": "1dbd39e88ce18173ae778e635be66661174a72b8aa46232d91657bd0c31ad730"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.LaserDiode.h",
+    "bytes": 75019,
+    "sha256": "9443d3935feb81273052c2a73d0be3c9efd3ea60c99a5d6719cea96f2989cdc4"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.LaserDiode.lib",
+    "bytes": 575050,
+    "sha256": "32567c3bb695c91d90457ee7b1e862e35fee7e5677a226468191dd3fe01c6350"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.LaserDiodeUI.dll",
+    "bytes": 1106840,
+    "sha256": "46cec9b2749591488785895580963084bc22fc9d41d78245c9e521e8bb266f20"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.LaserSource.dll",
+    "bytes": 364952,
+    "sha256": "69724db2bd06cf39d5bfb9ec0484581e1270471d235700d26c9c0b813294d664"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.LaserSource.h",
+    "bytes": 63648,
+    "sha256": "5cca316a2ce4d6a1cb7a1fdc39d74dbfbdc219655fd06cec59d8794672afb688"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.LaserSource.lib",
+    "bytes": 460776,
+    "sha256": "cfb647c4ae97c58cdedc29856d0632994a25e3f7f6d6b2eece7170bca53ff19a"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.LaserSourceUI.dll",
+    "bytes": 961432,
+    "sha256": "6e6e0def852814fcd5733914670973b52d015fdfdd73cdf067c7ab3be56fd31f"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.LiquidCrystal.dll",
+    "bytes": 352664,
+    "sha256": "3ed16c9e4530710d784304049e6c03b8bb473126c692be91e32351cb041b52dd"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.LiquidCrystal.h",
+    "bytes": 37506,
+    "sha256": "bb395ddf25dc1a057e1540cd2a91154b90f1fae371c4796265a506b753c1d712"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.LiquidCrystal.lib",
+    "bytes": 433418,
+    "sha256": "a09e7e1e0aae25e1ed88f871f895d03c9a460787b0696888186a0ea01af36ad5"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.LiquidCrystalCLI.dll",
+    "bytes": 230808,
+    "sha256": "c4b77c5aa506ba22e9c400017503da21b7ae3b29b78b12e63ff088f6159e0ffe"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.LiquidCrystalUI.dll",
+    "bytes": 4567448,
+    "sha256": "b62424084f7320a15865a38da2287423529834b58b38df9850ca152409ab7cad"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.NanoTrak.dll",
+    "bytes": 312216,
+    "sha256": "e1bc21a8ea589575d23fee1271edb1d3ba7702095765b1ffdb6892d8e13a7434"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.NanoTrak.h",
+    "bytes": 121271,
+    "sha256": "ea4a057e67b42be5e263c73941db8cc14cbabb9a464e3f9ffeeb97aad2f48240"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.NanoTrak.lib",
+    "bytes": 334766,
+    "sha256": "23155646ec5cccbaa5d07945aef8f9cd17324cad18507c1740861415a388dc0a"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.NanoTrakCLI.dll",
+    "bytes": 137112,
+    "sha256": "343486553753595dd8f76c7d6fcdbfffb4ecc5f58159adeda5e867f8cd6cf5d9"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.NanoTrakUI.dll",
+    "bytes": 805272,
+    "sha256": "d502db940b074da43631cc4182577deb52a793661af606ba1f6586dd3fadceaa"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.Piezo.dll",
+    "bytes": 345496,
+    "sha256": "26ed6af7d5be7fc61071ef952757948e9e4c5de454720cdb5ac93295b800c615"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.Piezo.h",
+    "bytes": 97117,
+    "sha256": "59aca76769f7d2508d38c4801b62c720caa65e1bdce63333450c6ea2378020b1"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.Piezo.lib",
+    "bytes": 410418,
+    "sha256": "ca017b77d16d84c0032d6dfd18462eb0228c72fee5ad844a2653f415209814a6"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.PiezoCLI.dll",
+    "bytes": 128408,
+    "sha256": "3f770816ead8a4a7853343f7308ac3bd7b807ac017eeb90326befb88983274c5"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.PiezoStrainGauge.dll",
+    "bytes": 389016,
+    "sha256": "314f06e393d872109d6e4dbc82cb4f258689a3287e67668540bdb519f0652501"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.PiezoStrainGauge.h",
+    "bytes": 120032,
+    "sha256": "749bff076156a67030fbcdc9782c7eafc649f79d20a466ea667ebfb99263021e"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.PiezoStrainGauge.lib",
+    "bytes": 481338,
+    "sha256": "af05d23b0bbbd452f28bac30842a557533a7a39b7f323dc329954f8f168a34a2"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.PiezoStrainGaugeCLI.dll",
+    "bytes": 142232,
+    "sha256": "6f3bfd4fce02ae699b7bfca6e694c26cce4fc5bd85c1c31496e9d714f4a76549"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.PiezoStrainGaugeUI.dll",
+    "bytes": 571288,
+    "sha256": "0bb6b0dbc8b542c8aafac33904d5a505547e637ec3727ee09259af816cfc0f13"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.PiezoUI.dll",
+    "bytes": 523160,
+    "sha256": "7d0d0b60daa0522124883d70c6960ca85548dc13ac984973042675b663a860ac"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.PositionAligner.dll",
+    "bytes": 410008,
+    "sha256": "e5ef31f12c83b94099a755ba6e6b8fb58a9bd9b7d010d553856fb66c53cbbe71"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.PositionAligner.h",
+    "bytes": 73852,
+    "sha256": "1591450bb18b34a27cb9df0907c5443512803ffcb34a08e9f299606052120f2d"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.PositionAligner.lib",
+    "bytes": 533474,
+    "sha256": "6c49299410381352a4e5fec04b76be8dcd12eb1c02a33476d72a9e002880375c"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.PositionAlignerUI.dll",
+    "bytes": 1100696,
+    "sha256": "74d6a51771e4510112b0efc4370727420150ad2c662e1a84d6275e9dc239fd76"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.Solenoid.dll",
+    "bytes": 368536,
+    "sha256": "9c0021baaefa14c89bc5a1a5a05b0ea081e0ed728738e09d51331849f2ce963d"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.Solenoid.h",
+    "bytes": 68400,
+    "sha256": "528c5e92604710c258e5e67326ddeb7a8c9add2b297bd1d903e60ff02ef60445"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.Solenoid.lib",
+    "bytes": 452306,
+    "sha256": "de0f4b11cb421a9f673c0a2697352fb01a1bd2261bd906526c3b24bb37c302bf"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.SolenoidCLI.dll",
+    "bytes": 246168,
+    "sha256": "b4b033a228dffb41a9a9c570e1e2587c69e92619b6c3f8631e040b63c9974cb7"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.SolenoidUI.dll",
+    "bytes": 1076632,
+    "sha256": "c9481e10011fcf27670512c543501e8f89cf108b6710a815032378e187b369bb"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.StepperMotor.dll",
+    "bytes": 471448,
+    "sha256": "d7480a5530cfa6792a0b747210e2ee272103f3ca5074933b3339c0746f07e6f9"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.StepperMotor.h",
+    "bytes": 176909,
+    "sha256": "bd89cbacb51415570dd93f0787f624be15f2efe004d545ae41632f1b4fcc393e"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.StepperMotor.lib",
+    "bytes": 607754,
+    "sha256": "e267bd49f2d53abb736dd1d963eb5a6bd73b34223dc1d43c3be2b67039d1e453"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.StepperMotorCLI.dll",
+    "bytes": 150936,
+    "sha256": "70919f4fa0f85f0b7f7bb7b256afca1d5ff17f5336f2963199dc6949db19477c"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.StepperMotorUI.dll",
+    "bytes": 1076632,
+    "sha256": "06db450f517117306d75d04f5d490d81197d7e9f6e1dc987a817c94be1513594"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.StrainGauge.dll",
+    "bytes": 317336,
+    "sha256": "602240787ea941c7e05be46f434e7c442aac57fd73fc8f41d673f1517b6c5f3c"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.StrainGauge.h",
+    "bytes": 84884,
+    "sha256": "ea6de2b458e6bc5cf6a1c77ba1d79fc57b283a6fdff3a105641873454a1cf509"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.StrainGauge.lib",
+    "bytes": 349948,
+    "sha256": "7d3a63b629283abcee704825d7bcef1dad9fa05dbb2c696a14bfef687bb3f087"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCube.StrainGaugeUI.dll",
+    "bytes": 945048,
+    "sha256": "5d42662e7dee24581541726df7ffeeb451e9b80ccb80ce19fe8104d11703bb6a"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCubeEthernetHub.dll",
+    "bytes": 305048,
+    "sha256": "94952cffef230f238cc118828ae12e90acd29e42cef2be37b14d3631e54716c7"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCubeEthernetHub.h",
+    "bytes": 35658,
+    "sha256": "83fcb3e9420e8bf2a06413c642e4601b7074371289e6d9dc7ea785f77d88aa6a"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCubeEthernetHub.lib",
+    "bytes": 344706,
+    "sha256": "ebf761011546317cc33664f8d44878c40499a14543840f490f1b2499612f4841"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCubeEthernetHubCLI.dll",
+    "bytes": 359320,
+    "sha256": "385630bbadd6cc315ad254dffb32b909c97c6bf8eead761ab0169e9c98acde30"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KCubeEthernetHubUI.dll",
+    "bytes": 411032,
+    "sha256": "7f0dd83eead5e9d642b68dd39b12130f164e1aa23217aaf40c32a650efe87bc1"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Kinesis.exe.config",
+    "bytes": 1765,
+    "sha256": "570f15cf3824e6b5a99ed53d7f5771d73ea922990553d2d25b39b158887a3daa"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KinesisHelp.chm",
+    "bytes": 3825307,
+    "sha256": "7c2cb280ad7713ed766ed2f78d8557ed1e76dcba1ca5734aa4ac691241565141"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.KinesisSimulator.chm",
+    "bytes": 107583,
+    "sha256": "5ac5a98d82f1e7343905bd298463dd0a261ea35c44fc8fe729ffd948f2c04875"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.ModularRack.BrushlessMotor.h",
+    "bytes": 159435,
+    "sha256": "4c9cb99a4ff48bf32b81450664ff9dda33b37b888bcf39ecb4cd86b47aa4b113"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.ModularRack.NanoTrak.h",
+    "bytes": 76486,
+    "sha256": "29d501f7b8f5eff3dc3563784b843d54ccdc868d4ca78ecf35d502933dbfc6cb"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.ModularRack.Piezo.h",
+    "bytes": 34954,
+    "sha256": "cc307cdfbb8c6592e032e53a1a5b34f111427d53631443409e7d6d7053a99fc4"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.ModularRack.StepperMotor.h",
+    "bytes": 107932,
+    "sha256": "3e41633330d39b709180328a1d28e24741f1e269c9bef25628cff009cb8bff71"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.ModularRack.dll",
+    "bytes": 548248,
+    "sha256": "3971b6a80962324166b78f2c1a39cbf839a98f8b8991455aa5926c00150982d1"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.ModularRack.lib",
+    "bytes": 502000,
+    "sha256": "2612c7161dc7b0c9fbd43b86f6dc3363ad9d835fec0bd14f141ffd7432de43eb"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.ModularRackCLI.dll",
+    "bytes": 270232,
+    "sha256": "031773e6d00e782a3e3b93b97280fd64615cc8fd88eef732f0f49e7ec8a1a1e3"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.ModularRackUI.dll",
+    "bytes": 298392,
+    "sha256": "5bf890dfb1ffd7d298b36163fa97bffce91a47165617755d91d8d8e0163ef3aa"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Polarizer.dll",
+    "bytes": 187800,
+    "sha256": "4f152cbf0afb3e9f33f17a640e2cfde267ed4fc3cb95e4c33fb2153c7c1ba034"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Polarizer.h",
+    "bytes": 56515,
+    "sha256": "ab47a98856d21eae28068924637a05cea63d6a56cb01df801c280f1d584034cd"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Polarizer.lib",
+    "bytes": 101032,
+    "sha256": "ee793ea41a3471f229812d06cbad8e75c3af1693c4cd72d100f3dbff233b6118"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.PolarizerUI.dll",
+    "bytes": 919448,
+    "sha256": "b4b406129fbc30321e1624c5c0a4d4a1bd1df6c0b9acdc67957813dd3b78dd37"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.PositionReadoutEncoder.dll",
+    "bytes": 308120,
+    "sha256": "ae55868df5de602c3748df22e9f5710c0fefb7db38cac9389ff24ba7e7e1ea67"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.PositionReadoutEncoder.h",
+    "bytes": 39163,
+    "sha256": "6c523622f7716b1d2b970b1591beace740c3ba3768a17d3e35a73f328763e7cc"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.PositionReadoutEncoder.lib",
+    "bytes": 385406,
+    "sha256": "a8c6cfc4e7a8893642b60573d96976e25463bf14d08e5a0d0c459c7b56b94727"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.PositionReadoutEncoderCLI.dll",
+    "bytes": 528792,
+    "sha256": "7f2af68c10bc96f3e3f6e5ac809cd9a6400364c0d8454601c324fbdc9f4205a4"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.PositionReadoutEncoderUI.dll",
+    "bytes": 2079128,
+    "sha256": "7c5778ce2977ef2ed0e43e84d8b6daca426dd784b95742c1f295ecdf2adb921b"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.PrivateInternal.dll",
+    "bytes": 432024,
+    "sha256": "27d7f383467a8e5757f1fb36028ab4d182664c6cfbbd928861a1e3f40b72abe3"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.BrushlessMotor.dll",
+    "bytes": 264600,
+    "sha256": "04da60d5f3caced8b1186fbbe3f28cdaec52a84c6b0187d170b8e4c8b45a48c8"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.BrushlessMotor.h",
+    "bytes": 136578,
+    "sha256": "4d359624c7ff7abeb33ea122c24a81318c6e623829c8ecc9910b79558feacaff"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.BrushlessMotor.lib",
+    "bytes": 152528,
+    "sha256": "a9072d2ae2da18607bad9dac0cb944290f57190273c7867f68d64c8def754a21"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.BrushlessMotorCLI.dll",
+    "bytes": 166296,
+    "sha256": "68d52b4f6fae16f5711a893ef7f997fae8c5ecf3db45b1ffcbef64ccf645ef9e"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.BrushlessMotorUI.dll",
+    "bytes": 455576,
+    "sha256": "67c7d8ef20e91aabb5f8692aee4130895aeab31b8c91faee6e047e30390d2feb"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.DCServo.dll",
+    "bytes": 440728,
+    "sha256": "82fe7da6cfde603b9fc07d0194e370db888fbde06bdd3ecd09554c9301096ab7"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.DCServo.h",
+    "bytes": 132784,
+    "sha256": "1b44b703d3f4e1fdd76300f4ce4062a0de4007b3aba57e3ba513193a430dd609"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.DCServo.lib",
+    "bytes": 559670,
+    "sha256": "592fa16c0647f4e3e35090c983c116ef12b2aaf672c524900159f7fd0401e1be"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.DCServoCLI.dll",
+    "bytes": 144280,
+    "sha256": "61a42a5d2ad986b27f7c0a336937f3ec3627149b7f9386b94ab6cd01b8efae3e"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.DCServoUI.dll",
+    "bytes": 357784,
+    "sha256": "62b8c0c9e6fc362be7a842e07e3dcd1619f4a7ccabbc0bba2bab042654ebf495"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.InertialMotor.dll",
+    "bytes": 402840,
+    "sha256": "5c6143a9d46086237ae61b0d26bdaa7cada67b65b8f490230d9c4f590de4e3c0"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.InertialMotor.h",
+    "bytes": 51444,
+    "sha256": "c0fe62d6db68fca0e7a43a539bea08a55e0efe3e48bbe870097005905fa4ba91"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.InertialMotor.lib",
+    "bytes": 459696,
+    "sha256": "3fb97627e8181be42d8f29e9ff0747e77e0b7d140ba060d02f9012bcd033fc47"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.InertialMotorUI.dll",
+    "bytes": 840088,
+    "sha256": "f08ab929309d17bd6cdef311f7eee7fd0a8777d352d1ef1fe729d3b6638431aa"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.LaserDiode.dll",
+    "bytes": 394648,
+    "sha256": "b903f818cb2ff2809313fae1591c9fb3e0fd5ee0d4efb332709b7aa7962133af"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.LaserDiode.h",
+    "bytes": 57721,
+    "sha256": "8949c9d67d1732f90b4d9f85cd714bb15f1a844216ead64f6639ec7163581167"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.LaserDiode.lib",
+    "bytes": 503446,
+    "sha256": "fb470529b3673bd9043333cc81776c173925ee66e02be517f3ad52fc923df952"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.LaserDiodeCLI.dll",
+    "bytes": 274840,
+    "sha256": "d1af5c7f47ad0a11bffbd69e8f900effba09fff3b357e0a533c538e4656464ec"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.LaserDiodeUI.dll",
+    "bytes": 704920,
+    "sha256": "d115e75c5e34d2286160de331515c8cbe0cc66e8855c26b9b73e6c5235a8d3cb"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.LaserSource.dll",
+    "bytes": 346520,
+    "sha256": "41aabfa416d37d268a488b820bf71d87d232d2bf568e3bfcd40ab1c30eb86318"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.LaserSource.h",
+    "bytes": 48841,
+    "sha256": "5fcec2429b6d82c7d78bb601c79ea74e9769f2df88315bc4bb9b845910c3e247"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.LaserSource.lib",
+    "bytes": 429670,
+    "sha256": "ad11c9acaceec01c146290926ef86317ffc3959608ce46818be42f5557a64854"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.LaserSourceCLI.dll",
+    "bytes": 247704,
+    "sha256": "dc682f4773b04b31477d4773736a989b028446d451fa8513578fa1f6d7519720"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.LaserSourceUI.dll",
+    "bytes": 675736,
+    "sha256": "f956995040eea9a09df3462b2bfce136f21b7db332eec322a869ccf332165227"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.NanoTrak.dll",
+    "bytes": 302488,
+    "sha256": "19e918166b1f20cb06a8b7f2d5324c26e341fa43ba9975895f93f31f56c9c073"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.NanoTrak.h",
+    "bytes": 90338,
+    "sha256": "f358516a89aab416f1f86c3c88b75d63cd75686dba159ef5c5a7cde37d9c1778"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.NanoTrak.lib",
+    "bytes": 337214,
+    "sha256": "5cba25e60455014fc10979d4ed7de9c74710c29f1709fd2336a993fcc7fbfffe"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.NanoTrakCLI.dll",
+    "bytes": 117656,
+    "sha256": "2c6cda41b08275aadcd3c305e4c86074b05aedc2ed24a197f2ba1919ce3d4ed5"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.NanoTrakUI.dll",
+    "bytes": 581016,
+    "sha256": "16d187d81ddfbe7573e19a71f4c0724a9bc6c975501edd9ccc1c32b3b36f0b62"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.Piezo.dll",
+    "bytes": 346520,
+    "sha256": "9d9c466b6b9533e810334422396b09e4bfa7f6d225f39e405bc06005eeb2d6a5"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.Piezo.h",
+    "bytes": 60401,
+    "sha256": "c959ee135651e2a489c65c06f2d64c89466b813e92920cf62197d9bc59ad51f3"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.Piezo.lib",
+    "bytes": 412752,
+    "sha256": "a1137bdb1bf17192525b520b66a9f9082802e0c25a4f5da6ed8d54d5b0847d04"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.PiezoCLI.dll",
+    "bytes": 120728,
+    "sha256": "7ce1712f34d4a1f80078c1369420e4f23e5fc2553561600d5455a125ed0c368d"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.PiezoUI.dll",
+    "bytes": 475032,
+    "sha256": "2c76a7fd86353432b329c942cf66d040d8aa8515845a725a718075eb267ca1c8"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.Quad.dll",
+    "bytes": 358808,
+    "sha256": "7efa78d3d29ff3dd76051abfe52dbd2a4669787568c276d39e8ee4335cf70d71"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.Quad.h",
+    "bytes": 61372,
+    "sha256": "b07cc2f6ed68948071f42732c80ce828012e24e4f9fcc4b9f69338a51409c847"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.Quad.lib",
+    "bytes": 433030,
+    "sha256": "f2bd0d4ed9e39d5d3c2f15d27f5558c97652bbd45634dd5c27c49bdb79244284"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.QuadCLI.dll",
+    "bytes": 184216,
+    "sha256": "9001b097ecba5f916ecb626ed4e20bed1e74660a0ecd6f7a235ee3ebf6134f78"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.QuadUI.dll",
+    "bytes": 748952,
+    "sha256": "fe12fbab2914cef3dc61b7b505e4d33905ef51ac5941501ea5570613d0c5e742"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.Solenoid.dll",
+    "bytes": 337304,
+    "sha256": "b22f61f6d5d8273f4fceb1a11b620c1ed5f80b4c90c67ad26452b7072d440edf"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.Solenoid.h",
+    "bytes": 48161,
+    "sha256": "1299dbb8f7dcd804cd1843988d11da6baf9c8e62aa3ccee08dc9559b4cb1bb8e"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.Solenoid.lib",
+    "bytes": 410160,
+    "sha256": "27523743141bb8f6295759c9e32b27a8dbbc133b1bbfa5deccd4e0117edbc428"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.SolenoidCLI.dll",
+    "bytes": 208280,
+    "sha256": "f71a8b3117b1f918a08bae9d1be44c236c1d11ef60fe4cd133572c1900850cf5"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.SolenoidUI.dll",
+    "bytes": 357272,
+    "sha256": "557ab1672235649f85de37210673893c42414332d7a2c6e91bb44b53187f9d76"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.StepperMotor.dll",
+    "bytes": 464280,
+    "sha256": "fcf49f0bc2e871507ca978202db59ef1f405007e639b72cf3f826bc8ae2b0fe2"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.StepperMotor.h",
+    "bytes": 138334,
+    "sha256": "c6e63c483c09c8770a3d3c8439c665db69953d34f61cd852312085366f745ad1"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.StepperMotor.lib",
+    "bytes": 591292,
+    "sha256": "c4f33259aae2dd013757f2e44c1d0fe4e4964cc397d9227877602dae19ea34d5"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.StepperMotorCLI.dll",
+    "bytes": 149912,
+    "sha256": "c0eb63bb24fae8dcebb35156dc8a9b187d7749082e0511d36b2dff131e4aade8"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.StepperMotorUI.dll",
+    "bytes": 476056,
+    "sha256": "6b7761b3d3a42665dba6a7bf369f281e07d5ac094329ace3fe899903dbeb03c9"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.StrainGauge.dll",
+    "bytes": 305560,
+    "sha256": "f5389644a8fb6de29177a4a849fbb9d684ddac7d082a51e47c3460f460d1f261"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.StrainGauge.h",
+    "bytes": 59080,
+    "sha256": "c58a5709495fceac07f2788fc296b3cbce2226f3bce1773105815a7cf66f8f43"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.StrainGauge.lib",
+    "bytes": 335228,
+    "sha256": "aaea92d595d8936423923633d57ccd3c25721701824632939476bbc191d5c1ca"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.StrainGaugeCLI.dll",
+    "bytes": 106392,
+    "sha256": "f8d1e16a57de78d017141590392aa1a394d39353134da141df8459780d03a618"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.StrainGaugeUI.dll",
+    "bytes": 687512,
+    "sha256": "162e68a0fc27ff6ef14eee1725495ca74b440ef381819cd9089e090b6378b776"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.TEC.dll",
+    "bytes": 358808,
+    "sha256": "cdfdd3e98a725b22c3712a9dc595c82bac724801cecd219963b4e3b813084026"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.TEC.h",
+    "bytes": 50672,
+    "sha256": "0f3f780c5d58d5f59b161de37a764409b804b26589db11ce6f6ed4a8b2abc004"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.TEC.lib",
+    "bytes": 422318,
+    "sha256": "e1974df415854594eb9eb76497d953a33d60151b4ea01eed062ce9bd4bcd5de5"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.TECCLI.dll",
+    "bytes": 246680,
+    "sha256": "c43ffece5a09ffe0794106cd19f632d97964a89933aa419344305e1b8c3e4dd8"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TCube.TECUI.dll",
+    "bytes": 658328,
+    "sha256": "171020699e28d21308a618f54054c1097e131f6393c8e74f72781b8b910f51f9"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TDIEngine.dll",
+    "bytes": 303000,
+    "sha256": "752c30cd105e0ce9e467495f443c2c7e55166189758fe98b2d5783d8ba94d32a"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TDIEngine.h",
+    "bytes": 155532,
+    "sha256": "eec3b2ac2420f2ff3014737deaf21ad1b0e8bd1fd24e322227a92f13a92968ed"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TDIEngine.lib",
+    "bytes": 174702,
+    "sha256": "27a0503ce192eacf82334b4caa94650f1ac524ed5bc843f3de697a094627d852"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.TDIEngineUI.dll",
+    "bytes": 246680,
+    "sha256": "023f468e584860109d61c752d0cc22408a268d1b389fe9170826a2a1ba1cf34e"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Tools.Common.dll",
+    "bytes": 79256,
+    "sha256": "f8efa0ba2f80cb42e2f2a6d16366a73fd6b063d626e1c60701ad22ed3676a9be"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Tools.Logging.dll",
+    "bytes": 43928,
+    "sha256": "a6ef0f604bb2baf3a5fba4b32e331e61a95bfcc4649f0d293ed8ebd07d44fb4a"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Tools.WPF.UI.dll",
+    "bytes": 455576,
+    "sha256": "9d80ce68b10513bddd370552fb1c953e82531af899631809f5e12fb4bcb03de5"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.Tools.WPF.dll",
+    "bytes": 46488,
+    "sha256": "cd570fc4c965ac16a6887d5cf59300ab7b31ba1c43f2eb546487bcae71794ce9"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.VerticalStage.dll",
+    "bytes": 446872,
+    "sha256": "5404a4aa387c63b24571487b7bbfd1b21e6dbea6b70d42d4451b4d4d6f298100"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.VerticalStage.h",
+    "bytes": 147005,
+    "sha256": "75a40186e76dbcc364f24004c64a7f79e2389e758fc9f77a6dcebb70b27b93f5"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.VerticalStage.lib",
+    "bytes": 572904,
+    "sha256": "31e9af59ef344b9f089e74a3c2fd604151211950e9c59d89333562d81129caa1"
+  },
+  {
+    "path": "Kinesis/x64/Thorlabs.MotionControl.VerticalStageUI.dll",
+    "bytes": 353688,
+    "sha256": "b94c9be475478d66eb5616313c4d2cbf7685a752311ed4f34fb57741a083e8ab"
+  },
+  {
+    "path": "Kinesis/x64/ThorlabsDefaultSettings.xml",
+    "bytes": 443245,
+    "sha256": "e15d8e1e1c06be2ac48f67d9f73d46088ee5d574ee7bb995176e84ec8445c9a6"
+  },
+  {
+    "path": "Kinesis/x64/Xceed.Wpf.Toolkit.dll",
+    "bytes": 1115544,
+    "sha256": "abb59e44478abc839b70772308d6514d23c55c9d7646119b05cd23a150968a1e"
+  },
+  {
+    "path": "Kinesis/x64/ftd2xx.dll",
+    "bytes": 323344,
+    "sha256": "97a3a8ea6e20da7b64fe2aa4e94e855e1e3b64865122b6c4a1bf4c9c53e133a9"
+  },
+  {
+    "path": "MVSDK.cs",
+    "bytes": 398613,
+    "sha256": "dc6ac7a3454d7edfd0835928d665d147f29b2c85e5ac9828b301f8e1b218310d"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/ArrayTest.cpp",
+    "bytes": 2610,
+    "sha256": "b7fed155904adc1cff1c6713dbaa33db85b4b6df649384bb9313c0c4be52b093"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/CommPortCallbackTest.cpp",
+    "bytes": 1473,
+    "sha256": "0f7e0b947930a8f3a37cee6c00ac5cbd3db7c008eb2981c1b368c574bf98ff02"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/GetModuleAndDevice.cpp",
+    "bytes": 3075,
+    "sha256": "f92c518ca9b0d35a87179a184f4539d3c3490658d2d6acce06c1ce4c72be11d0"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/HypterTerminalTest.cpp",
+    "bytes": 2350,
+    "sha256": "f584dfc14af851fcccef4df90e3262dd340d05be2df2a1342049ac3a91b391b4"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/ParameterTest.cpp",
+    "bytes": 6189,
+    "sha256": "4def2d9fe14b7492ddf96223b914a2592c5ce3d8e1b9e11dafa61cc1850482fe"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/ProfileTest.cpp",
+    "bytes": 3544,
+    "sha256": "a9c6fb723e28b56dc27b10b9e2382a610e3baaed1ad41df30e4bae20b01fe328"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/SC30_C++_Demo.cpp",
+    "bytes": 3072,
+    "sha256": "d7a43d80104ce3e477f55cfcdfcc5485825408e96535be337bc1716dcb360dba"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/SC30_C++_Demo.vcxproj",
+    "bytes": 9007,
+    "sha256": "14d9b9dd2fb8c76993d8af03fbd2a38bdd7a9c6c9c88bc6f40c3e0c0391aae92"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/SC30_C++_Demo.vcxproj.filters",
+    "bytes": 1918,
+    "sha256": "099b9a78ec5b7f4919c4d8a072b56a95a58bc88dc3ec8fd320ed2fc7767b91b5"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/SDK/TL_DeviceSDK.lib",
+    "bytes": 9902,
+    "sha256": "acf2c5b1ba4f13ffe8730f2c5b541d399e97f7cf2e78c0557c1fe49ea72b5ace"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/SDK/TL_DeviceSDK_def.h",
+    "bytes": 2820,
+    "sha256": "5a22dc9be886a52849284ccebce6fc48610b122beed55ae92267677819591003"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/SDK/tl_devicesdk.h",
+    "bytes": 5838,
+    "sha256": "9aa0ca94f9582dee000c99d61e0ebb8e7e6cc668111bdf54c21fe084c72ded8a"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/SystemNotificationTest.cpp",
+    "bytes": 1015,
+    "sha256": "a415b8b90413f2b74eaa2d4b9f68061fc4f2879c807f1b0f5e4c2730e0f24faa"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/TestFunctions.cpp",
+    "bytes": 4809,
+    "sha256": "d98b594d9325a8e3f8e309c335b5a2f9915c9a6375367581a7177811728bf702"
+  },
+  {
+    "path": "TL_Devices/SC30/Examples/C++/TestFunctions.h",
+    "bytes": 2156,
+    "sha256": "1014591f553fd027e6aa2c0c4a2215ee728ae31f7cfb1efba0f1869770452df5"
+  },
+  {
+    "path": "TL_Devices/SC30/License/Common Service Locator/LICENSE.txt",
+    "bytes": 2629,
+    "sha256": "2b91a668e3970cdb14ac554dface84a49148d8a28124155094437cdb1e353c1b"
+  },
+  {
+    "path": "TL_Devices/SC30/License/Prism/license.txt",
+    "bytes": 1099,
+    "sha256": "1fac9fa40428fe9bf1340479c7378c494849a7f1ff6467c9661af219ae952a5b"
+  },
+  {
+    "path": "TL_Devices/SC30/License/README.txt",
+    "bytes": 105,
+    "sha256": "3b19588ab197c15a1e40b9ba637e3aed64cfdb628a2d5008d9001c99b78c33b2"
+  },
+  {
+    "path": "TL_Devices/SC30/License/Telerik/Telerik End-User License Agreement.txt",
+    "bytes": 92548,
+    "sha256": "a63fd844effed6f9a29bdd0f98a16f28128ea47f1c4c2a45c686aa8867c3a4ef"
+  },
+  {
+    "path": "TL_Devices/SC30/License/Thorlabs/Thorlabs End-user License.rtf",
+    "bytes": 38697,
+    "sha256": "79c853310bbec03e009312d934f79633c0b6b5ba508a8a1aa5f10f381975eb2c"
+  },
+  {
+    "path": "TL_Devices/SC30/License/Thorlabs/Thorlabs End-user License.txt",
+    "bytes": 4301,
+    "sha256": "90ddec115235a3be0101b97e660c79be65593a163a68db33773b63d7d5d811ee"
+  },
+  {
+    "path": "TL_Devices/SC30/Localization/CN.language",
+    "bytes": 5596,
+    "sha256": "9f634eb8dcc04947067689a1833e94c6b3f1a71253e57b2cf3245bf409e144dc"
+  },
+  {
+    "path": "TL_Devices/SC30/Localization/EN.language",
+    "bytes": 3347,
+    "sha256": "62258a794f39c8962d3a37473e929a10ee162593568aab2baf4c17937fbb61fa"
+  },
+  {
+    "path": "TL_Devices/SC30/MVVMFramework.dll",
+    "bytes": 11776,
+    "sha256": "6c53bfaa3e62152854526973d90e0c7134e286a29e055e71792e1b52718f7498"
+  },
+  {
+    "path": "TL_Devices/SC30/Microsoft.Expression.Interactions.dll",
+    "bytes": 91648,
+    "sha256": "f3b14defbd05493b8573016b08b86e5b5d53b486b0457fd75f67bf8bff04be38"
+  },
+  {
+    "path": "TL_Devices/SC30/Microsoft.Expression.Interactions.xml",
+    "bytes": 76763,
+    "sha256": "6208068dd16a2c1c79faa2e29ca029b59de06cd66f16d9dc27edabb8ffebad48"
+  },
+  {
+    "path": "TL_Devices/SC30/Microsoft.Practices.ServiceLocation.dll",
+    "bytes": 18112,
+    "sha256": "34005d6a80434542780c6d192e6abd07bea49b2eeb7e43fbfdfe90c2889986e5"
+  },
+  {
+    "path": "TL_Devices/SC30/Microsoft.Practices.Unity.Configuration.dll",
+    "bytes": 81408,
+    "sha256": "3a97fd8012be6a66f3372ae6f58a84754c3e43e86b02d8c60c2ec9ada881c53f"
+  },
+  {
+    "path": "TL_Devices/SC30/Microsoft.Practices.Unity.RegistrationByConvention.dll",
+    "bytes": 23552,
+    "sha256": "22bb16dd9b375d60601ab589654056630c0842ef971d847e430af212110d22c4"
+  },
+  {
+    "path": "TL_Devices/SC30/Microsoft.Practices.Unity.dll",
+    "bytes": 135680,
+    "sha256": "9dc599dd6d60cb53c4a2cc8a532ee9c2a7f4c91f3ed1fd14b000fde1bb95aa3f"
+  },
+  {
+    "path": "TL_Devices/SC30/Newtonsoft.Json.dll",
+    "bytes": 675752,
+    "sha256": "3598cccad5b535fea6f93662107a4183bfd6167bf1d0f80260436093edc2e3af"
+  },
+  {
+    "path": "TL_Devices/SC30/Newtonsoft.Json.xml",
+    "bytes": 701978,
+    "sha256": "f32ed922fe5b22dd693e160aee4f0dcab753ebd740bed40490ae4179274b4b49"
+  },
+  {
+    "path": "TL_Devices/SC30/Prism.Unity.Wpf.dll",
+    "bytes": 17920,
+    "sha256": "55a58ccc4e851fb16e862007f0f06878c7978c3a0e1944371e60e501dd1bd560"
+  },
+  {
+    "path": "TL_Devices/SC30/Prism.Wpf.dll",
+    "bytes": 141312,
+    "sha256": "c03d231999c62b92014789dc4b5f8d2dae0687f2e25aeddd81ba1e96fce8d02f"
+  },
+  {
+    "path": "TL_Devices/SC30/Prism.dll",
+    "bytes": 32256,
+    "sha256": "5ff2a37f67f27243d0c60822c8bfa4ec33ad8e40fd9ee65d5b304e44b266bf5e"
+  },
+  {
+    "path": "TL_Devices/SC30/Resources/t.ico",
+    "bytes": 1644118,
+    "sha256": "0db17ac13edc6d604e0f6ff7eff738a66015c615b9200d80f34bf2650d401045"
+  },
+  {
+    "path": "TL_Devices/SC30/SC30.exe.config",
+    "bytes": 4001,
+    "sha256": "d81b7d843359e0fcacb3f497d961ed6d2153700c90cc31e32fe1c713a05a9576"
+  },
+  {
+    "path": "TL_Devices/SC30/SC30_app.ico",
+    "bytes": 51806,
+    "sha256": "d93261d94c69b0fb82edb99135c75043ff31b5ff46d454e7d57f539e51e3b865"
+  },
+  {
+    "path": "TL_Devices/SC30/System.Windows.Interactivity.dll",
+    "bytes": 55904,
+    "sha256": "93fbc59e4880afc9f136c3ac0976ada7f3faa7cacedce5c824b337cbca9d2ebf"
+  },
+  {
+    "path": "TL_Devices/SC30/TL_WPF_UserControls.dll",
+    "bytes": 295936,
+    "sha256": "5980666f2a66d79db02c05669b7996f682f776dad0a3f4075dc57d1c1e470f96"
+  },
+  {
+    "path": "TL_Devices/SC30/Telerik.Windows.Controls.Input.dll",
+    "bytes": 630272,
+    "sha256": "fbe4f689e6f92e741e62b54fd7dbbd52b820659b97e9630123dee6e30aa6f16d"
+  },
+  {
+    "path": "TL_Devices/SC30/Telerik.Windows.Controls.Input.xml",
+    "bytes": 864447,
+    "sha256": "cd8b325465f3515e80a5a05e8a4521ef4f4c720c598b55438813a8429a15ab69"
+  },
+  {
+    "path": "TL_Devices/SC30/Telerik.Windows.Controls.Navigation.dll",
+    "bytes": 1271296,
+    "sha256": "b090ef2a3b4d1eb2207c3f5003364a86cf4becc1c7f02f4e9a22217374c33d7e"
+  },
+  {
+    "path": "TL_Devices/SC30/Telerik.Windows.Controls.Navigation.xml",
+    "bytes": 1352231,
+    "sha256": "d37980b9206d48d0d697268455db927c19434d303223fd0419a5454ec8d866e0"
+  },
+  {
+    "path": "TL_Devices/SC30/Telerik.Windows.Controls.RibbonView.dll",
+    "bytes": 489472,
+    "sha256": "6c25271c6091002db4b002558c12e1ac97f5e67900aeb41acf827d36d08e54f4"
+  },
+  {
+    "path": "TL_Devices/SC30/Telerik.Windows.Controls.RibbonView.xml",
+    "bytes": 534467,
+    "sha256": "dff453791e0e8fc56603b1f5a430ab703c1294df9857272567db9d92e8216a21"
+  },
+  {
+    "path": "TL_Devices/SC30/Telerik.Windows.Controls.dll",
+    "bytes": 4091392,
+    "sha256": "514b947f23a72f7ff6c955fe2fe3bf9dc32d203942a2a960790fd60faefeffcd"
+  },
+  {
+    "path": "TL_Devices/SC30/Telerik.Windows.Controls.xml",
+    "bytes": 2755064,
+    "sha256": "1230137512faabf9466f20b779cd36241005c9682fa77357546c3b1be3e73848"
+  },
+  {
+    "path": "TL_Devices/SC30/Telerik.Windows.Data.dll",
+    "bytes": 489984,
+    "sha256": "84e66ca30866f5d6ec49bee046075b01235db92dde597835b9a562080cf8bf23"
+  },
+  {
+    "path": "TL_Devices/SC30/Telerik.Windows.Data.xml",
+    "bytes": 376359,
+    "sha256": "880b0df2c64782af0eec1a5eb89a177fe0b5cb8e45e941d83d6e986d8e7e9c72"
+  },
+  {
+    "path": "TL_Devices/SC30/Telerik.Windows.Themes.Fluent.dll",
+    "bytes": 2539520,
+    "sha256": "047d8b5a4ebaad84b5a34376c900d1b0428f1eb005b5c07f9b690175b4e46c70"
+  },
+  {
+    "path": "TL_Devices/SC30/Telerik.Windows.Themes.Material.dll",
+    "bytes": 2688512,
+    "sha256": "2a8b5b2afb03920448d576548687d9a1726285556cfa15e6999e7f1c126a397c"
+  },
+  {
+    "path": "TL_Devices/SC30/Thorlabs.Device.Shared.dll",
+    "bytes": 42496,
+    "sha256": "6d4f8891eda46ef07e23f253059818b80b036b811a9862b980f3e51c4c758b09"
+  },
+  {
+    "path": "TL_Devices/SC30/Thorlabs.PluginInterfaces.dll",
+    "bytes": 11264,
+    "sha256": "ac7445e642544e7f307eefd2a8d2b5ce05765bf777baa77e59660e6222e77577"
+  },
+  {
+    "path": "TL_Devices/SC30/Thorlabs.SC30.Plugin.dll",
+    "bytes": 609792,
+    "sha256": "a99d8dc60758701e5421259340acd517f7f520be50b9c3523fa0983a7ada81ec"
+  },
+  {
+    "path": "TL_Devices/SC30/Thorlabs.WPF.SharedLibrary.dll",
+    "bytes": 125440,
+    "sha256": "4053ff4782ae21a4b4a099583fe97cda2e149494cbd69c8f69500d6325674ba6"
+  },
+  {
+    "path": "TL_Devices/SC30/ToggleSwitch.dll",
+    "bytes": 45056,
+    "sha256": "c7dfa67039ffb3cd15c32d848d7c996963824a108ea010e4376ecf176e0be77c"
+  },
+  {
+    "path": "TL_Devices/SC30/Xceed.Wpf.AvalonDock.dll",
+    "bytes": 415232,
+    "sha256": "908a00c9e184efebc8af52e9e5c6f76152517c799a656e2510a5f7b7e89b48bf"
+  },
+  {
+    "path": "TL_Devices/SC30/Xceed.Wpf.Toolkit.dll",
+    "bytes": 1042944,
+    "sha256": "0f5435bd67246a3537911a6151be38c1785891b0043b7c9602e77ea0a07e3ab0"
+  },
+  {
+    "path": "TL_Devices/SC30/log4net.dll",
+    "bytes": 287232,
+    "sha256": "dcc1f1edc4bdfc8ce31859b52a313614979f73932b2ba42bdac6b62a4b638315"
+  },
+  {
+    "path": "TL_Devices/SC30/plugin.xml",
+    "bytes": 193,
+    "sha256": "18ff7a4e0f055eaf7c9a0d07e58baadf99f0cffa20ae2822680c92689fdb6dde"
+  },
+  {
+    "path": "TL_Devices/SC30/xPlatform.exe.config",
+    "bytes": 3521,
+    "sha256": "39cfc6ba0b01c3f0fb83c9038985effadf4b98fd089396041f712cbbecb2655a"
+  },
+  {
+    "path": "TL_Devices/TL_Device_Plugins/TL_SC30_Plugin.dll",
+    "bytes": 209920,
+    "sha256": "c84b67d9a13c8d0f858f1a80e2e33294065d855dc07eaca3ecdb77e9d7658cd4"
+  },
+  {
+    "path": "TL_Devices/TL_Device_Plugins/TL_SC30_Plugin_Configuration.xml",
+    "bytes": 24062,
+    "sha256": "7daf2248e5f7c0105ebe7145f61b60ba8398aff102d659f3e028d0f8ee489c00"
+  },
+  {
+    "path": "TL_Devices/TL_Device_SDK/Inc/TL_DeviceSDK.h",
+    "bytes": 5506,
+    "sha256": "598c85b00eef1750a1c34badb6923565acfeed7cec464806caa0e3681aed0e60"
+  },
+  {
+    "path": "TL_Devices/TL_Device_SDK/Inc/TL_DeviceSDK_def.h",
+    "bytes": 2751,
+    "sha256": "d8dd540c17fd66387d66a3d7e9fedc1bffdc3350dc662ed6e25124521529ce4e"
+  },
+  {
+    "path": "TL_Devices/TL_Device_SDK/Lib/TL_DeviceSDK.lib",
+    "bytes": 9902,
+    "sha256": "acf2c5b1ba4f13ffe8730f2c5b541d399e97f7cf2e78c0557c1fe49ea72b5ace"
+  },
+  {
+    "path": "TL_Devices/thorlabs_virtual_rs232/Thorlabs_Virtual_RS232.cat",
+    "bytes": 9498,
+    "sha256": "2853dabcbe85454565efcf444d503fcce0e2c7d3b78c4a42c6fc5ab8664a8ecd"
+  },
+  {
+    "path": "TL_Devices/thorlabs_virtual_rs232/thorlabs_virtual_rs232.inf",
+    "bytes": 6488,
+    "sha256": "b8ae2d6db38044402159215caedd1b413654ce5396953760d95e45d997ba6081"
+  },
+  {
+    "path": "VisionShell.sln",
+    "bytes": 10448,
+    "sha256": "c2cd679c6b66b2443fea5b4b6924a1d50001c3a9ae4a024c22efc063ceffbfd1"
+  },
+  {
+    "path": "angle-adjust-params.json",
+    "bytes": 2400,
+    "sha256": "164de7bcf85616bf1d23324b1adaca3ead470db60ada991f02800d792a773b2b"
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "bytes": 2128,
+    "sha256": "81bc8f0d73468352880684cc1fd0e841464996267e57d41e211fa2c7ac5c0f23"
+  },
+  {
+    "path": "docs/CONTRIBUTING.md",
+    "bytes": 688,
+    "sha256": "d25c24c7a88401b50dbb91aa1bbc95e7083a555360eca8eb86475061772022e2"
+  },
+  {
+    "path": "docs/PROJECT_OVERVIEW.md",
+    "bytes": 1234,
+    "sha256": "2f6884739f4c47e058123bcc15c33f77ef3b1ecaf547d6531d2e84a78dfc6bf0"
+  },
+  {
+    "path": "docs/QUICKSTART.md",
+    "bytes": 1304,
+    "sha256": "cc534d442faf0dfe2692cc92787751659390d6ecfdd6f4b0c76a6ca7ba04c307"
+  },
+  {
+    "path": "docs/hardware-migration-x64.md",
+    "bytes": 2371,
+    "sha256": "b096af92452b4e9d203485d2ea246bc4dfde9564afde91890bd0485e2137c6f1"
+  },
+  {
+    "path": "docs/plugins.md",
+    "bytes": 3957,
+    "sha256": "27c1984c92733dca5dc971abc4ae09ec9d65dd028cd02dd6831fa9dce52972fe"
+  },
+  {
+    "path": "global.json",
+    "bytes": 110,
+    "sha256": "2239f3806e7a45a2dbaf5333d9d030bbb6d9e8275067e78d1c69c4457b3aa0f1"
+  },
+  {
+    "path": "src/VisionShell.App/App.xaml",
+    "bytes": 403,
+    "sha256": "b180a3d53c3674666b95b386cb9d534b711522e02c8afdac112ac93bb54c04e5"
+  },
+  {
+    "path": "src/VisionShell.App/App.xaml.cs",
+    "bytes": 13904,
+    "sha256": "117a446e22f67a7276373aa51881adbcae3c7192808529c1fb25d135f8acae03"
+  },
+  {
+    "path": "src/VisionShell.App/MainWindow.xaml",
+    "bytes": 2670,
+    "sha256": "e50d60254ffad1b5ee1364e22f2d6db97bc87a18f0478ce6ea1d4e183406f823"
+  },
+  {
+    "path": "src/VisionShell.App/MainWindow.xaml.cs",
+    "bytes": 6072,
+    "sha256": "f3ea53739b1534f34f319b55078460cc468000b3a116efd3056092f81acb45fb"
+  },
+  {
+    "path": "src/VisionShell.App/Properties/PublishProfiles/FolderProfile.pubxml",
+    "bytes": 619,
+    "sha256": "fcfa95803adaf041810c5cd0638eb3ea7974af4f0c0d0e86e7b74716ebc60046"
+  },
+  {
+    "path": "src/VisionShell.App/Services/CameraService.cs",
+    "bytes": 1296,
+    "sha256": "17c9f735227520eaeee6f6be5d9cf2a5257703aa427beee0ac0f022298fe3f87"
+  },
+  {
+    "path": "src/VisionShell.App/Services/DeviceManager.cs",
+    "bytes": 12894,
+    "sha256": "9206e1f502c9d3689e128424c3e7d4756a29d852ab2a6d651a7e93af3a49b9c5"
+  },
+  {
+    "path": "src/VisionShell.App/Services/DeviceMappingStore.cs",
+    "bytes": 5301,
+    "sha256": "80e8f577836ef162495e5c497b1dc9dae282659f2481c5125977200b9dc3522f"
+  },
+  {
+    "path": "src/VisionShell.App/Services/PluginLoadContext.cs",
+    "bytes": 1998,
+    "sha256": "093b382bd911cbf082f05d2cba01e4664f03e520a2ac02029f52f77e1e333a6b"
+  },
+  {
+    "path": "src/VisionShell.App/Services/PluginLoader.cs",
+    "bytes": 8440,
+    "sha256": "2faa8342e1b2402752d3b8faf4d2f12bbcf2731324e873b89c30c9c17cd7c23e"
+  },
+  {
+    "path": "src/VisionShell.App/Services/RegionManager.cs",
+    "bytes": 3574,
+    "sha256": "cdff13c52f6b67fe6ebe65576f9eff980fe54991efd5797e9d7eeab3a96ec92f"
+  },
+  {
+    "path": "src/VisionShell.App/Services/SettingsService.cs",
+    "bytes": 456,
+    "sha256": "e0ddc87a1214024731205cffaabdabab19bbf31637117dd7f8ba3bb30f5410f2"
+  },
+  {
+    "path": "src/VisionShell.App/Services/StageService.cs",
+    "bytes": 681,
+    "sha256": "6f7ea8792c2c7817936df7fc34e4a4a6cdb685bb78387c4ef9091b223fb5ddf4"
+  },
+  {
+    "path": "src/VisionShell.App/Services/UiLogService.cs",
+    "bytes": 2590,
+    "sha256": "817e1265aaa35c3be49d6428341bf3e2ddb1bd90b1eef086fefcb90580d1de79"
+  },
+  {
+    "path": "src/VisionShell.App/ViewModels/MainViewModel.cs",
+    "bytes": 1215,
+    "sha256": "dcb3a3a7cf97265a4e3aed967222cae6d5d23330b88f201b1e64cf7f171b3dc6"
+  },
+  {
+    "path": "src/VisionShell.App/Views/DeviceMappingsWindow.xaml",
+    "bytes": 1681,
+    "sha256": "03ddadad3d48c4038c3aa90f4750d3e6e89d6a1993b659a0132a6eceeeaf215f"
+  },
+  {
+    "path": "src/VisionShell.App/Views/DeviceMappingsWindow.xaml.cs",
+    "bytes": 14352,
+    "sha256": "ee0b663293c039c586cd69f9597be48aa00aff6118c2a065861f0ed542078173"
+  },
+  {
+    "path": "src/VisionShell.App/Views/LogView.xaml",
+    "bytes": 1066,
+    "sha256": "afbca0a05382874175648a5137ee5e7c27ca2a58a20c3fe93e8dc5050bf6971b"
+  },
+  {
+    "path": "src/VisionShell.App/Views/LogView.xaml.cs",
+    "bytes": 946,
+    "sha256": "6ff4d66812576cc419e4abad102a3b0bcbbcfd0f8e73f16ad45dd2d0668eaae3"
+  },
+  {
+    "path": "src/VisionShell.App/VisionShell.App.csproj",
+    "bytes": 5372,
+    "sha256": "cb186fa6fd22eb3e656a283e0e0e5736f9f2298b874b7f31b9d37d0bee4683f7"
+  },
+  {
+    "path": "src/VisionShell.Core/Interfaces/ICamera.cs",
+    "bytes": 1267,
+    "sha256": "5ea3f2305117e5332edfe531cc6c2bc560dadbc88046e7361c6c2e54719202e7"
+  },
+  {
+    "path": "src/VisionShell.Core/Interfaces/ICameraService.cs",
+    "bytes": 392,
+    "sha256": "64d5aede21fd2fbc6c891ca3419a3f1d5c23ea7b17301e4772bc384cf3fca7e2"
+  },
+  {
+    "path": "src/VisionShell.Core/Interfaces/IDevice.cs",
+    "bytes": 800,
+    "sha256": "0a2a7b326a63ee698565cdab3a9b47c458dd528bbbf4619513406a9f5d3e2c6c"
+  },
+  {
+    "path": "src/VisionShell.Core/Interfaces/IDeviceDescriptor.cs",
+    "bytes": 1068,
+    "sha256": "ea3fefbe3bbfb9796386a70a3db2e1bd4d0993fde16313ba952a53f972cd3177"
+  },
+  {
+    "path": "src/VisionShell.Core/Interfaces/IDeviceFactory.cs",
+    "bytes": 1454,
+    "sha256": "d490b1bf2ea83f6da3137b974d149ca87a1f178682726be8e8ae5699aac67e4a"
+  },
+  {
+    "path": "src/VisionShell.Core/Interfaces/IDeviceManager.cs",
+    "bytes": 826,
+    "sha256": "378eba98f52adbe8e1b25e8ca2189d40ac7ca48849182a018716e0b6dd375c8c"
+  },
+  {
+    "path": "src/VisionShell.Core/Interfaces/IDeviceMappingStore.cs",
+    "bytes": 725,
+    "sha256": "1386d0c29fe7a057bf7c44f496459f9956f8037d4df7c79b247f7f5da10256b3"
+  },
+  {
+    "path": "src/VisionShell.Core/Interfaces/IDevicePlugin.cs",
+    "bytes": 705,
+    "sha256": "247ec638955523754354bd245b7858cd581b4aca63ffd2fc84d69e7316cd41ed"
+  },
+  {
+    "path": "src/VisionShell.Core/Interfaces/IFeatureDeviceRequirements.cs",
+    "bytes": 741,
+    "sha256": "63a1474bd5de5ffbcfe9649e6fadfdf8cf9f75625795064fcb22d99270b875a2"
+  },
+  {
+    "path": "src/VisionShell.Core/Interfaces/IHomingStatus.cs",
+    "bytes": 222,
+    "sha256": "7eb92205813d0765065eb6d98829228a2b3705d613fab133ccc06050a45ff2f3"
+  },
+  {
+    "path": "src/VisionShell.Core/Interfaces/IRegionFactoryRegistration.cs",
+    "bytes": 578,
+    "sha256": "6fd1a06aef91eaf6009c87cbe8dd4a3b04d163899f30fa25eb0bd5a883e76a03"
+  },
+  {
+    "path": "src/VisionShell.Core/Interfaces/IShutter.cs",
+    "bytes": 416,
+    "sha256": "e2df81f468fec89c46a9f02a7c0b0d32a46bbe121d71093c7ba93f134c58cb20"
+  },
+  {
+    "path": "src/VisionShell.Core/Interfaces/IStage.cs",
+    "bytes": 998,
+    "sha256": "2532341e3c2525d643884297be3efa1a52529a6f7b0f1b67be80d67fdb1824e7"
+  },
+  {
+    "path": "src/VisionShell.Core/Interfaces/IStageService.cs",
+    "bytes": 286,
+    "sha256": "7ae6087dfc8c0005e024b9fcf9d26b65d2321491da976c68b625077c867b94f1"
+  },
+  {
+    "path": "src/VisionShell.Core/Models/MappingChangedEventArgs.cs",
+    "bytes": 333,
+    "sha256": "935791e90d0fa3db069d6a586b10e51f2bd1f334c6937dd6594c6860c3e23b7d"
+  },
+  {
+    "path": "src/VisionShell.Core/Models/PluginManifest.cs",
+    "bytes": 800,
+    "sha256": "b37c0d08af2444e58017cd0cfd4d6f7c06374bc6aecf8ce4cb5bd2295d2f9760"
+  },
+  {
+    "path": "src/VisionShell.Core/VisionShell.Core.csproj",
+    "bytes": 875,
+    "sha256": "41ba1a9debe078e009cab3c7070e41f54e51a032f2e5701609db14f782adca4b"
+  },
+  {
+    "path": "src/bridges/VisionShell.SC30Bridge.Protocol/Sc30BridgeMessages.cs",
+    "bytes": 552,
+    "sha256": "570a05ceb0da324ffa9bf6af9c60d7e162b7a130ec730c4dafffe766bf611cfa"
+  },
+  {
+    "path": "src/bridges/VisionShell.SC30Bridge.Protocol/VisionShell.SC30Bridge.Protocol.csproj",
+    "bytes": 285,
+    "sha256": "94a4b874b4dbcfad221c156cdd412c9a40a9fadcbf1993b158d9844aee1a4900"
+  },
+  {
+    "path": "src/bridges/VisionShell.SC30Bridge/Program.cs",
+    "bytes": 6306,
+    "sha256": "042668fbbf9257826ff2787f945242666781404300843d4d0e0625b4f9b1ad3c"
+  },
+  {
+    "path": "src/bridges/VisionShell.SC30Bridge/VisionShell.SC30Bridge.csproj",
+    "bytes": 2141,
+    "sha256": "15c5568b6b3aded4eedfcdb279e43c1f660d6cf520e554be269af93c2ef0b848"
+  },
+  {
+    "path": "src/features/VisionShell.Features.OptiTrack/Analysis/StripeAnalyzer.cs",
+    "bytes": 30842,
+    "sha256": "db2b2243f15947e2a6a437907b24d91a9953be8395539367d11bd4db956c0e70"
+  },
+  {
+    "path": "src/features/VisionShell.Features.OptiTrack/OptiTrackDeviceRequirements.cs",
+    "bytes": 992,
+    "sha256": "9f7973490b49c1a0cbaaf6a237a0ef361768894e9796d870e4b9630c0db68038"
+  },
+  {
+    "path": "src/features/VisionShell.Features.OptiTrack/OptiTrackExtensions.cs",
+    "bytes": 919,
+    "sha256": "2738a22ecfb29afbbc6bd4fff992122ded60448659da8a8e47abce82db0632d0"
+  },
+  {
+    "path": "src/features/VisionShell.Features.OptiTrack/Properties/PublishProfiles/FolderProfile.pubxml",
+    "bytes": 619,
+    "sha256": "fcfa95803adaf041810c5cd0638eb3ea7974af4f0c0d0e86e7b74716ebc60046"
+  },
+  {
+    "path": "src/features/VisionShell.Features.OptiTrack/RegionFactories/OptiTrackRegionFactoryRegistration.cs",
+    "bytes": 942,
+    "sha256": "d72abdc89ac217ef1b000297c4a7f0cb726c94965e09d65083ef05a3ceb0fa15"
+  },
+  {
+    "path": "src/features/VisionShell.Features.OptiTrack/ViewModels/OptiTrackMainViewModel.cs",
+    "bytes": 121331,
+    "sha256": "0e5d6e1191fec49772b9d0a50d125ee6bf8c3155229c3876f01a8b4dc5b34f4d"
+  },
+  {
+    "path": "src/features/VisionShell.Features.OptiTrack/Views/OptiTrackMainView.xaml",
+    "bytes": 40005,
+    "sha256": "003068b9c2963aa70e6d40940705ee7364c6d053bed77a5163b11c085eb4865a"
+  },
+  {
+    "path": "src/features/VisionShell.Features.OptiTrack/Views/OptiTrackMainView.xaml.cs",
+    "bytes": 4369,
+    "sha256": "526e30788d96ab7ce028ffc75c56a280a2821cf8d9390468c086a160b842f0ed"
+  },
+  {
+    "path": "src/features/VisionShell.Features.OptiTrack/VisionShell.Features.OptiTrack.csproj",
+    "bytes": 1462,
+    "sha256": "0afab418e8a91041984dea7761752bac2af36273cd7e612c97b45b2ac075fc85"
+  },
+  {
+    "path": "src/features/VisionShell.Features.OptiTrack/optitrack-processing-settings.json",
+    "bytes": 73,
+    "sha256": "e60e0baac2036edaa48f3dc513a8808e270bf8c92c602b821d1b334c66dfa9ee"
+  },
+  {
+    "path": "src/features/VisionShell.Features.OptiTrack/optitrack-ui-state-settings.json",
+    "bytes": 228,
+    "sha256": "aa66fcc18b4f320b5d318d012116f8b4afd7818d781d84584dce8ff3c6271891"
+  },
+  {
+    "path": "src/plugins/devices/Directory.Build.props",
+    "bytes": 232,
+    "sha256": "e3f11711707be270c8f3221894991276dc8150b1ef0479e2a90232d19f93ca98"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.MVSDKCamera/MVSDK.dll",
+    "bytes": 119808,
+    "sha256": "53030588fc4c0e65e2e75517dc0b9e28f2fdf12fd77cac370228ba3d99bf0cbe"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.MVSDKCamera/MVSDKCamera.cs",
+    "bytes": 29785,
+    "sha256": "8667aed7ef0a795632543bf0790f15aef609dd240bec9fc3cd71bf8f9f886433"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.MVSDKCamera/MVSDKCameraFactory.cs",
+    "bytes": 8358,
+    "sha256": "50efd0d2e54df40d4804de905947a6bfa41914e82c17268d5c438d0e65eb5ee4"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.MVSDKCamera/MVSDKCameraPlugin.cs",
+    "bytes": 2685,
+    "sha256": "c3fcb872dcc0010c1e02707c44a048dd0522dcb14c25e895b750db0816b7c438"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.MVSDKCamera/SimulatedMVSDKCamera.cs",
+    "bytes": 5070,
+    "sha256": "e39d7c31652022d628ac628846b73379de70158826231f163084ee39deb36dab"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.MVSDKCamera/VisionShell.Plugins.MVSDKCamera.csproj",
+    "bytes": 2730,
+    "sha256": "2c9389b38fd75d4f6a745ba8356234680115ccbee0275218a864ae8bff09ef28"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.MVSDKCamera/official/MVSDK.cs",
+    "bytes": 398613,
+    "sha256": "dc6ac7a3454d7edfd0835928d665d147f29b2c85e5ac9828b301f8e1b218310d"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.MVSDKCamera/plugin.json",
+    "bytes": 198,
+    "sha256": "47451623d6bead2fa438d9e225ad62bc5596b42972bc6ceb22f304d5a50f3401"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.SampleCamera/SampleCameraFactory.cs",
+    "bytes": 1044,
+    "sha256": "d07c482907280ccab6175fb9eb610a83350fb0b50a91568cad18712f71905d11"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.SampleCamera/SampleCameraPlugin.cs",
+    "bytes": 683,
+    "sha256": "d05d0a0634485f4b80cc73e1922a1626e6b7bc66a42322c5a5c43051d6e4aca3"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.SampleCamera/SimulatedCamera.cs",
+    "bytes": 3916,
+    "sha256": "e42bd6c46acd980c009165a9507d65fa19a5b3724e895cd142449d2bbc34ff46"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.SampleCamera/VisionShell.Plugins.SampleCamera.csproj",
+    "bytes": 1115,
+    "sha256": "d440b12b913328be87bfb387a6ac47e00333a6e8d9d1fea0b2c4f6b067969f30"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.SampleCamera/plugin.json",
+    "bytes": 199,
+    "sha256": "4b74b1a70e4ce002c0f8b4a7e9a9d5922c73eaef83ebd951d6dfaf17e2bc00c7"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.SampleStage/SampleStageFactory.cs",
+    "bytes": 854,
+    "sha256": "c1189b995fdbc3891cae24b18e7570c5d753c7026f45edfc7b150dd020de0a5e"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.SampleStage/SampleStagePlugin.cs",
+    "bytes": 676,
+    "sha256": "756606242e4895bccf9d2d2757d6aa126a6ed529fae6d790a9c2e2e19236c1e8"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.SampleStage/SimulatedStage.cs",
+    "bytes": 4398,
+    "sha256": "033c1af20a5a2f3495d9eb7e734402ed1caa49147ad5082a6fe11e52d8d3ab75"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.SampleStage/VisionShell.Plugins.SampleStage.csproj",
+    "bytes": 1151,
+    "sha256": "5dfd99748740415b6acba7e792ec0539975368b897ce3353107eff8503f76a7d"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.SampleStage/plugin.json",
+    "bytes": 194,
+    "sha256": "1e00e58c4f3df7a7fb2514f18279de5291a1b33bf5160f8cc8ebd160743ee98f"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsKinesisStage/ThorlabsKinesisStagePlugin.cs",
+    "bytes": 667,
+    "sha256": "465a1c7995f0f820ec61af7e2a38e36eaa14c2ef9594ec6264c7883351c910b2"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsKinesisStage/ThorlabsStage.cs",
+    "bytes": 18776,
+    "sha256": "26e7f6ee6e0e88adb38a7b2c2e951069fb5a86e466fe73a7edb70e151ee0f771"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsKinesisStage/ThorlabsStageFactory.cs",
+    "bytes": 4555,
+    "sha256": "07286e7241ab5473fb618f369a37adc03d4c49601ebb2ec9a660c84015817f94"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsKinesisStage/VisionShell.Plugins.ThorlabsKinesisStage.csproj",
+    "bytes": 1217,
+    "sha256": "1b10ac9d68be6a1544d9292ae0013a3285fcbeb0771cb034712ba450c89e9fa2"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsKinesisStage/libs/tlmc_xa_dotnet.dll",
+    "bytes": 4077464,
+    "sha256": "b4556f6e6940c9a2696535f8285f3855c62e33f8446ed8d3366720e0703d329f"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsKinesisStage/plugin.json",
+    "bytes": 214,
+    "sha256": "4514b8c9dd9689aecbed74aa62283f9af4f23b3ced825ff60e8376bcfa53ea89"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsLegacyKinesisStage/KinesisLegacySdk.cs",
+    "bytes": 74960,
+    "sha256": "927ddab58e391d7221101ba1356141dadc44cfe984094335e2f0e748895fe0e2"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsLegacyKinesisStage/ThorlabsLegacyKinesisStage.cs",
+    "bytes": 15915,
+    "sha256": "2bfc3c319cc71f08aa71acd7db3f699c10d8ff1c5863221d399b88ce0d1e1334"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsLegacyKinesisStage/ThorlabsLegacyKinesisStageFactory.cs",
+    "bytes": 3441,
+    "sha256": "0146566de7db4d1b8dd4027a86057eb5eec585f8ca962e42be34012bc4d700ff"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsLegacyKinesisStage/ThorlabsLegacyKinesisStagePlugin.cs",
+    "bytes": 626,
+    "sha256": "4f1153f8f28f930a0c57b09452b3cb211e662880c05f4b3fbafa1cd6c3d2733c"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsLegacyKinesisStage/VisionShell.Plugins.ThorlabsLegacyKinesisStage.csproj",
+    "bytes": 2451,
+    "sha256": "687589fe1e3c5d294843fa0944d786dc7833ce30f09c877943e713c6f7868de7"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsLegacyKinesisStage/libs/BBD_Stages.xml",
+    "bytes": 141297,
+    "sha256": "6ee53f5369a689420bb989f97c8b307fae626aafc2efc693fe66e548272564f9"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsLegacyKinesisStage/libs/README.txt",
+    "bytes": 341,
+    "sha256": "4c8bcb3e89b7d0e39f376c9cf02c715d7c0772777f43cd84571ea828680e3195"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsLegacyKinesisStage/libs/ThorlabsDefaultSettings.xml",
+    "bytes": 443245,
+    "sha256": "e15d8e1e1c06be2ac48f67d9f73d46088ee5d574ee7bb995176e84ec8445c9a6"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsLegacyKinesisStage/plugin.json",
+    "bytes": 257,
+    "sha256": "c1c6cd2c5f63a793483653ad1fd1c3f3cfe413d8d247cf08cd8a2caab6132940"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsSC30Bridge/Sc30BridgeClient.cs",
+    "bytes": 4212,
+    "sha256": "cf8b57c8c97548dc08e8747b87e9e2b86b59b5270ce931cd3867036c90a64509"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsSC30Bridge/ThorlabsSC30BridgeFactory.cs",
+    "bytes": 2186,
+    "sha256": "f431860b392d5dddb76664c0397275270f150150844894a65ca2312095299857"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsSC30Bridge/ThorlabsSC30BridgePlugin.cs",
+    "bytes": 616,
+    "sha256": "7805065f46217a8b7d06922811cfea7dcbe9bc1f2b839e58cb97b0826861eef4"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsSC30Bridge/ThorlabsSC30BridgeShutter.cs",
+    "bytes": 4539,
+    "sha256": "6d04edca4b042a8186dec80f26216f4188b54f74c0fdf321b5e8000d63769fda"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsSC30Bridge/VisionShell.Plugins.ThorlabsSC30Bridge.csproj",
+    "bytes": 1362,
+    "sha256": "a646bebd00171966f7362cc9c0b51288ba7ba272399fe43392088bacec0dc32a"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsSC30Bridge/plugin.json",
+    "bytes": 231,
+    "sha256": "ecccb7853f1726822542758923fc477c33d42803fb22fc635292acbb279ceebb"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsSC30Shutter/ThorlabsSC30Native.cs",
+    "bytes": 4197,
+    "sha256": "d560656870bb5768971e890ede9ae6a1faa213b41c25845f676bc256c126677c"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsSC30Shutter/ThorlabsSC30Shutter.cs",
+    "bytes": 14641,
+    "sha256": "794e3f32af991a46629cfe914e747b072681e04707da05328ed5e5daabb30be6"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsSC30Shutter/ThorlabsSC30ShutterFactory.cs",
+    "bytes": 4820,
+    "sha256": "5953a10441d921ef8645a91154bd7dbdfe664923d261b9501a21c62ee5e0399d"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsSC30Shutter/ThorlabsSC30ShutterPlugin.cs",
+    "bytes": 642,
+    "sha256": "b398c8a5729bae97e66db62d1b27d4e4e4d34a355017531c6929dcd4320891e8"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsSC30Shutter/VisionShell.Plugins.ThorlabsSC30Shutter.csproj",
+    "bytes": 1418,
+    "sha256": "389256f8749349a536a0fb0fb82c0deaf6e8ec9c3e52bb5114a969b7cc8a322c"
+  },
+  {
+    "path": "src/plugins/devices/VisionShell.Plugins.ThorlabsSC30Shutter/plugin.json",
+    "bytes": 228,
+    "sha256": "5cc4fc7dabfee4b61794cbd0be088430e36df5d1576f02128e9ff177366be538"
+  },
+  {
+    "path": "原始项目说明.md",
+    "bytes": 701,
+    "sha256": "ce2357656df9477ae23f4971e98bdcab505bbae9bfe6f54b61834a5dddb86897"
+  },
+  {
+    "path": "新建 文本文档 (5).txt",
+    "bytes": 9267,
+    "sha256": "ff341f2f83f28a2b38f43b181067efe38d3b2ee55c370021b42d5516280f6b35"
+  }
+]

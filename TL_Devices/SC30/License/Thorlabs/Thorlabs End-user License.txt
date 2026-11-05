@@ -1,0 +1,26 @@
+NOTICE TO USER:
+THIS IS A CONTRACT. BY INDICATING YOUR ACCEPTANCE BELOW, YOU ACCEPT ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT.
+		
+This Thorlabs End-user License Agreement accompanies a Thorlabs software product and any related written materials ("Software").  The term "Software" shall also include any upgrades, modified versions or updates of the Software provided to you by Thorlabs. This copy of the Software is licensed to you as the End-user.  You must read this Agreement carefully before indicating acceptance at the end of the text of this Agreement.  If you do not agree with the terms and conditions of this Agreement, decline where instructed, and you will not be able to use the Software. Thorlabs grants to you a non-exclusive license to use the Software, provided that you agree to the following.
+           
+1. Use of the Software.
+You may install the Software in any location on a hard disk or other storage devise; install and use the Software on a file server for use on a network for the purpose of permanent installation onto hard disks or other storage devices or use of the Software over such network; and make backup copies of the Software, provided, however, that the Software may only be used in combination with the end-users use and operation of equipment purchased from Thorlabs, and all other uses are strictly prohibited.  You may make unlimited copies of the Software and give copies to other persons or entities subject to the restrictions used in this Agreement, as long as the copies contain this Agreement and the same copyright and other proprietary notices that appear on or in the Software.
+
+2. Copyright.
+The Software is owned by Thorlabs, and is protected by United States Copyright Law and International Treaty provisions.  You agree not to modify, adapt, translate, reverse engineer, decompile, disassemble, or otherwise attempt to discover the source code of the Software.
+
+3. Transfer.
+You may not rent, lease, or sublicense the Software.  You may, however, transfer all your rights to use the Software to another person or entity, provided that you transfer (and the transferee assumes) this Agreement with the Software.
+
+4. No Warranty/Limitation of Liability.
+The Software is being delivered to you AS IS and Thorlabs makes no warranty as to its use or performance.
+THORLABS DOES NOT AND CANNOT WARRANT THE PERFORMANCE OR RESULTS YOU MAY OBTAIN BY USING THE SOFTWARE OR DOCUMENTATION.  THORLABS MAKES NO WARRANTIES, EXPRESS OR IMPLIED, AS TO NON-INFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  IN NO EVENT WILL THORLABS BE LIABLE TO YOU FOR ANY CONSEQUENTIAL, INCIDENTAL, OR SPECIAL DAMAGES, INCLUDING ANY LOST PROFITS OR LOST SAVINGS, EVEN IF A THORLABS REPRESENTATIVE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, OR FOR ANY CLAIM BY ANY THIRD PARTY.
+You acknowledge that good data processing procedure dictates that any software application must be thoroughly tested with non-critical data before you rely on it, and you hereby assume the entire risk of using this Software product including the compatibility of the Software with your processor, other hardware and other system applications on such equipment.  This disclaimer of warranty constitutes an essential part of this License.  Some states or jurisdictions do not allow the exclusion or limitation of incidental, consequential, or special damages, or the exclusion of implied warranties or limitations on how long an implied warranty may last, so that above limitations may not apply to you.
+
+5. Governing Law and General Provisions.
+This Agreement will be governed by the laws of United States.  You agree that the Software will not be shipped, transferred or exported into any country or used in any manner prohibited by the United States Export Administration Act, or any other export laws, restrictions, or regulations.  This Agreement shall automatically terminate upon failure by you to comply with its terms.  This Agreement may only be modified in writing, signed by an authorized officer of Thorlabs.
+
+For future reference, this license may be found in the file "Thorlabs End-user License.rtf" in the Software's directory.
+Please indicate your acceptance or declination of the foregoing Agreement.
+
+Thorlabs ShangHai, China

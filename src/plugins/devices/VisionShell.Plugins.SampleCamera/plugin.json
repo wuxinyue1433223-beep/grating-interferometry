@@ -1,0 +1,8 @@
+{
+  "id": "sample-camera",
+  "name": "Simulated Camera Device",
+  "version": "1.0.0",
+  "type": "camera",
+  "entryType": "VisionShell.Plugins.SampleCamera.SampleCameraPlugin",
+  "dependencies": []
+}

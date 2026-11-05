@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Plugin DeviceName="SC30"
+        Assembly="Thorlabs.SC30.Plugin"
+        ConfigurationFile="xPlatform.exe.config"
+        IconFile="SC30_app.ico" />

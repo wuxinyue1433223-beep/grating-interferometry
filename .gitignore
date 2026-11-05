@@ -1,0 +1,81 @@
+# Build results
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider/IntelliJ
+.idea/
+
+# Resharper
+_ReSharper*/
+*.ReSharper*
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+packages/
+
+# dotnet
+*.dll
+*.exe
+*.pdb
+*.appref-ms
+
+# Visual Studio cache/options directory
+.vscode/
+
+# Logs
+logs/
+*.log
+bin/**/app/logs/
+
+# User-specific files
+*.db
+*.db-journal
+*.cache
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# JetBrains Rider caches
+.idea/
+*.sublime-workspace
+
+# VS publish folder
+publish/
+
+# Temporary files
+*.tmp
+*.temp
+*_wpftmp.csproj
+*.csproj.user
+
+# Backup files
+*~
+*.bak
+
+# Coverage
+coverage*
+
+# Generated files
+**/obj/**
+**/bin/**
+
+# Ignore plugin outputs (build artifacts)
+src/**/bin/
+src/**/obj/
+
+# Allow docs to be tracked
+!docs/**
+
+# Allow vendored native/vendor DLL needed by Thorlabs plugin
+!src/plugins/devices/VisionShell.Plugins.ThorlabsKinesisStage/libs/tlmc_xa_dotnet.dll

@@ -1,0 +1,31 @@
+<!-- 页面职责：设备映射配置窗口布局，展示角色和设备下拉选项。 -->
+<Window x:Class="VisionShell.App.Views.DeviceMappingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Device Mappings" Width="700" MinWidth="520" SizeToContent="Height" WindowStartupLocation="CenterOwner">
+    <Grid Margin="8">
+        <StackPanel>
+            <ItemsControl x:Name="MappingsPanel">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Text="{Binding Role}" VerticalAlignment="Center" Margin="0,0,8,0"/>
+
+                            <ComboBox Grid.Column="1" SelectedValuePath="DeviceId"
+                                      DisplayMemberPath="Display"
+                                      SelectedValue="{Binding DeviceId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                      ItemsSource="{Binding AvailableOptions}"
+                                      HorizontalAlignment="Stretch"
+                                      IsEditable="False"/>
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </StackPanel>
+    </Grid>
+</Window>

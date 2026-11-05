@@ -1,0 +1,9 @@
+<!-- 页面职责：应用级资源和启动配置定义。 -->
+<Application x:Class="VisionShell.App.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:VisionShell.App">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

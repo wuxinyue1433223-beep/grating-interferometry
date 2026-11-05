@@ -1,0 +1,8 @@
+{
+  "id": "thorlabs-sc30-shutter",
+  "name": "Thorlabs SC30 Shutter",
+  "version": "1.0.0",
+  "type": "shutter",
+  "entryType": "VisionShell.Plugins.ThorlabsSC30Shutter.ThorlabsSC30ShutterPlugin",
+  "dependencies": []
+}

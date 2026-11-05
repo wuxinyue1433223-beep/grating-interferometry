@@ -1,0 +1,9 @@
+{
+  "AngleCameraExposureMs": 10.0,
+  "SpotCameraExposureMs": 10.0,
+  "Actuator1StepSizeMm": 0,
+  "Actuator2StepSizeMm": 0,
+  "VerticalStageStepSizeMm": 0,
+  "HorizontalStageStepSizeMm": 0,
+  "TimedShutterOpenSeconds": 1.0
+}

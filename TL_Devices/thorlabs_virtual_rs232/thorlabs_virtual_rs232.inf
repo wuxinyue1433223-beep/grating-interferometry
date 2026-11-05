@@ -1,0 +1,143 @@
+; Windows 2000, XP, Vista, 7 and 8 (x32 and x64) setup file for Thorlabs Virtual RS232 Devices
+; Copyright (c) 2000-2013 ATMEL, Inc.
+
+[Version] 
+Signature   = "$Windows NT$" 
+Class       = Ports 
+ClassGuid   = {4D36E978-E325-11CE-BFC1-08002BE10318} 
+
+Provider    = %Manufacturer% 
+LayoutFile  = layout.inf 
+CatalogFile = Thorlabs_Virtual_RS232.cat
+DriverVer   = 04/01/2021,6.1.0.0 
+
+;----------------------------------------------------------
+; Targets
+;----------------------------------------------------------
+[Manufacturer] 
+%Manufacturer%	=	DeviceList, NTAMD64, NTIA64, NT 
+
+[DeviceList] 
+%THORLABS_PSDQ80A_232%										=	DriverInstall, USB\VID_1313&PID_1001&MI_01
+%THORLABS_COMPACT_LASER_SOURCE_232%				=	DriverInstall, USB\VID_1313&PID_1002&MI_01
+%THORLABS_MDT693B_232%										=	DriverInstall, USB\VID_1313&PID_1003&MI_01
+%THORLABS_MDT694B_232%										=	DriverInstall, USB\VID_1313&PID_1004&MI_01
+%THORLABS_S4FC_232%												=	DriverInstall, USB\VID_1313&PID_1005&MI_01
+%THORLABS_S6FC_232%												=	DriverInstall, USB\VID_1313&PID_1007&MI_01
+%THORLABS_POCKELSCELLDRIVER_232%					=	DriverInstall, USB\VID_1313&PID_1008&MI_01
+%THORLABS_MCCLS_232%											=	DriverInstall, USB\VID_1313&PID_1009&MI_01
+%THORLABS_DEVICE_FIRMWARE_INTERFACE_232%	=	DriverInstall, USB\VID_1313&PID_FD01&MI_01
+
+[DeviceList.NTAMD64]
+%THORLABS_PSDQ80A_232%										=	DriverInstall.NTamd64, USB\VID_1313&PID_1001&MI_01
+%THORLABS_COMPACT_LASER_SOURCE_232%				=	DriverInstall.NTamd64, USB\VID_1313&PID_1002&MI_01
+%THORLABS_MDT693B_232%										=	DriverInstall.NTamd64, USB\VID_1313&PID_1003&MI_01
+%THORLABS_MDT694B_232%										=	DriverInstall.NTamd64, USB\VID_1313&PID_1004&MI_01
+%THORLABS_S4FC_232%												=	DriverInstall.NTamd64, USB\VID_1313&PID_1005&MI_01
+%THORLABS_S6FC_232%												=	DriverInstall.NTamd64, USB\VID_1313&PID_1007&MI_01
+%THORLABS_POCKELSCELLDRIVER_232%					=	DriverInstall.NTamd64, USB\VID_1313&PID_1008&MI_01
+%THORLABS_MCCLS_232%											=	DriverInstall.NTamd64, USB\VID_1313&PID_1009&MI_01
+%THORLABS_MPD_BOARD_232%									=	DriverInstall.NTamd64, USB\VID_1313&PID_10FF&MI_01
+%THORLABS_DEVICE_FIRMWARE_INTERFACE_232%	=	DriverInstall.NTamd64, USB\VID_1313&PID_FD01&MI_01
+
+[DeviceList.NTIA64]
+%THORLABS_PSDQ80A_232%=DriverInstall.NTamd64, USB\VID_1313&PID_1001&MI_01
+%THORLABS_COMPACT_LASER_SOURCE_232%=DriverInstall.NTamd64, USB\VID_1313&PID_1002&MI_01
+%THORLABS_MDT693B_232%=DriverInstall.NTamd64, USB\VID_1313&PID_1003&MI_01
+%THORLABS_MDT694B_232%=DriverInstall.NTamd64, USB\VID_1313&PID_1004&MI_01
+%THORLABS_S4FC_232%=DriverInstall.NTamd64, USB\VID_1313&PID_1005&MI_01
+%THORLABS_S6FC_232%=DriverInstall.NTamd64, USB\VID_1313&PID_1007&MI_01
+%THORLABS_POCKELSCELLDRIVER_232%=DriverInstall.NTamd64, USB\VID_1313&PID_1008&MI_01
+%THORLABS_MCCLS_232%=DriverInstall.NTamd64, USB\VID_1313&PID_1009&MI_01
+%THORLABS_MPD_BOARD_232%=DriverInstall.NTamd64, USB\VID_1313&PID_10FF&MI_01
+%THORLABS_DEVICE_FIRMWARE_INTERFACE_232%=DriverInstall.NTamd64, USB\VID_1313&PID_FD01&MI_01
+
+[DeviceList.NT]
+%THORLABS_PSDQ80A_232%=DriverInstall.NT, USB\VID_1313&PID_1001&MI_01
+%THORLABS_COMPACT_LASER_SOURCE_232%=DriverInstall.NT, USB\VID_1313&PID_1002&MI_01
+%THORLABS_MDT693B_232%=DriverInstall.NT, USB\VID_1313&PID_1003&MI_01
+%THORLABS_MDT694B_232%=DriverInstall.NT, USB\VID_1313&PID_1004&MI_01
+%THORLABS_S4FC_232%=DriverInstall.NT, USB\VID_1313&PID_1005&MI_01
+%THORLABS_S6FC_232%=DriverInstall.NT, USB\VID_1313&PID_1007&MI_01
+%THORLABS_POCKELSCELLDRIVER_232%=DriverInstall.NT, USB\VID_1313&PID_1008&MI_01
+%THORLABS_MCCLS_232%=DriverInstall.NT, USB\VID_1313&PID_1009&MI_01
+%THORLABS_MPD_BOARD_232%=DriverInstall.NT, USB\VID_1313&PID_10FF&MI_01
+%THORLABS_DEVICE_FIRMWARE_INTERFACE_232%=DriverInstall.NT, USB\VID_1313&PID_FD01&MI_01
+
+
+;----------------------------------------------------------
+; Windows 2000, XP, Vista, Windows 7, Windows 8 - 32bit
+;----------------------------------------------------------
+[DestinationDirs] 
+DefaultDestDir				=	12 
+DriverInstall.NT.Copy	=	12 
+
+[DriverInstall.NT] 
+include		=	mdmcpq.inf
+CopyFiles	=	DriverInstall.NT.Copy 
+AddReg		=	DriverInstall.NT.AddReg 
+
+[DriverInstall.NT.Copy] 
+usbser.sys 
+
+[DriverInstall.NT.AddReg]
+HKR,,DevLoader,,*ntkern 
+HKR,,NTMPDriver,,usbser.sys 
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider" 
+
+[DriverInstall.NT.Services] 
+AddService = usbser, 0x00000002, DriverService.NT 
+
+[DriverService.NT] 
+DisplayName 		= %Serial.SvcDesc% 
+ServiceType 		= 1 ; SERVICE_KERNEL_DRIVER 
+StartType 			= 3 ; SERVICE_DEMAND_START 
+ErrorControl 		= 1 ; SERVICE_ERROR_NORMAL 
+ServiceBinary 	= %12%\usbser.sys 
+LoadOrderGroup 	= Base 
+
+;----------------------------------------------------------
+; Windows XP, Vista, Windows 7, Windows 8 - 64bit
+;----------------------------------------------------------
+
+[DriverInstall.NTamd64]
+include		=	mdmcpq.inf
+CopyFiles	=	DriverCopyFiles.NTamd64
+AddReg		=	DriverInstall.NTamd64.AddReg
+
+[DriverCopyFiles.NTamd64]
+usbser.sys,,,0x20
+
+[DriverInstall.NTamd64.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,usbser.sys
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
+
+[DriverInstall.NTamd64.Services]
+AddService		=	usbser, 0x00000002, DriverService.NTamd64
+
+[DriverService.NTamd64]
+DisplayName		=	%Serial.SvcDesc%
+ServiceType		=	1
+StartType			=	3
+ErrorControl	=	1
+ServiceBinary	=%12%\usbser.sys
+
+;----------------------------------------------------------
+; String
+;----------------------------------------------------------
+
+[Strings] 
+Manufacturer 														= "Thorlabs, Inc." 
+THORLABS_PSDQ80A_232 										= "Thorlabs, Inc. - PSD RS232 Interface"
+THORLABS_COMPACT_LASER_SOURCE_232 			= "Thorlabs, Inc. - CLS RS232RS232 Interface"
+THORLABS_MDT693B_232 										= "Thorlabs, Inc. - MDT693B RS232 Interface"
+THORLABS_MDT694B_232 										= "Thorlabs, Inc. - MDT694B RS232 Interface"
+THORLABS_S4FC_232 											= "Thorlabs, Inc. - S4FC RS232 Interface"
+THORLABS_S6FC_232 											= "Thorlabs, Inc. - S6FC RS232 Interface"
+THORLABS_POCKELSCELLDRIVER_232 					= "Thorlabs, Inc. - Pockels Cell Driver RS232 Interface"
+THORLABS_MCCLS_232 											= "Thorlabs, Inc. - MCCLS RS232 Interface"
+THORLABS_MPD_BOARD_232 									= "Thorlabs, Inc. - MPD Board RS232 Interface"
+THORLABS_DEVICE_FIRMWARE_INTERFACE_232 	= "Thorlabs, Inc. - FW Update RS232 Interface"
+Serial.SvcDesc 													= "USB Serial emulation driver" 
+

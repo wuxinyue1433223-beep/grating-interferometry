@@ -1,0 +1,102 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>VisionShell.App</RootNamespace>
+    <OutputPath>..\..\bin\$(Configuration)\app\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VisionShell.Core\VisionShell.Core.csproj" />
+    <ProjectReference Include="..\features\VisionShell.Features.OptiTrack\VisionShell.Features.OptiTrack.csproj" />
+    <ProjectReference Include="..\plugins\devices\VisionShell.Plugins.SampleCamera\VisionShell.Plugins.SampleCamera.csproj" Condition="'$(Configuration)' == 'Debug'" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- 鑷姩鍙戠幇骞舵瀯寤烘墍鏈夎澶囨彃浠跺伐绋嬶紝閬垮厤娓呯悊 bin/obj 鍚庢彃浠剁洰褰曠己澶便€?-->
+    <PluginProject Include="..\plugins\devices\**\*.csproj"
+                   Exclude="..\plugins\devices\VisionShell.Plugins.ThorlabsSC30Shutter\VisionShell.Plugins.ThorlabsSC30Shutter.csproj;
+                            ..\plugins\devices\VisionShell.Plugins.SampleCamera\VisionShell.Plugins.SampleCamera.csproj;
+                            ..\plugins\devices\VisionShell.Plugins.SampleStage\VisionShell.Plugins.SampleStage.csproj"
+                   Condition="'$(Configuration)' == 'Release'" />
+    <PluginProject Include="..\plugins\devices\**\*.csproj"
+                   Exclude="..\plugins\devices\VisionShell.Plugins.ThorlabsSC30Shutter\VisionShell.Plugins.ThorlabsSC30Shutter.csproj"
+                   Condition="'$(Configuration)' != 'Release'" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\angle-adjust-params.json" Link="angle-adjust-params.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Serilog.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="5.0.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+  </ItemGroup>
+
+  <Target Name="RestorePluginProjects" BeforeTargets="Build">
+    <MSBuild
+      Projects="@(PluginProject)"
+      Targets="Restore"
+      Properties="Configuration=$(Configuration)" />
+  </Target>
+
+  <Target Name="BuildPluginProjects" BeforeTargets="Build" DependsOnTargets="RestorePluginProjects">
+    <MSBuild
+      Projects="@(PluginProject)"
+      Targets="Build"
+      Properties="Configuration=$(Configuration)" />
+  </Target>
+
+  <Target Name="BuildSc30Bridge" BeforeTargets="Build">
+    <Exec Command="dotnet build &quot;$(MSBuildProjectDirectory)\..\bridges\VisionShell.SC30Bridge\VisionShell.SC30Bridge.csproj&quot; -c $(Configuration) -r win-x86 -v:minimal" />
+  </Target>
+
+  <Target Name="RemoveRetiredX86Outputs" BeforeTargets="PrepareForBuild">
+    <RemoveDir Directories="$(MSBuildProjectDirectory)\..\..\bin\$(Configuration)\app\plugins\thorlabs-kinesis-legacy-stage" />
+    <RemoveDir Directories="$(MSBuildProjectDirectory)\..\..\bin\$(Configuration)\app\plugins\sample-camera" Condition="'$(Configuration)' == 'Release'" />
+    <RemoveDir Directories="$(MSBuildProjectDirectory)\..\..\bin\$(Configuration)\app\plugins\sample-stage" Condition="'$(Configuration)' == 'Release'" />
+    <RemoveDir Directories="$(MSBuildProjectDirectory)\..\..\bin\$(Configuration)\app\win-x86" />
+  </Target>
+
+  <Target Name="CopyPluginsToPublishDirectory" AfterTargets="Publish" DependsOnTargets="BuildPluginProjects">
+    <RemoveDir Directories="$(PublishDir)plugins" ContinueOnError="true" />
+
+    <ItemGroup>
+      <PluginPublishFiles Include="$(MSBuildProjectDirectory)\..\..\bin\$(Configuration)\app\plugins\**\*.*"
+                          Exclude="$(MSBuildProjectDirectory)\..\..\bin\$(Configuration)\app\plugins\**\win-x86\**\*.*;
+                                   $(MSBuildProjectDirectory)\..\..\bin\$(Configuration)\app\plugins\**\x86\**\*.*;
+                                   $(MSBuildProjectDirectory)\..\..\bin\$(Configuration)\app\plugins\**\x64\**\*.*" />
+    </ItemGroup>
+
+    <Copy
+      SourceFiles="@(PluginPublishFiles)"
+      DestinationFiles="@(PluginPublishFiles->'$(PublishDir)plugins\%(RecursiveDir)%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true" />
+
+    <ItemGroup>
+      <BridgePublishFiles Include="$(MSBuildProjectDirectory)\..\..\bin\$(Configuration)\app\bridges\**\*.*" />
+    </ItemGroup>
+
+    <Copy
+      SourceFiles="@(BridgePublishFiles)"
+      DestinationFiles="@(BridgePublishFiles->'$(PublishDir)bridges\%(RecursiveDir)%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true" />
+  </Target>
+
+</Project>

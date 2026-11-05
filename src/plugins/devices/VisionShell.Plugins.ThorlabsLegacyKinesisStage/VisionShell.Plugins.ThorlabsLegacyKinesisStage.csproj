@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>VisionShell.Plugins.ThorlabsLegacyKinesisStage</RootNamespace>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <OutputPath>..\..\..\..\bin\$(Configuration)\app\plugins\thorlabs-kinesis-standard-stage\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Thorlabs.MotionControl.DeviceManagerCLI">
+      <HintPath>..\..\..\..\Kinesis\x64\Thorlabs.MotionControl.DeviceManagerCLI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Thorlabs.MotionControl.GenericMotorCLI">
+      <HintPath>..\..\..\..\Kinesis\x64\Thorlabs.MotionControl.GenericMotorCLI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ThorLabs.MotionControl.Benchtop.DCServoCLI">
+      <HintPath>..\..\..\..\Kinesis\x64\ThorLabs.MotionControl.Benchtop.DCServoCLI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ThorLabs.MotionControl.VerticalStageCLI">
+      <HintPath>..\..\..\..\Kinesis\x64\ThorLabs.MotionControl.VerticalStageCLI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\VisionShell.Core\VisionShell.Core.csproj">
+      <Private>false</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="plugin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+    <None Include="libs\**\*.*" Exclude="libs\**\*.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+    <None Include="..\..\..\..\Kinesis\x64\*.dll" Link="libs\%(Filename)%(Extension)">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
